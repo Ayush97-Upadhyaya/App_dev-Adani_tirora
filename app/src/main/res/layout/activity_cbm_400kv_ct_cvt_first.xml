@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="50"
+        android:layout_marginBottom="0dp">
+
+        <Button
+            android:id="@+id/CBM_400KV_CT_CVT_DIA1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="40dp"
+            android:text="DIA 1"
+            android:layout_margin="15dp"/>
+
+        <Button
+            android:id="@+id/CBM_400KV_CT_CVT_DIA2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="40dp"
+            android:text="DIA 2"
+            android:layout_margin="15dp"/>
+
+        <Button
+            android:padding="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DIA 3"
+            android:id="@+id/CBM_400KV_CT_CVT_DIA3"
+            android:layout_margin="15dp"/>
+        <Button
+            android:padding="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DIA 4"
+            android:id="@+id/CBM_400KV_CT_CVT_DIA4"
+            android:layout_margin="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="50"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/CBM_400KV_CT_CVT_DIA5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="40dp"
+            android:text="DIA 5"
+            android:layout_margin="15dp"/>
+
+        <Button
+            android:id="@+id/CBM_400KV_CT_CVT_DIA6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="40dp"
+            android:text="DIA 6"
+            android:layout_margin="15dp"/>
+
+        <Button
+            android:id="@+id/CBM_400KV_CT_CVT_DIA7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="40dp"
+            android:text="DIA 7"
+            android:layout_margin="15dp"/>
+
+        <Button
+            android:id="@+id/CBM_400KV_CT_CVT_SCADA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="40dp"
+            android:text="SCADA"
+            android:layout_margin="15dp"/>
+    </LinearLayout>
+
+</LinearLayout>

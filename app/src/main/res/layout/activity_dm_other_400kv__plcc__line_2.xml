@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CHANNEL"
+            android:textSize="20dp" />
+
+        <RadioGroup
+            android:layout_width="383dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:id="@+id/DM_400KV_PLCC_LINE_2_RADIO_GROUP">
+
+
+            <RadioButton
+                android:id="@+id/DM_400KV_PLCC_LINE_2_RADIO_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/DM_400KV_PLCC_LINE_2_RADIO_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2" />
+            <RadioButton
+                android:id="@+id/DM_400KV_PLCC_LINE_2_RADIO_SPEECH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="SPEECH" />
+
+        </RadioGroup>
+
+        <TableLayout
+            android:id="@+id/DM_400KV_PLCC_LINE_2_CHANNEL_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="100"
+                    android:gravity="center"
+                    android:text="CHANNEL 1" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="left"
+                    android:padding="15dp"
+                    android:textColor="#000000"
+                    android:text="CS/CR-M1" />
+
+                <EditText
+                    android:id="@+id/PLCC_Panel_LINE_2_CH_1_M1_TX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:hint="TX"
+                    android:inputType="number"/>
+
+                <EditText
+                    android:id="@+id/PLCC_Panel_LINE_2_CH_1_M1_RX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:hint="RX"
+                    android:inputType="number"/>
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/textViqweqw10"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="left"
+                    android:padding="15dp"
+                    android:textColor="#000000"
+                    android:text="CS/CR-M2" />
+
+                <EditText
+                    android:id="@+id/PLCC_Panel_LINE_2_CH_1_M2_TX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:hint="TX"
+                    android:inputType="number"/>
+
+                <EditText
+                    android:id="@+id/PLCC_Panel_LINE_2_CH_1_M2_RX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:hint="RX"
+                    android:inputType="number"/>
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/texqqqtView11"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="left"
+                    android:padding="15dp"
+                    android:textColor="#000000"
+                    android:text="DT S/R" />
+
+                <EditText
+                    android:id="@+id/PLCC_Panel_LINE_2_CH_1_DT_TX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:hint="TX"
+                    android:inputType="number"/>
+
+                <EditText
+                    android:id="@+id/PLCC_Panel_LINE_2_CH_1_DT_RX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:hint="RX"
+                    android:inputType="number"/>
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="left"
+                    android:padding="15dp"
+                    android:textColor="#000000"
+                    android:text="CD-L1 Status" />
+
+                <EditText
+                    android:id="@+id/PLCC_Panel_LINE_2_CH_1_CD_TX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:hint="TX"
+                    android:inputType="number"/>
+
+                <EditText
+                    android:id="@+id/PLCC_Panel_LINE_2_CH_1_CD_RX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:hint="RX"
+                    android:inputType="number"/>
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="left"
+                    android:padding="15dp"
+                    android:textColor="#000000"
+                    android:text="AGC" />
+
+                <EditText
+                    android:id="@+id/PLCC_Panel_LINE_2_CH_1_AGC_TX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:hint="TX"
+                    android:inputType="number"/>
+
+                <EditText
+                    android:id="@+id/PLCC_Panel_LINE_2_CH_1_AGC_RX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:hint="RX"
+                    android:inputType="number"/>
+
+
+            </TableRow>
+        </TableLayout>
+
+
+        <TableLayout
+            android:id="@+id/DM_400KV_PLCC_LINE_2_CHANNEL_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="100"
+                    android:gravity="center"
+                    android:text="CHANNEL 2" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:textColor="#000000"
+                    android:gravity="left"
+                    android:text="CS/CR-M1" />
+
+                <EditText
+                    android:id="@+id/PLCC_Panel_LINE_2_CH_2_M1_TX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:hint="TX"
+                    android:inputType="number"/>
+
+                <EditText
+                    android:id="@+id/PLCC_Panel_LINE_2_CH_2_M1_RX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:hint="RX"
+                    android:inputType="number"/>
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/textsdxView10"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="CS/CR-M2" />
+
+                <EditText
+                    android:id="@+id/PLCC_Panel_LINE_2_CH_2_M2_TX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:hint="TX"
+                    android:inputType="number"/>
+
+                <EditText
+                    android:id="@+id/PLCC_Panel_LINE_2_CH_2_M2_RX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:hint="RX"
+                    android:inputType="number"/>
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/textVcvfiew11"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:textColor="#000000"
+                    android:gravity="left"
+                    android:text="DT S/R" />
+
+                <EditText
+                    android:id="@+id/PLCC_Panel_LINE_2_CH_2_DT_TX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:hint="TX"
+                    android:inputType="number"/>
+
+                <EditText
+                    android:id="@+id/PLCC_Panel_LINE_2_CH_2_DT_RX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:hint="RX"
+                    android:inputType="number"/>
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:textColor="#000000"
+                    android:gravity="left"
+                    android:text="CD-L1+L2 Status" />
+
+                <EditText
+                    android:id="@+id/PLCC_Panel_LINE_2_CH_2_CD_TX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:hint="TX"
+                    android:inputType="number"/>
+
+                <EditText
+                    android:id="@+id/PLCC_Panel_LINE_2_CH_2_CD_RX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:hint="RX"
+                    android:inputType="number"/>
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:textColor="#000000"
+                    android:gravity="left"
+                    android:text="AGC" />
+
+                <EditText
+                    android:id="@+id/PLCC_Panel_LINE_2_CH_2_AGC_TX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:hint="TX"
+                    android:inputType="number"/>
+
+                <EditText
+                    android:id="@+id/PLCC_Panel_LINE_2_CH_2_AGC_RX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:hint="RX"
+                    android:inputType="number"/>
+
+
+            </TableRow>
+        </TableLayout>
+        <TableLayout
+            android:id="@+id/DM_400KV_PLCC_LINE_2_SPEECH_CHANNEL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="100"
+                    android:gravity="center"
+                    android:text="SPEECH CHANNEL" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:textColor="#000000"
+                    android:gravity="left"
+                    android:text="A" />
+
+                <EditText
+                    android:id="@+id/PLCC_Panel_LINE_2_SPEECH_A_TX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:hint="TX"
+                    android:inputType="number"/>
+
+                <EditText
+                    android:id="@+id/PLCC_Panel_LINE_2_SPEECH_A_RX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:hint="RX"
+                    android:inputType="number"/>
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:textColor="#000000"
+                    android:gravity="left"
+                    android:text="B" />
+
+                <EditText
+                    android:id="@+id/PLCC_Panel_LINE_2_SPEECH_B_TX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:hint="TX"
+                    android:inputType="number"/>
+
+                <EditText
+                    android:id="@+id/PLCC_Panel_LINE_2_SPEECH_B_RX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:hint="RX"
+                    android:inputType="number"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:textColor="#000000"
+                    android:gravity="left"
+                    android:text="C" />
+
+                <EditText
+                    android:id="@+id/PLCC_Panel_LINE_2_SPEECH_C_TX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:hint="TX"
+                    android:inputType="number"/>
+
+                <EditText
+                    android:id="@+id/PLCC_Panel_LINE_2_SPEECH_C_RX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:hint="RX"
+                    android:inputType="number"/>
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:textColor="#000000"
+                    android:gravity="left"
+                    android:text="D" />
+
+                <EditText
+                    android:id="@+id/PLCC_Panel_LINE_2_SPEECH_D_TX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:hint="TX"
+                    android:inputType="number"/>
+
+                <EditText
+                    android:id="@+id/PLCC_Panel_LINE_2_SPEECH_D_RX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+
+                    android:hint="RX"
+                    android:inputType="number"/>
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:textColor="#000000"
+                    android:gravity="left"
+                    android:text="AGC 1" />
+
+                <EditText
+                    android:id="@+id/PLCC_Panel_LINE_2_SPEECH_AGC_1_TX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:hint="TX"
+                    android:inputType="number"/>
+
+                <EditText
+                    android:id="@+id/PLCC_Panel_LINE_2_SPEECH_AGC_1_RX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:hint="RX"
+                    android:inputType="number"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:textColor="#000000"
+                    android:gravity="left"
+                    android:text="AGC 2" />
+
+                <EditText
+                    android:id="@+id/PLCC_Panel_LINE_2_SPEECH_AGC_2_TX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:hint="TX"
+                    android:inputType="number"/>
+
+                <EditText
+                    android:id="@+id/PLCC_Panel_LINE_2_SPEECH_AGC_2_RX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:hint="RX"
+                    android:inputType="number"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/thirtezxenth"
+            android:layout_below="@+id/twelfth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="REMARKS IF ANY"
+                android:id="@+id/tqwe3"
+                android:layout_weight="40"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:padding="5dp"
+               />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/PLCC_Panel_2_REMARKS"
+                android:layout_weight="60"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/thirteenth"
+            android:layout_below="@+id/twelfth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="VERIFIED BY ANY"
+                android:id="@+id/te3"
+                android:layout_weight="40"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:padding="5dp"
+               />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/PLCC_Panel_2_VERIFIED_BY_ANY"
+                android:layout_weight="60"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:layout_margin="10dp"
+            >
+
+            <Button
+                android:id="@+id/PLCC_Panel_LINE_2_EDIT"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:text="Edit"
+                android:visibility="gone"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/PLCC_Panel_LINE_2_CONFIRM"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_toRightOf="@+id/PLCC_Panel_LINE_2_edit_btn"
+                android:text="Confirm"
+                android:visibility="gone"
+                android:layout_weight="50"
+                />
+
+            <Button
+                android:id="@+id/PLCC_Panel_LINE_2_SUBMIT_BUTTON"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="Submit"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

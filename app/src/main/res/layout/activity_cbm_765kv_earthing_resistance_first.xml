@@ -1,0 +1,46 @@
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OTHERS"
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_ICT_LR_GT_BR_BUS_AKOLA"
+                android:layout_margin="50dp"
+                android:padding="50dp"
+                />
+
+            <Button
+                android:id="@+id/CBM_7658KV_EARTH_RESISTANCE_TOWER"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="50dp"
+                android:padding="50dp"
+                android:text="TOWER" />
+
+            <Button
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_LM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LM"
+                android:layout_margin="50dp"
+                android:padding="50dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

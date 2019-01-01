@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="EARTH RESISTANCE 400kV OTHERS"
+                android:gravity="center"
+                android:textSize="20sp"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:text="HM-1-1"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+
+            <EditText
+                android:id="@+id/CBM_400KV_EARTH_RESISTANCE_HM_1_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+
+                android:hint="Resistance in ohms" />
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:layout_margin="5dp"
+
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:text="HM-1-2"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <EditText
+                android:id="@+id/CBM_400KV_EARTH_RESISTANCE_HM_1_2"
+                android:layout_width="0dp"
+                android:layout_weight="60"
+                android:inputType="numberDecimal"
+
+                android:layout_height="match_parent"
+                android:hint="Resistance in ohms"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+
+            android:weightSum="100"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:text="HM-2-1"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+
+            <EditText
+                android:id="@+id/CBM_400KV_EARTH_RESISTANCE_HM_2_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:gravity="center"
+
+                android:hint="Resistance in ohms"
+                android:inputType="numberDecimal" />
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:text="HM-2-2"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <EditText
+                android:id="@+id/CBM_400KV_EARTH_RESISTANCE_HM_2_2"
+                android:layout_width="0dp"
+                android:layout_weight="60"
+                android:inputType="numberDecimal"
+
+                android:layout_height="match_parent"
+                android:hint="Resistance in ohms"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:text="HM-3-1"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+
+
+            <EditText
+                android:id="@+id/CBM_400KV_EARTH_RESISTANCE_HM_3_1"
+                android:layout_width="0dp"
+                android:layout_weight="60"
+                android:layout_height="match_parent"
+                android:hint="Resistance in ohms"
+                android:inputType="numberDecimal"
+
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+
+            android:weightSum="100"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:text="HM-3-2"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+
+
+            <EditText
+                android:id="@+id/CBM_400KV_EARTH_RESISTANCE_HM_3_2"
+                android:layout_width="0dp"
+                android:layout_weight="60"
+                android:inputType="numberDecimal"
+
+                android:layout_height="match_parent"
+                android:hint="Resistance in ohms"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:layout_margin="5dp"
+
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:text="LM 1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                />
+            <EditText
+                android:id="@+id/CBM_400KV_EARTH_RESISTANCE_LM_1"
+                android:layout_width="0dp"
+                android:layout_weight="60"
+                android:layout_height="match_parent"
+                android:inputType="numberDecimal"
+
+                android:hint="Resistance in ohms"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+
+            android:weightSum="100"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:text="LM-2"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center"
+                />
+            <EditText
+                android:id="@+id/CBM_400KV_EARTH_RESISTANCE_LM_2"
+                android:layout_width="0dp"
+                android:layout_weight="60"
+                android:inputType="numberDecimal"
+
+                android:layout_height="match_parent"
+                android:hint="Resistance in ohms"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:layout_margin="5dp"
+
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:text="CREP 1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                />
+
+            <EditText
+                android:id="@+id/CBM_400KV_EARTH_RESISTANCE_CREP_1"
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:inputType="numberDecimal"
+
+                android:gravity="center"
+                android:hint="Resistance in ohms" />
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:layout_margin="5dp"
+
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="CREP 2"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:gravity="center"
+                />
+            <EditText
+                android:id="@+id/CBM_400KV_EARTH_RESISTANCE_CREP_2"
+                android:layout_width="0dp"
+                android:layout_weight="60"
+                android:inputType="numberDecimal"
+
+                android:layout_height="match_parent"
+                android:hint="Resistance in ohms"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:layout_margin="5dp"
+
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:text="PDB EP 1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                />
+            <EditText
+                android:id="@+id/CBM_400KV_EARTH_RESISTANCE_PDB_EP_1"
+                android:layout_width="0dp"
+                android:inputType="numberDecimal"
+
+                android:layout_weight="60"
+                android:layout_height="match_parent"
+                android:hint="Resistance in ohms"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+
+
+            android:weightSum="100"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="DCDB EP-1"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                />
+            <EditText
+                android:id="@+id/CBM_400KV_EARTH_RESISTANCE_DCDB_EP_1"
+                android:layout_width="0dp"
+                android:layout_weight="60"
+                android:layout_height="match_parent"
+                android:hint="Resistance in ohms"
+                android:inputType="numberDecimal"
+
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:layout_margin="5dp"
+
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="DCDB EP 2"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:gravity="center"
+                />
+            <EditText
+                android:id="@+id/CBM_400KV_EARTH_RESISTANCE_DCDB_EP_2"
+                android:layout_width="0dp"
+                android:layout_weight="60"
+                android:layout_height="match_parent"
+                android:hint="Resistance in ohms"
+                android:inputType="numberDecimal"
+
+                android:gravity="center"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+
+            android:weightSum="100"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="PLCC KIOSK 2 EP1"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                />
+            <EditText
+                android:id="@+id/CBM_400KV_EARTH_RESISTANCE_PLCC_KIOSK_2_EP1"
+                android:layout_width="0dp"
+                android:layout_weight="60"
+                android:layout_height="match_parent"
+                android:hint="Resistance in ohms"
+                android:inputType="numberDecimal"
+
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+
+            android:weightSum="100"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="PLCC KIOSK-3 EP 2"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                />
+
+            <EditText
+                android:id="@+id/CBM_400KV_EARTH_RESISTANCE_PLCC_KIOSK_3_EP2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+
+                android:gravity="center"
+                android:hint="Resistance in ohms"
+                android:inputType="numberDecimal" />
+        </TableRow>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="REMARKS IF ANY"
+                android:id="@+id/textView3"
+                android:layout_weight="40"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+               />
+
+            <EditText
+                android:id="@+id/CBM_400KV_EARTH_RESISTANCE_OTHERS_REMARKS_IF_ANY"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="60" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="VERIFIED BY"
+                android:id="@+id/textViweew3"
+                android:layout_weight="40"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+               />
+
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/CBM_400KV_EARTH_RESISTANCE_OTHERS_VERIFIED_BY"
+                android:layout_weight="66"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/CBM_400KV_EARTH_RESISTANCE_OTHERS_edit_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:text="Edit"
+                android:visibility="gone"
+                android:gravity="center"
+
+                />
+
+            <Button
+                android:id="@+id/CBM_400KV_EARTH_RESISTANCE_OTHERS_confirm_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:text="Confirm"
+                android:visibility="gone"
+                android:layout_weight="50"
+                />
+
+            <Button
+                android:id="@+id/CBM_400KV_EARTH_RESISTANCE_OTHERS_submit_btn"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="100"
+                android:text="Submit"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillViewport="false">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="LINE"
+            android:textSize="20sp"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:id="@+id/DM_765KV_LINE_1_radiogroup">
+
+
+
+            <RadioButton
+                android:id="@+id/DM_765KV_LINE_1_radioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1"
+                />
+
+            <RadioButton
+                android:id="@+id/DM_765KV_LINE_1_radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2" />
+        </RadioGroup>
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="40"
+                    android:textSize="18sp"
+                    android:layout_height="match_parent"
+                    android:text="LA COUNTER"
+                    android:gravity="left"
+                    android:padding="15dp"
+                    android:textColor="#000000"
+
+                    />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" R "
+                    android:textSize="18sp"
+                    android:id="@+id/DM_765KV_LINE1_LACOUNTER_R"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:inputType="number"
+                    />
+                <EditText
+                    android:textSize="18sp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" Y "
+                    android:id="@+id/DM_765KV_LINE1_LACOUNTER_Y"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:inputType="number"
+                    />
+                <EditText
+                    android:textSize="18sp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" B "
+                    android:id="@+id/DM_765KV_LINE1_LACOUNTER_B"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:inputType="number"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:textSize="18sp"
+                    android:layout_width="0dp"
+                    android:layout_weight="40"
+                    android:layout_height="match_parent"
+                    android:text="LA LEAKAGE CURRENT"
+                    android:gravity="left"
+                    android:padding="15dp"
+                    android:textColor="#000000"
+                    />
+                <EditText
+                    android:textSize="18sp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" R "
+                    android:id="@+id/DM_765KV_LINE1_LALEAKAGE_R"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    />
+                <EditText
+                    android:textSize="18sp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" Y "
+                    android:id="@+id/DM_765KV_LINE1_LALEAKAGE_Y"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+
+                    />
+                <EditText
+                    android:textSize="18sp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" B "
+                    android:id="@+id/DM_765KV_LINE1_LALEAKAGE_B"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:textSize="18sp"
+                    android:layout_width="0dp"
+                    android:layout_weight="40"
+                    android:layout_height="match_parent"
+                    android:text="PERSISTING ALARM IN LINE"
+                    android:gravity="left"
+                    android:padding="15dp"
+                    android:textColor="#000000"
+                    />
+
+                <ToggleButton
+                    android:id="@+id/DM_765KV_LINE1_PERSISTING_R"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+
+                    android:textOff="NO"
+                    android:textOn="YES" />
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/DM_765KV_LINE1_PERSISTING_Y"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:textOff="NO"
+                    android:textOn="YES"
+                    />
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/DM_765KV_LINE1_PERSISTING_B"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:textOff="NO"
+                    android:textOn="YES"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:textSize="18sp"
+                    android:layout_width="0dp"
+                    android:layout_weight="40"
+                    android:layout_height="match_parent"
+                    android:text="REMARKS IF ANY"
+                    android:gravity="left"
+                    android:padding="15dp"
+                    android:textColor="#000000"
+                    />
+                <EditText
+                    android:textSize="18sp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" R "
+                    android:id="@+id/DM_765KV_LINE1_REMARKS_R"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    />
+                <EditText
+                    android:textSize="18sp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" Y "
+                    android:id="@+id/DM_765KV_LINE1_REMARKS_Y"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    />
+                <EditText
+                    android:textSize="18sp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" B "
+                    android:id="@+id/DM_765KV_LINE1_REMARKS_B"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:textSize="18sp"
+                    android:id="@+id/DM_765_KV_LINE1_VERIFY"
+                    android:gravity="left"
+                    android:padding="15dp"
+                    android:layout_width="0dp"
+                    android:textColor="#000000"
+                    android:layout_weight="40"
+                    android:text="VERIFIED BY"/>
+                <EditText
+                    android:textSize="18sp"
+                    android:id="@+id/DM_765KV_LINE1_VERIFIED_BY"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"/>
+            </TableRow>
+
+
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/dm_765kv_line_edit_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:text="Edit"
+                android:visibility="gone"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/dm_765kv_line_confirm_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Confirm"
+                android:visibility="gone"
+                android:layout_weight="50"
+                />
+
+            <Button
+                android:id="@+id/dm_765kv_line_submit_btn"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="Submit"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

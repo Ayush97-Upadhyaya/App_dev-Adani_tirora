@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="50dp"
+
+       >
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:weightSum="100"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="33"
+                android:text="BR"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:padding="10dp"
+                android:textSize="18sp"/>
+
+            <RadioGroup
+                android:id="@+id/DM_400KV_BR_RADIO_GROUP"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_weight="66"
+                >
+
+
+                <RadioButton
+                    android:id="@+id/DM_400KV_BR_RADIOBUTTON1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_weight="33"
+
+                    android:text="1" />
+
+                <RadioButton
+                    android:id="@+id/DM_400KV_BR_RADIOBUTTON2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_weight="33"
+
+                    android:text="2" />
+            </RadioGroup>
+        </TableRow>
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+                    android:textColor="#000000"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:text="WTI "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/DM_400KV_BR_WTI"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="40"
+                    android:hint="°C"
+                    android:textSize="18sp"
+                    android:inputType="numberDecimal"
+                    android:gravity="center"
+
+                    />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="20"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="OTI "
+                    android:id="@+id/textView2"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:layout_weight="60"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    />
+
+                <EditText
+                    android:id="@+id/DM_400KV_BR_OTI"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:hint="°C"
+                    android:textSize="18sp"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+
+                >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="60"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:text="OIL LEVEL/MAIN TANK"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/DM_400KV_BR_OIL_LEVEL"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="40"
+                    android:hint="OIL LEVEL"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+
+
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="PERSISTING TRAFO ALARMS(SCADA)"
+                    android:id="@+id/textView4"
+                    android:layout_weight="60"
+                    android:textColor="#000000"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:textSize="18sp"/>
+
+                <ToggleButton
+                    android:id="@+id/DM_400KV_BR_PERSISTING"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="40"
+                    android:textOff="NO"
+                    android:textOn="YES"
+
+                    />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="OIL LEAKAGE"
+                    android:id="@+id/texiew5"
+                    android:layout_weight="60"
+                    android:textColor="#000000"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:textSize="18sp"/>
+
+                <ToggleButton
+                    android:id="@+id/DM_400KV_BR_OIL_LEAKAGE"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="40"
+                    android:textOff="NO"
+                    android:textOn="YES"/>
+
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="ODU STATUS"
+                    android:id="@+id/textViw3"
+                    android:layout_weight="60"
+                    android:textColor="#000000"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:textSize="18sp"/>
+
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/DM_400KV_BR_ODU_STATUS"
+                    android:layout_weight="40"
+                    android:textOff="NOT OK"
+                    android:textOn="OK"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="FAN STATUS"
+                    android:id="@+id/extView3"
+                    android:layout_weight="60"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:textColor="#000000"
+                    android:textSize="18sp"/>
+
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/DM_400KV_BR_FAN_STATUS"
+                    android:layout_weight="40"
+                    android:textOff="NOT OK"
+                    android:textOn="OK"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+
+                >
+
+                <TextView
+                    android:id="@+id/texw5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="60"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:text="LA COUNTER"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="13.3"
+                    android:id="@+id/DM_400KV_BR_LACOUNTER_R"
+                    android:inputType="number"
+                    android:hint="R"
+                    android:gravity="center"
+                    android:textSize="18sp"
+
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/DM_400KV_BR_LACOUNTER_Y"
+                    android:layout_weight="13.3"
+                    android:inputType="number"
+                    android:hint="Y"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/DM_400KV_BR_LACOUNTER_B"
+                    android:layout_weight="13.3"
+                    android:inputType="number"
+                    android:hint="B"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="LA LEAKAGE CURR."
+                    android:id="@+id/textView30"
+                    android:layout_weight="60"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:textColor="#000000"
+                    android:textSize="18sp"/>
+
+                <EditText
+                    android:id="@+id/DM_400KV_BR_LA_LEAKAGE_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="13.3"
+                    android:gravity="center"
+                    android:hint="R mA"
+                    android:inputType="numberDecimal"
+                    android:textSize="18sp"
+
+                    />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/DM_400KV_BR_LA_LEAKAGE_Y"
+                    android:layout_weight="13.3"
+                    android:hint="Y mA"
+                    android:inputType="numberDecimal"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    />
+
+                <EditText
+                    android:id="@+id/DM_400KV_BR_LA_LEAKAGE_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="13.3"
+                    android:hint="B mA"
+                    android:inputType="numberDecimal"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="PPM OF OIL IN"
+                    android:id="@+id/textew3"
+                    android:layout_weight="60"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:textColor="#000000"
+                    android:textSize="18sp"/>
+
+                <EditText
+                    android:id="@+id/DM_400KV_BR_PPM_OIL_IN"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="40"
+                    android:hint="OIL IN "
+                    android:inputType="numberDecimal"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+
+                >
+
+                <TextView
+                    android:id="@+id/txtVew3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="60"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:text="PPM OF OIL OUT"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/DM_400KV_BR_PPM_OIL_OUT"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:hint="OIL OUT"
+                    android:inputType="numberDecimal"
+                    android:textSize="18sp"
+
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+
+
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="PPM OF PAPER"
+                    android:id="@+id/ttie3"
+                    android:layout_weight="60"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:inputType="number"
+                    />
+
+                <EditText
+                    android:id="@+id/DM_400KV_BR_PPM_PAPER"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="40"
+                    android:hint="PAPER"
+                    android:inputType="numberDecimal"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="SILICA GEL CONDITION"
+                    android:textColor="#000000"
+                    android:layout_weight="60"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:textSize="18sp"/>
+
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/DM_400KV_BR_SILICA_GEL"
+                    android:layout_weight="40"
+                    android:textOff="NOT OK"
+                    android:textOn="OK"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="REMARKS IF ANY"
+                    android:textColor="#000000"
+                    android:layout_weight="60"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:textSize="18sp"/>
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/DM_400KV_BR_REMARKS_IF_ANY"
+                    android:layout_weight="40"
+                    android:hint="REMARKS"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/thirteenth"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/twelfth"
+
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/te3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="60"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:text="VERIFIED BY "
+                    android:textColor="#000000"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/DM_400KV_BR_VERIFIED_BY"
+                    android:layout_width="0dp"
+                    android:hint="VERIFIED"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="40" />
+            </TableRow>
+        </TableLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+
+            >
+
+            <Button
+                android:id="@+id/DM_400KV_BR_EDIT"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:text="Edit"
+                android:visibility="gone"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/DM_400KV_BR_CONFIRM"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_toRightOf="@+id/dm_400kv_misc_trafo_edit_btn"
+                android:text="Confirm"
+                android:visibility="gone"
+                android:layout_weight="50"
+                />
+
+            <Button
+                android:id="@+id/DM_400_KV_BR_SUBMIT_BUTTON"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="Submit"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+

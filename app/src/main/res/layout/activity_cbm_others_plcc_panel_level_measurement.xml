@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableRow android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="20dp">
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="L1 CH-1"
+                        android:textColor="#000000"
+                        android:id="@+id/CBM_PLCC_PANEL_LINE_1_CH_1"
+
+                        />
+
+                    <RadioButton
+                        android:id="@+id/CBM_PLCC_PANEL_LINE_1_CH_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="L1 CH-2" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="L2 CH-1"
+                        android:id="@+id/CBM_PLCC_PANEL_LINE_2_CH_1"/>
+
+                    <RadioButton
+                        android:id="@+id/CBM_PLCC_PANEL_LINE_2_CH_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="L2 CH-2"
+                        android:textColor="#000000" />
+
+                    <RadioButton
+                        android:id="@+id/CBM_PLCC_PANEL_SPEECH_CH_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Speech CH-1" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Speech CH-2"
+                        android:id="@+id/CBM_PLCC_PANEL_SPEECH_CH_2"
+                        />
+
+
+
+
+                </RadioGroup>
+
+            </TableRow>
+
+
+
+
+
+
+
+            <TableRow android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="100">
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="Test Parameter" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Test Mod"
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="Test Term" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="Permissible Val" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:hint="L1 C1" />
+
+
+            </TableRow>
+
+            <TableRow android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="100">
+
+                <TextView android:textSize="16sp"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:layout_height="match_parent"
+                    android:text="Supply Voltage" />
+
+                <TextView android:textSize="16sp"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="B5LA"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="16sp"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="B5LA"
+                    android:textColor="#000000"/>
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="40-50V DC" />
+
+                <EditText android:textSize="16sp"
+                    android:id="@+id/CBM_PLCC_PANEL_SUPPLY"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="L1 C1" />
+
+
+            </TableRow>
+
+
+            <TableRow android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="100">
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="P4LA Voltage 5V" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="P4LA"
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="P14 - P1 18" />
+
+                <TextView
+                    android:id="@+id/textView64"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="4.9 to 5.5 V DC"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <EditText android:textSize="16sp"
+                    android:id="@+id/CBM_PLCC_PANEL_P4LA5V"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="L1 C1" />
+
+
+            </TableRow>
+
+            <TableRow android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="100">
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="P4LA Voltage 12V" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="P4LA"
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="P 15- P1 18" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="12.3 to 13 V DC" />
+
+                <EditText android:textSize="16sp"
+                    android:id="@+id/CBM_PLCC_PANEL_P4LA12V"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="L1 C1" />
+
+
+            </TableRow>
+
+            <TableRow android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/textView63"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="P4LA Voltage -12V"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="P4LA"
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="P 16- P1 18" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="' -12.3 to -13 V DC" />
+
+                <EditText android:textSize="16sp"
+                    android:id="@+id/CBM_PLCC_PANEL_P4LA_12V"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="L1 C1" />
+
+
+
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="100">
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="Vco Voltage  TX" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="P4LG"
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="P4 - P18" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="1.6  TO 2 V DC" />
+
+                <EditText android:textSize="16sp"
+                    android:id="@+id/CBM_PLCC_PANEL_VCO_TX"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+
+                    android:hint="L1 C1" />
+
+
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/textView60"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="Vco Voltage  RX"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="P4LA"
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="P32 -P10" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="1.6  TO 2 V DC" />
+
+                <EditText android:textSize="16sp"
+                    android:id="@+id/CBM_PLCC_PANEL_VCO_RX"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="L1 C1" />
+
+
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/textView61"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="RECIEVER TESTING - RX PILOT LEVEL AT COAXIAL"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="CO- AXIAL"
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="---" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="---" />
+
+                <EditText android:textSize="16sp"
+                    android:id="@+id/CBM_PLCC_PANEL_REC_TEST_PILOT_RX_COAX"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="L1 C1" />
+
+
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/textView62"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="TRANSMITTER TESTING - TX PILOT LEVEL AT COAXIAL"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="CO- AXIAL"
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="---" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="---" />
+
+                <EditText android:textSize="16sp"
+                    android:id="@+id/CBM_PLCC_PANEL_REC_TEST_PILOT_TX_COAX"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="L1 C1" />
+
+
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="100">
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="AGC" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="P4LA"
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="ON DISPLAY" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="12 TO 35 DB" />
+
+                <EditText android:textSize="16sp"
+                    android:id="@+id/CBM_PLCC_PANEL_AGC"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="L1 C1" />
+
+
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="100">
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="A TX" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="G4AC"
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="ON DISPLAY" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="00 TO 99" />
+
+                <EditText android:textSize="16sp"
+                    android:id="@+id/CBM_PLCC_PANEL_A_TX"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="L1 C1" />
+
+
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="100">
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="A RX" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="G4AC"
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="ON DISPLAY" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="00 TO 99" />
+
+                <EditText android:textSize="16sp"
+                    android:id="@+id/CBM_PLCC_PANEL_A_RX"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="L1 C1" />
+
+
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="100">
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="B TX" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="G4AC"
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="ON DISPLAY" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="00 TO 99" />
+
+                <EditText android:textSize="16sp"
+                    android:id="@+id/CBM_PLCC_PANEL_B_TX"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+
+                    android:hint="L1 C1" />
+
+
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="100">
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="B RX" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="G4AC"
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="ON DISPLAY" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="00 TO 99" />
+
+                <EditText android:textSize="16sp"
+                    android:id="@+id/CBM_PLCC_PANEL_B_RX"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="L1 C1" />
+
+
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="100">
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="C TX" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="G4AC"
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="ON DISPLAY" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="00 TO 99" />
+
+                <EditText android:textSize="16sp"
+                    android:id="@+id/CBM_PLCC_PANEL_C_TX"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+
+                    android:hint="L1 C1" />
+
+
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="100">
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="C RX" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="G4AC"
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="ON DISPLAY" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="00 TO 99" />
+
+                <EditText android:textSize="16sp"
+                    android:id="@+id/CBM_PLCC_PANEL_C_RX"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="L1 C1" />
+
+
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="100">
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="D TX" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="G4AC"
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="ON DISPLAY" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="00 TO 99" />
+
+                <EditText android:textSize="16sp"
+                    android:id="@+id/CBM_PLCC_PANEL_D_TX"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="L1 C1" />
+
+
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="100">
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="D RX" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="G4AC"
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_weight="20"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="ON DISPLAY" />
+
+                <TextView android:textSize="16sp" android:textColor="#000000"
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="00 TO 99" />
+
+                <EditText android:textSize="16sp"
+                    android:id="@+id/CBM_PLCC_PANEL_D_RX"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+
+                    android:layout_width="0dp"
+                    android:hint="L1 C1" />
+
+
+            </TableRow>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                >
+                <TextView android:textSize="16sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="REMARKS"
+                    android:id="@+id/textView3"
+                    android:layout_weight="28"
+                    android:gravity="center"
+                  />
+
+                <EditText android:textSize="16sp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/CBM_PLCC_PANEL_REMARKS_IF_ANY_R"
+                    android:layout_weight="72"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                >
+                <TextView  android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="VERIFIED BY"
+                    android:id="@+id/textViweew3"
+                    android:layout_weight="28"
+                    android:gravity="center"
+                    android:textSize="16sp"/>
+
+
+                <EditText android:textSize="16sp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/CBM_PLCC_PANEL_VERIFIED_BY"
+                    android:layout_weight="72"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="100"
+                android:layout_margin="10dp"
+                >
+
+                <Button
+                    android:id="@+id/CBM_PLCC_PANEL_EDIT"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:text="Edit"
+                    android:visibility="gone"
+                    android:gravity="center"
+                    />
+
+                <Button
+                    android:id="@+id/CBM_PLCC_PANELCONFIRM"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_toRightOf="@+id/CBM_PLCC_PANEL_edit_btn"
+                    android:text="Confirm"
+                    android:visibility="gone"
+                    android:layout_weight="50"
+                    />
+
+                <Button
+                    android:id="@+id/CBM_PLCC_PANEL_SUBMIT_BUTTON"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:text="Submit"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</ScrollView>

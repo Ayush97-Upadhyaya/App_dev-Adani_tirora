@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/CBM_400KV_EARTH_RESISTANCE_ST_RADIOGROUP">
+
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="100"
+                    android:textSize="20sp"
+                    android:layout_height="match_parent"
+                    android:text="STATION TRANSFORMER"
+                    android:gravity="center"
+                    />
+
+            </TableRow>
+
+            <TableRow android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <RadioButton
+                    android:id="@+id/CBM_400KV_EARTH_RESISTANCE_ST_RADIO_BUTTON1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="1" />
+
+                <RadioButton
+                    android:id="@+id/CBM_400KV_EARTH_RESISTANCE_ST_RADIO_BUTTON2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="2" />
+
+                <RadioButton
+                    android:id="@+id/CBM_400KV_EARTH_RESISTANCE_ST_RADIO_BUTTON3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="3" />
+
+                <RadioButton
+                    android:id="@+id/CBM_400KV_EARTH_RESISTANCE_ST_RADIO_BUTTON4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="4" />
+
+                <RadioButton
+                    android:id="@+id/CBM_400KV_EARTH_RESISTANCE_ST_RADIO_BUTTON5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="5" />
+
+            </TableRow>
+        </RadioGroup>
+
+        <TableRow android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="55"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_height="match_parent"
+                android:text="STATION TRANSFORMER R Phase"
+                android:gravity="center"
+                />
+            <EditText
+                android:id="@+id/CBM_400KV_EARTH_RESISTANCE_STATION_TRANSFORMER_R_PHASE"
+                android:layout_width="0dp"
+                android:layout_weight="45"
+
+                android:layout_height="match_parent"
+                android:hint="Resistance in ohms"
+                android:inputType="numberDecimal"
+
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="55"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_height="match_parent"
+                android:text="STATION TRANSFORMER Y Phase"
+                android:gravity="center"
+                />
+            <EditText
+                android:id="@+id/CBM_400KV_EARTH_RESISTANCE_STATION_TRANSFORMER_Y_PHASE"
+                android:layout_width="0dp"
+                android:layout_weight="45"
+                android:layout_height="match_parent"
+                android:hint="Resistance in ohms"
+                android:inputType="numberDecimal"
+
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="55"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_height="match_parent"
+                android:text="STATION TRANSFORMER B Phase"
+                android:gravity="center"
+                />
+            <EditText
+                android:id="@+id/CBM_400KV_EARTH_RESISTANCE_STATION_TRANSFORMER_B_PHASE"
+                android:layout_width="0dp"
+                android:layout_weight="45"
+                android:layout_height="match_parent"
+                android:hint="Resistance in ohms"
+                android:inputType="numberDecimal"
+
+                android:gravity="center"/>
+        </TableRow>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/CBM_EARTH_RESISTANCE_400KV_ST_4_EP"
+            android:visibility="gone">
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="55"
+                    android:gravity="center"
+                    android:textSize="18sp"
+
+                    android:textColor="#000000"
+                    android:text="EP 53" />
+
+                <EditText
+                    android:id="@+id/CBM_400KV_EARTH_RESISTANCE_STATION_TRANSFORMER_EP_53"
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:layout_height="match_parent"
+                    android:hint="Resistance in ohms"
+                    android:inputType="numberDecimal"
+
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:layout_height="match_parent"
+                    android:text="EP 54"
+                    android:textSize="18sp"
+
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <EditText
+                    android:id="@+id/CBM_400KV_EARTH_RESISTANCE_STATION_TRANSFORMER_EP_54"
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:layout_height="match_parent"
+                    android:hint="Resistance in ohms"
+                    android:inputType="numberDecimal"
+
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:layout_height="match_parent"
+                    android:text="EP 55"
+                    android:textSize="18sp"
+
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <EditText
+                    android:id="@+id/CBM_400KV_EARTH_RESISTANCE_STATION_TRANSFORMER_EP_55"
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:layout_height="match_parent"
+                    android:hint="Resistance in ohms"
+                    android:inputType="numberDecimal"
+
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:layout_height="match_parent"
+                    android:text="EP 56"
+                    android:textSize="18sp"
+
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <EditText
+                    android:id="@+id/CBM_400KV_EARTH_RESISTANCE_STATION_TRANSFORMER_EP_56"
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:layout_height="match_parent"
+                    android:hint="Resistance in ohms"
+                    android:inputType="numberDecimal"
+
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:layout_height="match_parent"
+                    android:text="EP 57"
+                    android:textSize="18sp"
+
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <EditText
+                    android:id="@+id/CBM_400KV_EARTH_RESISTANCE_STATION_TRANSFORMER_EP_57"
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:layout_height="match_parent"
+                    android:inputType="numberDecimal"
+
+                    android:hint="Resistance in ohms"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:layout_height="match_parent"
+                    android:text="EP 58"
+                    android:textSize="18sp"
+
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <EditText
+                    android:id="@+id/CBM_400KV_EARTH_RESISTANCE_STATION_TRANSFORMER_EP_58"
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:layout_height="match_parent"
+                    android:hint="Resistance in ohms"
+                    android:inputType="numberDecimal"
+
+                    android:gravity="center"/>
+            </TableRow>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/CBM_EARTH_RESISTANCE_400KV_ST_5_EP"
+            android:visibility="gone">
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:layout_height="match_parent"
+                    android:text="EP 59"
+                    android:textSize="18sp"
+
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <EditText
+                    android:id="@+id/CBM_400KV_EARTH_RESISTANCE_STATION_TRANSFORMER_EP_59"
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:layout_height="match_parent"
+                    android:inputType="numberDecimal"
+
+                    android:hint="Resistance in ohms"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:layout_height="match_parent"
+                    android:text="EP 60"
+                    android:textSize="18sp"
+
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <EditText
+                    android:id="@+id/CBM_400KV_EARTH_RESISTANCE_STATION_TRANSFORMER_EP_60"
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:layout_height="match_parent"
+                    android:hint="Resistance in ohms"
+                    android:inputType="numberDecimal"
+
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:layout_height="match_parent"
+                    android:text="EP 61"
+                    android:textSize="18sp"
+
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <EditText
+                    android:id="@+id/CBM_400KV_EARTH_RESISTANCE_STATION_TRANSFORMER_EP_61"
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:layout_height="match_parent"
+                    android:hint="Resistance in ohms"
+                    android:inputType="numberDecimal"
+
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:layout_height="match_parent"
+                    android:text="EP 62"
+                    android:textSize="18sp"
+
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <EditText
+                    android:id="@+id/CBM_400KV_EARTH_RESISTANCE_STATION_TRANSFORMER_EP_62"
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:layout_height="match_parent"
+                    android:hint="Resistance in ohms"
+                    android:inputType="numberDecimal"
+
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:layout_height="match_parent"
+                    android:text="EP 63"
+                    android:textSize="18sp"
+
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <EditText
+                    android:id="@+id/CBM_400KV_EARTH_RESISTANCE_STATION_TRANSFORMER_EP_63"
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:inputType="numberDecimal"
+
+                    android:layout_height="match_parent"
+                    android:hint="Resistance in ohms"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:layout_height="match_parent"
+                    android:text="EP 64"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <EditText
+                    android:id="@+id/CBM_400KV_EARTH_RESISTANCE_STATION_TRANSFORMER_EP_64"
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:inputType="numberDecimal"
+
+                    android:layout_height="match_parent"
+                    android:hint="Resistance in ohms"
+                    android:gravity="center"/>
+            </TableRow>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="REMARKS IF ANY"
+                android:id="@+id/textView3"
+                android:layout_weight="55"
+                android:textColor="#000000"
+                android:gravity="center"
+                />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/CBM_400KV_EARTH_RESISTANCE_STATION_TRANSFORMER_REMARKS_IF_ANY"
+                android:layout_weight="45"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="VERIFIED BY"
+                android:id="@+id/textViweew3"
+                android:layout_weight="55"
+                android:gravity="center"
+                android:textColor="#000000"
+                />
+
+
+            <EditText
+                android:id="@+id/CBM_400KV_EARTH_RESISTANCE_STATION_TRANSFORMER_VERIFIED_BY"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="45" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/CBM_400KV_EARTH_RESISTANCE_STATION_TRANSFORMER_edit_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:text="Edit"
+                android:visibility="gone"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/CBM_400KV_EARTH_RESISTANCE_STATION_TRANSFORMER_confirm_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:text="Confirm"
+                android:visibility="gone"
+                android:layout_weight="50"
+                />
+
+            <Button
+                android:id="@+id/CBM_400KV_EARTH_RESISTANCE_STATION_TRANSFORMER_submit_btn"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="100"
+                android:text="Submit"
+                android:visibility="visible" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

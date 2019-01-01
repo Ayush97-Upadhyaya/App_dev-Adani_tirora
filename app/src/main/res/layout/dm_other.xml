@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:id="@+id/dm765KV"
+    >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:gravity="center">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="100"
+
+            >
+
+            <Button
+                android:id="@+id/DM_OTHER_220V"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+
+                android:layout_weight="33"
+                android:gravity="center"
+                android:text="220V BC " />
+
+            <Button
+
+
+                android:id="@+id/DM_OTHER_220V_48V_DCB"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+
+                android:layout_margin="10dp"
+                android:layout_weight="33"
+                android:text="220V 48V DCDB " />
+
+
+            <Button
+
+                android:id="@+id/DM_OTHER_UPS"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="33"
+
+                android:text="UPS  " />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100">
+
+            <Button
+
+
+                android:id="@+id/DM_OTHER_PAC_AHU"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+
+                android:layout_weight="33"
+                android:text="PAC  AHU DB " />
+
+
+            <Button
+
+
+                android:id="@+id/DM_OTHER_PDB"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="33"
+                android:text="PDB EDB LDB" />
+
+            <Button
+
+
+                android:id="@+id/DM_OTHER_48V"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+
+                android:layout_weight="33"
+                android:text="48V BC "
+
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100">
+
+
+
+            <Button
+
+
+                android:id="@+id/DM_OTHER_S"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="33"
+
+                android:gravity="center"
+                android:text="SWITCHGEAR "
+
+                />
+
+            <Button
+
+
+                android:id="@+id/DM_OTHER_765_PLCC_1"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="33"
+
+                android:gravity="center"
+                android:text="765 KV FOTE LINE 1 "
+
+                />
+
+
+            <!-- <Button
+
+
+            android:id="@+id/DM_OTHER_48V_DCDB"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="33"
+
+            android:gravity="center"
+            android:text="48V DCDB. "
+
+            />-->
+            <Button
+
+                android:id="@+id/DM_OTHER_765_PLCC_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_margin="10dp"
+                android:layout_weight="33"
+                android:gravity="center"
+                android:text="765 KV FOTE LINE 2 " />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100">
+
+            <!--<Button
+
+
+                android:id="@+id/DM_OTHER_LDB"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="33"
+                android:gravity="center"
+                android:text="LDB "
+
+                />
+
+            <Button
+
+
+                android:id="@+id/DM_OTHER_EDB"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+
+                android:layout_weight="33"
+                android:gravity="center"
+
+                android:text="EDB "
+
+                />-->
+
+
+
+            <Button
+
+                android:id="@+id/DM_OTHER_400_PLCC_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_margin="10dp"
+                android:layout_weight="33"
+                android:gravity="center"
+                android:text="400 KV PLCC LINE 1 " />
+
+            <Button
+
+                android:id="@+id/DM_OTHER_400_PLCC_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_margin="10dp"
+                android:layout_weight="33"
+                android:gravity="center"
+                android:text="400 KV PLCC LINE 2 " />
+
+
+        </TableRow>
+
+
+    </TableLayout>
+</LinearLayout>
+
+

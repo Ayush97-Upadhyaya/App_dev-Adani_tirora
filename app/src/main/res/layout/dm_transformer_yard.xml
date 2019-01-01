@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:layout_marginTop="10dp"
+    android:id="@+id/dm765KV"
+
+    >
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_weight="100"
+                android:gravity="center"
+                android:text="Transformer Yard"
+                android:textSize="25dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+
+            <Button
+                android:id="@+id/DM_TRANSFORMER_YARD_GT"
+                android:layout_width="0dp"
+                android:layout_height="96dp"
+                android:layout_margin="20dp"
+
+                android:layout_weight="50"
+                android:text=" GT " />
+
+            <Button
+                android:id="@+id/DM_TRANSFORMER_YARD_UT"
+                android:layout_width="0dp"
+                android:layout_height="96dp"
+                android:layout_margin="20dp"
+
+                android:layout_weight="50"
+                android:text=" UT" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:weightSum="100">
+
+            <Button
+                android:id="@+id/DM_TRASNFORMER_YARD_UAT"
+                android:layout_width="0dp"
+                android:layout_height="96dp"
+
+                android:layout_margin="20dp"
+                android:layout_weight="50"
+                android:text=" UAT " />
+
+            <Button
+                android:id="@+id/DM_TRASNFORMER_YARD_ST"
+                android:layout_width="0dp"
+                android:layout_height="96dp"
+                android:layout_margin="20dp"
+
+                android:layout_weight="50"
+                android:layout_gravity="center"
+                android:text=" ST" />
+
+
+
+        </TableRow>
+        <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:weightSum="100">
+
+        <Button
+            android:id="@+id/DM_TRASNFORMER_YARD_SAT"
+            android:layout_width="0dp"
+            android:layout_height="96dp"
+            android:layout_margin="20dp"
+
+            android:layout_weight="50"
+            android:layout_gravity="center"
+            android:text=" SAT" />
+
+        <Button
+            android:id="@+id/DM_TRASNFORMER_YARD_PROT_PANEL"
+            android:layout_width="0dp"
+            android:layout_height="96dp"
+            android:layout_margin="20dp"
+
+            android:layout_weight="50"
+            android:text=" PROT. PANEL"
+
+            />
+
+
+
+    </TableRow>
+
+
+    </TableLayout>
+
+</RelativeLayout>
+</ScrollView>

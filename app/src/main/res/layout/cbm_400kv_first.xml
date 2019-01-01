@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="50">
+        <Button
+            android:padding="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EARTH RESISTANCE"
+            android:id="@+id/CBM_400KV_EARTH_RESISTANCE"/>
+        <Button
+            android:padding="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CT/CVT OIL"
+            android:id="@+id/CBM_400KV_CT_CVT_OIL"/>
+        <Button
+            android:padding="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LEAKAGE CURRENT"
+            android:id="@+id/CBM_400KV_LEAKAGE_CURRENT"/>
+        <Button
+            android:padding="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CT/CVT"
+            android:id="@+id/CBM_400KV_CT_CVT"/>
+        <Button
+            android:padding="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SF6 GAS PRESSURE"
+            android:id="@+id/CBM_400KV_SF6_GAS"/>
+        <Button
+            android:padding="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BATTERY READING"
+            android:id="@+id/CBM_400KV_BATTERY_READING"/>
+    </LinearLayout>
+
+</LinearLayout>

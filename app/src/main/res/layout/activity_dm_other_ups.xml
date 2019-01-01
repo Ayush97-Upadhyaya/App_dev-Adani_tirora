@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/first">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="HEALTHINESS OF UPS BATTERY BANK"
+                android:id="@+id/textView1"
+                android:layout_weight="55"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/UPS_SYSTEM_HEALTHINESS"
+                android:layout_weight="45"
+                android:textOff="NOT OK"
+                android:textOn="OK" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:layout_below="@id/first"
+            android:id="@+id/second">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="TERMINAL VOLTAGE OF UPS BATTERY BANK"
+                android:id="@+id/textView2"
+                android:layout_weight="55"
+                android:gravity="center"
+                android:padding="5dp"
+
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/UPS_SYSTEM_TERMINAL_R"
+                android:layout_weight="15"
+                android:hint="R VOLTS"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/UPS_SYSTEM_TERMINAL_Y"
+                android:layout_weight="15"
+                android:hint="Y VOLTS"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+
+            <EditText
+                android:id="@+id/UPS_SYSTEM_TERMINAL_B"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="15"
+                android:hint="B VOLTS"
+                android:inputType="numberDecimal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/fourth"
+            android:layout_below="@id/third">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="CHECK FOR HOUSEKEEPING OF UPS BATTERY ROOM"
+                android:id="@+id/textView4"
+                android:layout_weight="55"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/UPS_SYSTEM_CHECK"
+                android:layout_weight="45"
+                android:text="VOLTS"
+                android:textOn="OK"
+                android:textOff="NOT OK" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/fifth"
+            android:layout_below="@+id/fourth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="TEMPERATURE OF UPS BATTERY ROOM"
+                android:id="@+id/texiew5"
+                android:layout_weight="55"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/UPS_SYSTEM_TEMPERATURE_BATTERY"
+                android:layout_weight="45"
+                android:inputType="numberDecimal"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/sixth"
+            android:layout_below="@id/fifth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="TEMPERATURE OF UPS ROOM"
+                android:id="@+id/texw5"
+                android:layout_weight="55"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/UPS_SYSTEM_TEMPERATURE"
+                android:layout_weight="45"
+                android:inputType="numberDecimal"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:layout_below="@id/sixth"
+            android:id="@+id/seventh">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="ELECTROLYTE LEAKAGE FROM UPS BATTERY BANK "
+                android:id="@+id/textViw3"
+                android:layout_weight="55"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:id="@+id/UPS_SYSTEM_LEAKAGE"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="45"
+                android:textOff="NO"
+                android:textOn="YES" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/eighh"
+            android:layout_below="@id/seventh">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="UPS -1 AC VOLT  "
+                android:id="@+id/extViw3"
+                android:layout_weight="55"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/UPS_SYSTEM_UPS_1_VOLTS_R"
+                android:layout_weight="15"
+                android:hint="R VOLTS"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/UPS_SYSTEM_UPS_1_VOLTS_Y"
+                android:layout_weight="15"
+                android:hint="Y VOLTS"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/UPS_SYSTEM_UPS_1_VOLTS_B"
+                android:layout_weight="15"
+                android:hint="B VOLTS"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/eigth"
+            android:layout_below="@id/seventh">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="UPS -2 AC VOLT  "
+                android:id="@+id/exView3"
+                android:layout_weight="55"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/UPS_SYSTEM_UPS_2_VOLTS_R"
+                android:layout_weight="15"
+                android:hint="R VOLTS"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/UPS_SYSTEM_UPS_2_VOLTS_Y"
+                android:layout_weight="15"
+                android:hint="Y VOLTS"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/UPS_SYSTEM_UPS_2_VOLTS_B"
+                android:layout_weight="15"
+                android:hint="B VOLTS"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/eqqhth"
+            android:layout_below="@id/seventh">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="UPS -1 AC CURRENT  "
+                android:id="@+id/extew3"
+                android:layout_weight="55"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/UPS_SYSTEM_UPS_1_CURRENT_R"
+                android:layout_weight="15"
+                android:hint="R AMPS"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/UPS_SYSTEM_UPS_1_CURRENT_Y"
+                android:layout_weight="15"
+                android:hint="Y AMPS"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/UPS_SYSTEM_UPS_1_CURRENT_B"
+                android:layout_weight="15"
+                android:hint="B AMPS"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/ehth"
+            android:layout_below="@id/seventh">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="UPS -2 AC CURRENT  "
+                android:id="@+id/tView3"
+                android:layout_weight="55"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/UPS_SYSTEM_UPS_2_CURRENT_R"
+                android:hint="R AMPS"
+                android:gravity="center"
+                android:layout_weight="15"
+                android:inputType="numberDecimal"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/UPS_SYSTEM_UPS_2_CURRENT_Y"
+                android:layout_weight="15"
+                android:hint="Y AMPS"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/UPS_SYSTEM_UPS_2_CURRENT_B"
+                android:layout_weight="15"
+                android:hint="B AMPS"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/third"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/second"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="55"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:text="HEALTHINESS OF UPS BATTERY BANK FUSE"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18sp" />
+
+            <ToggleButton
+                android:id="@+id/UPS_SYSTEM_HEALTHINESS_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="15"
+                android:gravity="center"
+                android:textOff="NOT OK"
+                android:textOn="OK"/>
+
+            <ToggleButton
+                android:id="@+id/UPS_SYSTEM_HEALTHINESS_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="15"
+                android:gravity="center"
+                android:textOff="NOT OK"
+                android:textOn="OK"/>
+
+            <ToggleButton
+                android:id="@+id/UPS_SYSTEM_HEALTHINESS_B"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="15"
+                android:gravity="center"
+                android:textOff="NOT OK"
+                android:textOn="OK"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/eih"
+            android:layout_below="@id/seventh">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="UPS COOLING SYSTEM"
+                android:id="@+id/extV3"
+                android:layout_weight="55"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/UPS_SYSTEM_UPS_COOLING"
+                android:layout_weight="45"
+                android:textOn="OK"
+                android:textOff="NOT OK"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/eighaasth"
+            android:layout_below="@id/seventh">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="UPS 1 LED STATUS"
+                android:id="@+id/extView3"
+                android:layout_weight="55"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/UPS_SYSTEM_UPS_1_LED_R"
+                android:layout_weight="15"
+                android:textOn="OK"
+                android:textOff="NOT OK"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/UPS_SYSTEM_UPS_1_LED_Y"
+                android:layout_weight="15"
+                android:textOn="OK"
+                android:textOff="NOT OK"
+                />
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/UPS_SYSTEM_UPS_1_LED_B"
+                android:layout_weight="15"
+                android:textOn="OK"
+                android:textOff="NOT OK"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/we"
+            android:layout_below="@id/seventh">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="UPS 2  LED STATUS"
+                android:id="@+id/extVqaiew3"
+                android:layout_weight="55"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/UPS_SYSTEM_UPS_2_LED_R"
+                android:layout_weight="15"
+                android:textOn="OK"
+                android:textOff="NOT OK"/>
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/UPS_SYSTEM_UPS_2_LED_Y"
+                android:layout_weight="15"
+                android:textOn="OK"
+                android:textOff="NOT OK"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/UPS_SYSTEM_UPS_2_LED_B"
+                android:layout_weight="15"
+                android:textOn="OK"
+                android:textOff="NOT OK"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/eiagqhth"
+            android:layout_below="@id/seventh">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="HEALTHINESS OF UPS 1"
+                android:id="@+id/extVcciew3"
+                android:layout_weight="55"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/UPS_SYSTEM_HEALTHINESS_1"
+                android:layout_weight="45"
+                android:textOn="OK"
+                android:textOff="NOT OK"
+                android:checked="false" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/eigqqhth"
+            android:layout_below="@id/seventh">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="HEALTHINSS OF UPS 2"
+                android:id="@+id/exqqtView3"
+                android:layout_weight="55"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/UPS_SYSTEM_HEALTHINESS_2"
+                android:layout_weight="45"
+                android:textOn="OK"
+                android:textOff="NOT OK"
+                android:checked="false" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/eigqhth"
+            android:layout_below="@id/seventh">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="CLEANLINESS OF UPS PANEL"
+                android:id="@+id/qextView3"
+                android:layout_weight="55"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/UPS_SYSTEM_CLEANLINES"
+                android:layout_weight="45"
+                android:textOn="OK"
+                android:textOff="NOT OK"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/thirteenth"
+            android:layout_below="@+id/twelfth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="REMARKS IF ANY"
+                android:id="@+id/tqe3"
+                android:layout_weight="55"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/UPS_SYSTEM_REMARKS"
+                android:layout_weight="45"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/thirteenwth"
+            android:layout_below="@+id/twelfth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="VERIFIED BY"
+                android:id="@+id/tee3"
+                android:layout_weight="55"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/UPS_SYSTEM_VERIFIED"
+                android:layout_weight="45"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:layout_margin="10dp"
+            >
+
+            <Button
+                android:id="@+id/UPS_SYSTEM_EDIT"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:text="Edit"
+                android:visibility="gone"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/UPS_SYSTEM_CONFIRM"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_toRightOf="@+id/UPS_SYSTEM_edit_btn"
+                android:text="Confirm"
+                android:visibility="gone"
+                android:layout_weight="50"
+                />
+
+            <Button
+                android:id="@+id/UPS_SYSTEM_SUBMIT_BUTTON"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="Submit"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

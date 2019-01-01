@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+            android:id="@+id/first"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/textVw6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:text="CHARGER BATTERY 48V BANK"
+                    android:textSize="20dp" />
+
+                <RadioGroup
+                    android:id="@+id/CHARGER_BATTERY_48V_RADIOGROUP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="100"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <RadioButton
+                        android:id="@+id/CHARGER_BATTERY_48V_BANK_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:text="1" />
+
+                    <RadioButton
+                        android:id="@+id/CHARGER_BATTERY_48V_BANK_2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:text="2" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:layout_below="@id/second"
+            android:id="@+id/third">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="HEALTHINESS OF 48 V BATTERY BANK "
+                android:id="@+id/CHARGER_AND_BATTERY_TERMINAL_VOLTAGE_BAT"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="15sp"/>
+
+            <ToggleButton
+                android:id="@+id/CHARGER_AND_BATTERY_48V_HEALTHINESS"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="40"
+                android:hint="VOLTS"
+                android:textOff="NOT OK"
+                android:textOn="OK"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fourth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/third"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:text="TERMINAL VOLTAGE OF 48V BATTERY BANK "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/CHARGER_AND_BATTERY_48V_TERMINAL_VOLTAGE_BAT1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="40"
+                android:hint="VOLTS"
+                android:gravity="center"
+                android:inputType="numberDecimal"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fifth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fourth"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/texiew5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:text="CHECK FOR HOUSEKEEPING OF BATTERY ROOM"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="15sp" />
+
+            <ToggleButton
+                android:id="@+id/CHARGER_AND_BATTERY_48V_CHECK"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="40"
+                android:textOff="NOT OK"
+                android:textOn="OK" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/sixth"
+            android:layout_below="@id/fifth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="TEMPERATURE OF BATTERY ROOM"
+                android:id="@+id/texw5"
+                android:layout_weight="60"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/CHARGER_AND_BATTERY_48V_TEMPERATURE_BATTERY"
+                android:layout_weight="40"
+                android:inputType="numberDecimal"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:layout_below="@id/sixth"
+            android:id="@+id/seventh">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="TEMPERATURE OF CHARGER ROOM"
+                android:id="@+id/textViw3"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/CHARGER_AND_BATTERY_48V_TEMPERATURE_OF_CHARGER_ROOM"
+                android:layout_weight="40"
+                android:inputType="numberDecimal"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/eighth"
+            android:layout_below="@id/seventh">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="ELECTROLTE LEVEL AND LEAKAGE FROM 48V BATTRY BANK 1"
+                android:id="@+id/extView3"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="15sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/CHARGER_AND_BATTERY_48V_LEAKAGE_FROM_48V_BATTERY_BANK_1"
+                android:layout_weight="40"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/ninth"
+            android:layout_below="@+id/eighth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="48V DC BATTERY CHARGER AC VOLT.  "
+                android:id="@+id/textew3"
+                android:layout_weight="60"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/CHARGER_AND_BATTERY_48V_DC_BATTERY_CHARGER_1_AC_R"
+                android:layout_weight="13.3"
+                android:hint="R Volts"
+                android:inputType="numberDecimal"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/CHARGER_AND_BATTERY_48V_DC_BATTERY_CHARGER_1_AC_Y"
+                android:layout_weight="13.3"
+                android:hint="Y Volts"
+                android:inputType="numberDecimal"
+
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/CHARGER_AND_BATTERY_48V_DC_BATTERY_CHARGER_1_AC_B"
+                android:layout_weight="13.3"
+                android:hint="B Volts"
+                android:inputType="numberDecimal"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/tenth"
+            android:layout_below="@+id/ninth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="48V DC BATTERY CHARGER AC CURRENT "
+                android:id="@+id/txtVew3"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="15sp"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/CHARGER_AND_BATTERY_48V_DC_BATTERY_CHARGER_1_AC_CURRENT_R"
+                android:layout_weight="13.3"
+                android:hint="R amps"
+                android:inputType="numberDecimal"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/CHARGER_AND_BATTERY_48V_DC_BATTERY_CHARGER_1_AC_CURRENT_Y"
+                android:layout_weight="13.3"
+                android:hint="Y amps"
+                android:inputType="numberDecimal"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/CHARGER_AND_BATTERY_48V_DC_BATTERY_CHARGER_1_AC_CURRENT_B"
+                android:layout_weight="13.3"
+                android:hint="B amps"
+                android:inputType="numberDecimal"
+                />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/nih"
+            android:layout_below="@+id/eighth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="48V DC BATTERY CHARGER DC VOLT.  "
+                android:id="@+id/text"
+                android:layout_weight="60"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/CHARGER_AND_BATTERY_48V_BATTERY_CHARGER_DC_VOLT"
+                android:layout_weight="40"
+                android:hint="VOLTS"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/teh"
+            android:layout_below="@+id/ninth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="48V DC BATTERY CHARGER DC CURRENT "
+                android:id="@+id/tx3"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="15sp"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/CHARGER_AND_BATTERY_48V_BATTERY_CHARGER_DC_CURRENT"
+                android:layout_weight="40"
+                android:gravity="center"
+                android:hint="Amps"
+                android:inputType="numberDecimal"
+                />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/fifteenth"
+            android:layout_below="@+id/thirteenth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="CHECK FOR ANY EARTHFAULT IN 48V CHARGER"
+                android:id="@+id/textV30"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="15sp"/>
+
+            <ToggleButton
+                android:id="@+id/CHARGER_AND_BATTERY_EARTHFAULT_IN_48V_CHARGER"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="40"
+                android:textOff="NO"
+                android:textOn="YES" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/fth"
+            android:layout_below="@+id/thirteenth">
+
+            <TextView
+                android:id="@+id/t0"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:text="LED OF 48V BATTERY CHARGER"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="15sp" />
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/CHARGER_AND_BATTERY_48V_LED"
+                android:layout_weight="40"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/thirtezxenth"
+            android:layout_below="@+id/twelfth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="REMARKS IF ANY"
+                android:id="@+id/tqwe3"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/CHARGER_AND_BATTERY_48V_REMARKS"
+                android:layout_weight="40"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/thirteenth"
+            android:layout_below="@+id/twelfth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="VERIFIED BY ANY"
+                android:id="@+id/te3"
+                android:layout_weight="60"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/CHARGER_AND_BATTERY_48v_VERIFIED_BY_ANY"
+                android:layout_weight="40"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:layout_margin="10dp"
+            >
+
+            <Button
+                android:id="@+id/CHARGER_AND_BATTERY_48v_EDIT"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:text="Edit"
+                android:textColor="#000000"
+                android:visibility="gone"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/CHARGER_AND_BATTERY_48v_CONFIRM"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_toRightOf="@+id/CHARGER_AND_BATTERY_48v_edit_btn"
+                android:text="Confirm"
+                android:visibility="gone"
+                android:layout_weight="50"
+                />
+
+            <Button
+                android:id="@+id/CHARGER_AND_BATTERY_48v_SUBMIT_BUTTON"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="Submit"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

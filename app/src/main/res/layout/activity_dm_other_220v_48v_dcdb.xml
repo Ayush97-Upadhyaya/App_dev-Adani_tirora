@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/first">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:text="Doors are propely closed for 220 V DCDB"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18sp" />
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_DCDB_220_48_DOOR_CLOSED_220"
+                android:layout_weight="40"
+                android:checked="false"
+                android:textOn="YES"
+                android:textOff="NO" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:layout_below="@id/first"
+            android:id="@+id/second">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:text="Doors are propely closed for 48 V DCDB"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18sp" />
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_DCDB_220_48_DOOR_CLOSED_48"
+                android:layout_weight="40"
+                android:textOn="YES"
+                android:textOff="NO"
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:layout_below="@id/second"
+            android:id="@+id/third">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="All holes in panel are sealed of 220 V DCDB"
+                android:id="@+id/textView3"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_DCDB_220_48_HOLES_SEALED_220"
+                android:layout_weight="40"
+                android:textOn="YES"
+                android:textOff="NO"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/fourth"
+            android:layout_below="@id/third">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="All holes in panel are sealed of 48 V DCDB"
+                android:id="@+id/textView4"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_DCDB_220_48_HOLES_SEALED_48"
+                android:layout_weight="40"
+                android:textOn="YES"
+                android:textOff="NO"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/fifth"
+            android:layout_below="@+id/fourth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="All meters in 220 v DCDB are in working condition "
+                android:id="@+id/texiew5"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:id="@+id/DM_DCDB_220_48_METERS_WORKING_220"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="40"
+                android:textOn="OK"
+                android:textOff="NOT OK"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/sixth"
+            android:layout_below="@id/fifth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="All meters in 48 v DCDB are in working condition "
+                android:id="@+id/texw5"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:id="@+id/DM_DCDB_220_48_METERS_WORKING_48"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="40"
+                android:textOn="OK"
+                android:textOff="NOT OK"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:layout_below="@id/sixth"
+            android:id="@+id/seventh">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Doors are propely closed for Start Up DCDB"
+                android:id="@+id/textViw3"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_DCDB_220_48_DOOR_CLOSED_STARTUP"
+                android:layout_weight="40"
+                android:textOn="YES"
+                android:textOff="NO"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/eighth"
+            android:layout_below="@id/seventh">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="All holes in panel are sealed of Start Up DCDB"
+                android:id="@+id/extView3"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_DCDB_220_48_HOLES_SEALED_START"
+                android:layout_weight="40"
+                android:textOn="YES"
+                android:textOff="NO"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/fifteenth"
+            android:layout_below="@+id/thirteenth">
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:text="All meters in  Start Up DCDB are in working condition "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18sp" />
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_DCDB_220_48_METERS_WORKING_STARTUP"
+                android:layout_weight="40"
+                android:textOn="OK"
+                android:textOff="NOT OK"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/ninth"
+            android:layout_below="@+id/eighth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Check for DC lighting healthiness of Control room"
+                android:id="@+id/textew3"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_DCDB_220_48_DC_LIGHTNING"
+                android:layout_weight="40"
+                android:textOn="OK"
+                android:textOff="NOT OK"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/thirtnth"
+            android:layout_below="@+id/twelfth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="REMARKS IF ANY"
+                android:id="@+id/qwe"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_DCDB_220_48_REMARKS"
+                android:layout_weight="40"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/thirteenth"
+            android:layout_below="@+id/twelfth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="VERIFIED BY ANY"
+                android:id="@+id/te3"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_DCDB_220_48_VERIFIED_BY"
+                android:layout_weight="40"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:layout_margin="10dp"
+            >
+
+            <Button
+                android:id="@+id/DM_DCDB_220_48_EDIT"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:text="Edit"
+                android:visibility="gone"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/DM_DCDB_220_48_CONFIRM"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_toRightOf="@+id/DM_DCDB_220_48_edit_btn"
+                android:text="Confirm"
+                android:visibility="gone"
+                android:layout_weight="50"
+                />
+
+            <Button
+                android:id="@+id/DM_DCDB_220_48_SUBMIT_BUTTON"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="Submit"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

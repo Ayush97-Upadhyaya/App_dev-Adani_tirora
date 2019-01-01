@@ -1,0 +1,2469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="100"
+                    android:gravity="center"
+                    android:text="BUS REACTOR-2 LA"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="Ir (micro Amp)"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_BUS_REACT_2_LA_IR_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_BUS_REACT_2_LA_IR_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_BUS_REACT_2_LA_IR_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="Ir Correct (micro Amp)"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_BUS_REACT_2_LA_IR_CORRECT_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_BUS_REACT_2_LA_IR_CORRECT_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_BUS_REACT_2_LA_IR_CORRECT_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+
+                    android:padding="0dp"
+                    android:text="I total (micro Amp)"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_BUS_REACT_2_LA_IR_TOTAL_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_BUS_REACT_2_LA_IR_TOTAL_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_BUS_REACT_2_LA_IR_TOTAL_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+
+                    android:padding="0dp"
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/textView48"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="100"
+                    android:gravity="center"
+                    android:text="BUS REACTOR-1 LA"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/EditText2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="Ir (micro Amp)"
+                    android:textColor="#000000"
+
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_BUS_REACT_1_LA_IR_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+                    android:textSize="18sp"
+
+
+                    />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_BUS_REACT_1_LA_IR_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+
+                    android:padding="0dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_BUS_REACT_1_LA_IR_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="Ir Correct (micro Amp)"
+                    android:textColor="#000000"
+
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_BUS_REACT_1_LA_IR_CORRECT_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+
+                    android:padding="0dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_BUS_REACT_1_LA_IR_CORRECT_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+
+                    android:padding="0dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_BUS_REACT_1_LA_IR_CORRECT_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="I total (micro Amp)"
+                    android:textColor="#000000"
+
+
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_BUS_REACT_1_LA_IR_TOTAL_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_BUS_REACT_1_LA_IR_TOTAL_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_BUS_REACT_1_LA_IR_TOTAL_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+
+                    android:padding="0dp"
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:weightSum="100">
+
+                <TextView
+                    android:textSize="20sp"
+                    android:id="@+id/textView49"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="100"
+                    android:gravity="center"
+                    android:text="LINE-2 LA"
+                    android:textColor="#000000" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="Ir (micro Amp)"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_LINE_2_LA_IR_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+
+                    android:padding="0dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_LINE_2_LA_IR_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_LINE_2_LA_IR_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="Ir Correct (micro Amp)"
+                    android:textColor="#000000"
+
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_LINE_2_LA_IR_CORRECT_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_LINE_2_LA_IR_CORRECT_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_LINE_2_LA_IR_CORRECT_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="I total (micro Amp)"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_LINE_2_LA_IR_TOTAL_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_LINE_2_LA_IR_TOTAL_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_LINE_2_LA_IR_TOTAL_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="100"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:text="LINE-1 LA"
+                    android:textColor="#000000" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="Ir (micro Amp)"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_LINE_1_LA_IR_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_LINE_1_LA_IR_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_LINE_1_LA_IR_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="Ir Correct (micro Amp)"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_LINE_1_LA_IR_CORRECT_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_LINE_1_LA_IR_CORRECT_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_LINE_1_LA_IR_CORRECT_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/aaaaa"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="I total (micro Amp)"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_LINE_1_LA_IR_TOTAL_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_LINE_1_LA_IR_TOTAL_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_LINE_1_LA_IR_TOTAL_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:weightSum="100">
+
+                <TextView
+                    android:textSize="20sp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="15dp"
+                    android:layout_weight="100"
+                    android:gravity="center"
+                    android:text="GENERATOR TRANSFORMER-1 LA"
+                    android:textColor="#000000" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="Ir (micro Amp)"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_GENERATOR_TRANSFORMER_1_LA_IR_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+
+                    android:padding="0dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_GENERATOR_TRANSFORMER_1_LA_IR_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+
+                    android:padding="0dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_CURRENT_GENERATOR_TRANSFORMER_1_LA_IR_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="Ir Correct (micro Amp)"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_GENERATOR_TRANSFORMER_1_LA_IR_CORRECT_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+
+                    android:padding="0dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_GENERATOR_TRANSFORMER_1_LA_IR_CORRECT_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+
+                    android:padding="0dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_GENERATOR_TRANSFORMER_1_LA_IR_CORRECT_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="I total (micro Amp)"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_GENERATOR_TRANSFORMER_1_LA_IR_TOTAL_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_GENERATOR_TRANSFORMER_1_LA_IR_TOTAL_Y"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_GENERATOR_TRANSFORMER_1_LA_IR_TOTAL_B"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:weightSum="100">
+
+                <TextView
+                    android:textSize="20sp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_weight="100"
+                    android:gravity="center"
+                    android:text="GENERATOR TRANSFORMER-2 LA"
+                    android:textColor="#000000" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="Ir (micro Amp)"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_GENERATOR_TRANSFORMER_2_LA_IR_R"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_GENERATOR_TRANSFORMER_2_LA_IR_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_GENERATOR_TRANSFORMER_2_LA_IR_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="lr Correct (micro Amp)"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_GENERATOR_TRANSFORMER_2_LA_IR_CORRECT_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+
+                    android:padding="0dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_GENERATOR_TRANSFORMER_2_LA_IR_CORRECT_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_GENERATOR_TRANSFORMER_2_LA_IR_CORRECT_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+
+                    android:padding="0dp"
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="I total (micro Amp)"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_GENERATOR_TRANSFORMER_2_LA_IR_TOTAL_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_GENERATOR_TRANSFORMER_2_LA_IR_TOTAL_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_GENERATOR_TRANSFORMER_2_LA_IR_TOTAL_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_weight="100"
+                    android:gravity="center"
+                    android:text="STATION TRANSFORMER-1 LA"
+                    android:textColor="#000000" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="Ir (micro Amp)"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_1_LA_IR_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_1_LA_IR_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_1_LA_IR_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="Ir Correct (micro Amp)"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_1_LA_IR_CORRECT_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_1_LA_IR_CORRECT_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_1_LA_IR_CORRECT_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/EditText4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="I total (micro Amp)"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_1_LA_IR_TOTAL_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_1_LA_IR_TOTAL_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_1_LA_IR_TOTAL_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="100"
+                    android:gravity="center"
+                    android:text="STATION TRANSFORMER-2 LA"
+                    android:textColor="#000000" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/EditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="Ir (micro Amp)"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_2_LA_IR_R"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+
+                    android:padding="0dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_2_LA_IR_Y"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_2_LA_IR_B"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+
+                    android:padding="0dp"
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="Ir Correct (micro Amp)"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_2_LA_IR_CORRECT_R"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_2_LA_IR_CORRECT_Y"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_2_LA_IR_CORRECT_B"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="I total (micro Amp)"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_2_LA_IR_TOTAL_R"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_2_LA_IR_TOTAL_Y"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_2_LA_IR_TOTAL_B"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_weight="100"
+                    android:gravity="center"
+                    android:text="STATION TRANSFORMER-3 LA"
+                    android:textColor="#000000" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="Ir (micro Amp)"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_3_LA_IR_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_3_LA_IR_Y"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_3_LA_IR_B"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="Ir Correct (micro Amp)"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_3_LA_IR_CORRECT_R"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_3_LA_IR_CORRECT_Y"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_3_LA_IR_CORRECT_B"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="I total (micro Amp)"
+
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_3_LA_IR_TOTAL_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_3_LA_IR_TOTAL_Y"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+
+                    android:padding="0dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_3_LA_IR_TOTAL_B"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="100"
+                    android:gravity="center"
+                    android:text="STATION TRANSFORMER-4 LA" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="Ir (micro Amp)"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_4_LA_IR_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_4_LA_IR_Y"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_4_LA_IR_B"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="Ir Correct (micro Amp)"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_4_LA_IR_CORRECT_R"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_4_LA_IR_CORRECT_Y"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_4_LA_IR_CORRECT_B"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/EditText5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="I total (micro Amp)"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_4_LA_IR_TOTAL_R"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_4_LA_IR_TOTAL_Y"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_4_LA_IR_TOTAL_B"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="100"
+                    android:gravity="center"
+                    android:text="STATION TRANSFORMER-5 LA" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="Ir (micro Amp)"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_5_LA_IR_R"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_5_LA_IR_Y"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_5_LA_IR_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="Ir Correct (micro Amp)"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_5_LA_IR_CORRECT_R"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_5_LA_IR_CORRECT_Y"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_5_LA_IR_CORRECT_B"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/EditText6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="I total (micro Amp)"
+
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_5_LA_IR_TOTAL_R"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_5_LA_IR_TOTAL_Y"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_STATION_TRANSFORMER_5_LA_IR_TOTAL_B"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="100"
+
+                    android:gravity="center"
+                    android:text="ICT LV"
+                    android:textColor="#000000" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="Ir (micro Amp)"
+
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_ICT_LV_LA_IR_R"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_ICT_LV_LA_IR_Y"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_ICT_LV_LA_IR_B"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+
+                    android:text="Ir Correct (micro Amp)"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_ICT_LV_LA_IR_CORRECT_R"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_ICT_LV_LA_IR_CORRECT_Y"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_ICT_LV_LA_IR_CORRECT_B"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/EditText7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="I total (micro Amp)"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_ICT_LV_LA_IR_TOTAL_R"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_ICT_LV_LA_IR_TOTAL_Y"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_ICT_LV_LA_IR_TOTAL_B"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+                    android:padding="0dp"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="100"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViqwgu"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="Remarks"
+                    android:textSize="18sp"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_REMARKS"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+                    android:gravity="center"
+                    android:hint="" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="100"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textVqaiqwgu"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="Verified By"
+                    android:textSize="18sp"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_VERIFIED"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+                    android:gravity="center"
+                    android:hint="" />
+
+
+            </TableRow>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="100">
+
+                <Button
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_edit_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:gravity="center"
+                    android:text="Edit"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_confirm_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+
+                    android:layout_weight="50"
+                    android:text="Confirm"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/CBM_APML_400KV_LEAKAGE_submit_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="100"
+                    android:text="Submit"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+
+        </TableLayout>
+
+    </LinearLayout>
+</ScrollView>

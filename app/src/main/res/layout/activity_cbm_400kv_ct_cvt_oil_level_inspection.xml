@@ -1,0 +1,1365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:weightSum="100"
+                android:orientation="horizontal"
+                >
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="100"
+                    android:text="CT/CVT OIL LEVEL AND INSPECTION"
+                    android:gravity="center"
+                    android:layout_gravity="center"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_height="match_parent"
+                    android:text="1"
+                    android:gravity="center"
+                    />
+                <TextView  android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="401 CT" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_401CT"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_height="match_parent"
+                    android:text="2"
+                    android:gravity="center"
+                    />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="402-CTA" />
+
+                <EditText
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_402CTA"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="45"
+                    android:gravity="center"
+                    android:hint="REMARKS" />
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_height="match_parent"
+                    android:text="3"
+                    android:gravity="center"
+                    />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="402-CTB" />
+
+                <EditText
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_402CTB"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="45"
+                    android:gravity="center"
+                    android:hint="REMARKS" />
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_height="match_parent"
+                    android:text="4"
+                    android:gravity="center"
+                    />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="403-CT" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_403CT"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="5" />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="404-CT" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_404CT"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="6" />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="404-CTM" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_404CTM"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="7" />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="405-CTA" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_405CTA"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:id="@+id/textView19"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="8" />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="405-CTB" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_405CTB"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="9" />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="406-CT" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_406CT"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="10" />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="406-CTM" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_406CTM"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="11" />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="407-CT" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_407CT"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="12" />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="408-CTA" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_408CTA"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="13" />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="408-CTB" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_408CTB"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="14" />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="409-CT" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_409CT"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="15" />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:id="@+id/textView7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="409-CTM" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_409CTM"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="16" />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:id="@+id/textView20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="410-CT" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_410CT"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="17" />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="411-CTA" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_411CTA"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="18" />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="411-CTB" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_411CTB"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="19" />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="412-CT" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_412CT"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="20" />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="412-CTM" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_412CTM"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="21" />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="413-CT" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_413CT"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="22" />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="414-CTA" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_414CTA"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="23" />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="414-CTB" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_414CTB"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="24" />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="415-CT" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_415CT"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="25" />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="416-CT" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_416CT"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="26" />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="416-CTM" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_416CTM"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="27" />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="417-CTA" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_417CTA"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="28" />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="417-CTB" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_417CTB"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="29" />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="418-CT" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_418CT"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="30" />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="418-CTM" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_418CTM"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="31" />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="419-CT" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_419CT"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="32" />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="420-CTA" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_420CTA"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="33" />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="420-CTB" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_420CTB"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="34" />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="BUS REACTOR 1" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_BUS_REACTOR_1"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="35" />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="BUS REACTOR 2" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_BUS_REACTOR_2"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="36" />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="MISCELLANEOUS TRANSFORMER 1" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_MISCELLANEOUS_TRANSFORMER_1"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="37" />
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent"
+                    android:text="400 KV "
+                    android:gravity="center"
+                    />
+
+                <TextView android:textSize="18sp" android:textColor="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:text="MISCELLANEOUS TRANSFORMER 2" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="45"
+                    android:id="@+id/CBM_400KV_CT_CVT_OIL_MISCELLANEOUS_TRANSFORMER_2"
+                    android:layout_height="match_parent"
+                    android:hint="REMARKS"
+                    android:gravity="center"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+            <TextView  android:textColor="#000000"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="VERIFIED BY "
+                android:id="@+id/te3"
+                android:layout_weight="55"
+                android:gravity="center"
+                android:textSize="20dp"/>
+
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_OIL_VERIFIED_BY"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="45" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/CBM_400KV_CT_CVT_OIL_edit_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:text="Edit"
+                android:visibility="gone"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/CBM_400KV_CT_CVT_OIL_confirm_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:text="Confirm"
+                android:visibility="gone"
+                android:layout_weight="50"
+                />
+
+            <Button
+                android:id="@+id/CBM_400KV_CT_CVT_OIL_submit_btn"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="100"
+                android:text="Submit"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

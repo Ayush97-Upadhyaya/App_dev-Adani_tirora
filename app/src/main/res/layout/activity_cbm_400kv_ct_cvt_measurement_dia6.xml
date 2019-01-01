@@ -1,0 +1,1465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="100"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="DIA 6"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="28"
+                android:gravity="center"
+                android:text="PARAMETERS"
+                android:textSize="20dp"
+
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="36"
+                android:gravity="center"
+                android:text="CURRENT(Amps)"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="36"
+                android:gravity="center"
+                android:text="VOLTAGE(KV)"
+                android:textSize="20dp" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="28"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="ST-3 DIFF HV"
+
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_DIFF_HV_CURR_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="R"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_DIFF_HV_CURR_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="Y"
+                android:padding="0dp"
+                android:inputType="numberDecimal"
+
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_DIFF_HV_CURR_B"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="B"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_DIFF_HV_VOLT_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="R"
+                android:padding="0dp"
+                android:inputType="numberDecimal"
+
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST4_DIFF_HV_VOLT_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="Y"
+                android:padding="0dp"
+                android:inputType="numberDecimal"
+
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_DIFF_HV_VOLT_B"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="B"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="28"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="ST-3 DIFF LV"
+                android:textColor="#000000"
+
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_DIFF_LV_CURR_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+
+                android:hint="R"
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_DIFF_LV_CURR_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="Y"
+                android:padding="0dp"
+                android:inputType="numberDecimal"
+
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_DIFF_LV_CURR_B"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+
+                android:hint="B"
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_DIFF_LV_VOLT_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+
+                android:hint="R"
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_DIFF_LV_VOLT_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+
+                android:hint="Y"
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_DIFF_LV_VOLT_B"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="B"
+                android:padding="0dp"
+                android:inputType="numberDecimal"
+
+                android:textSize="18sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="28"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="ST-3 PUA"
+                android:textColor="#000000"
+
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_PUA_CURR_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="R"
+                android:padding="0dp"
+                android:textSize="18sp"
+                android:inputType="numberDecimal"
+                />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_PUA_CURR_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="Y"
+                android:padding="0dp"
+                android:textSize="18sp"
+                android:inputType="numberDecimal"
+                />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_PUA_CURR_B"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="B"
+                android:padding="0dp"
+                android:inputType="numberDecimal"
+
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_PUA_VOLT_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="R"
+                android:padding="0dp"
+                android:textSize="18sp"
+                android:inputType="numberDecimal"
+                />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_PUA_VOLT_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="Y"
+                android:padding="0dp"
+                android:textSize="18sp"
+                android:inputType="numberDecimal"
+                />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_PUA_VOLT_B"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="B"
+                android:padding="0dp"
+                android:inputType="numberDecimal"
+
+                android:textSize="18sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="28"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="ST-3 PUB"
+                android:textColor="#000000"
+
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_PUB_CURR_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="R"
+                android:padding="0dp"
+                android:textSize="18sp"
+                android:inputType="numberDecimal"
+                />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_PUB_CURR_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="Y"
+                android:padding="0dp"
+                android:textSize="18sp"
+                android:inputType="numberDecimal"
+                />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_PUB_CURR_B"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="B"
+                android:padding="0dp"
+                android:textSize="18sp"
+                android:inputType="numberDecimal"
+                />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_PUB_VOLT_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="R"
+                android:padding="0dp"
+                android:inputType="numberDecimal"
+
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_PUB_VOLT_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="Y"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_PUB_VOLT_B"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="B"
+                android:padding="0dp"
+                android:textSize="18sp"
+                android:inputType="numberDecimal"
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:orientation="horizontal"
+
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="28"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="ST-3 50/51"
+
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_50_51_CURR_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+
+                android:hint="R"
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_50_51_CURR_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="Y"
+                android:padding="0dp"
+                android:inputType="numberDecimal"
+
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_50_51_CURR_B"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="B"
+                android:padding="0dp"
+                android:textSize="18sp"
+                android:inputType="numberDecimal"
+                />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_50_51_VOLT_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="R"
+                android:padding="0dp"
+                android:inputType="numberDecimal"
+
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_50_51_VOLT_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="Y"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_50_51_VOLT_B"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="B"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="28"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="ST-3 64"
+                android:textColor="#000000"
+
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_64_CURR_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="R"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_64_CURR_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="Y"
+                android:padding="0dp"
+                android:textSize="18sp"
+                android:inputType="numberDecimal"
+                />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_64_CURR_B"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="B"
+                android:padding="0dp"
+                android:inputType="numberDecimal"
+
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_64_VOLT_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="R"
+                android:padding="0dp"
+                android:textSize="18sp"
+                android:inputType="numberDecimal"
+                />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_64_VOLT_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="Y"
+                android:padding="0dp"
+                android:inputType="numberDecimal"
+
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST3_64_VOLT_B"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="B"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="28"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="TIE BCU"
+                android:textColor="#000000"
+
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_TIE_BCU_CURR_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="R"
+                android:padding="0dp"
+                android:inputType="numberDecimal"
+
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_TIE_BCU_CURR_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="Y"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_TIE_BCU_CURR_B"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="B"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_TIE_BCU_VOLT_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+
+                android:hint="R"
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_TIE_BCU_VOLT_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="Y"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_TIE_BCU_VOLT_B"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="B"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="28"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="ST-5 DIFF HV"
+
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_DIFF_HV_CURR_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="R"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_DIFF_HV_CURR_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="Y"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_DIFF_HV_CURR_B"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="B"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_DIFF_HV_VOLT_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="R"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_DIFF_HV_VOLT_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="Y"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_DIFF_HV_VOLT_B"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="B"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="28"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="ST-5 DIFF LV"
+
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_DIFF_LV_CURR_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="R"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_DIFF_LV_CURR_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="Y"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_DIFF_LV_CURR_B"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="B"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_DIFF_LV_VOLT_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="R"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_DIFF_LV_VOLT_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="Y"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_DIFF_LV_VOLT_B"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="B"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="28"
+                android:gravity="center"
+                android:padding="0dp"
+
+                android:text="ST-5 PUA"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_PUA_CURR_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="R"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_PUA_CURR_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="Y"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_PUA_CURR_B"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="B"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_PUA_VOLT_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="R"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_PUA_VOLT_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="Y"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_PUA_VOLT_B"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="B"
+                android:padding="0dp"
+                android:inputType="numberDecimal"
+
+                android:textSize="18sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="28"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="ST-5 PUB"
+                android:textColor="#000000"
+
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_PUB_CURR_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="R"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_PUB_CURR_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="Y"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_PUB_CURR_B"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="B"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_PUB_VOLT_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="R"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_PUB_VOLT_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="Y"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_PUB_VOLT_B"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="B"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="28"
+                android:gravity="center"
+
+                android:padding="0dp"
+                android:text="ST-5 50/51"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_50_51_CURR_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="R"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_50_51_CURR_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="Y"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_50_51_CURR_B"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="B"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_50_51_VOLT_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="R"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_50_51_VOLT_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="Y"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_50_51_VOLT_B"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="B"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="28"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="ST-5 64"
+
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_64_CURR_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="R"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_64_CURR_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="Y"
+                android:padding="0dp"
+                android:inputType="numberDecimal"
+
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_64_CURR_B"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="B"
+                android:padding="0dp"
+                android:inputType="numberDecimal"
+
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_64_VOLT_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="R"
+                android:inputType="numberDecimal"
+
+                android:padding="0dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_64_VOLT_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="Y"
+                android:padding="0dp"
+                android:inputType="numberDecimal"
+
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_ST5_64_VOLT_B"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="12"
+                android:gravity="center"
+                android:hint="B"
+                android:padding="0dp"
+                android:inputType="numberDecimal"
+
+                android:textSize="18sp" />
+        </TableRow>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/DM_400KV_ST_REMARKS"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="28"
+                android:gravity="center"
+                android:text="REMARKS IF ANY"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_REMARKS_IF_ANY"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+
+                android:layout_weight="72" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/te3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="28"
+                android:gravity="center"
+                android:text="VERIFIED BY "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_VERIFIED_BY"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="72" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="100"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_edit_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:gravity="center"
+                android:text="Edit"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_confirm_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="50"
+                android:text="Confirm"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/CBM_400KV_CT_CVT_DIA6_submit_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+
+    </TableLayout>
+
+</LinearLayout>
+    </ScrollView>

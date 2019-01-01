@@ -1,0 +1,1090 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:text="Check Whether door are properly closed for PDB"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+
+                <ToggleButton
+                    android:id="@+id/DM_PDB_EDB_LDB_DOOR_CLOSED_PDB"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="55"
+                    android:gravity="center"
+                    android:checked="false"
+                    android:textOff="NO"
+                    android:textOn="YES" />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="55"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    android:text="Check whether all holes in panel are sealed of PDB" />
+
+                <ToggleButton
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:checked="false"
+                    android:textOff="NO"
+                    android:textOn="YES"
+                    android:id="@+id/DM_PDB_EDB_LDB_HOLES_SEALED_PDB" />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:text="Check whether all meters in PDB are in working condition "
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+                <ToggleButton
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:checked="false"
+                    android:id="@+id/DM_PDB_EDB_LDB_PDB_WORKING_CONDITION"
+                    android:textOff="NOT OK"
+                    android:textOn="OK"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/textViegdw14"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="55"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    android:text="VOLTAGE OF PDB Incomer 1" />
+
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_VOLTAGE_PDB_INCOMER_1_R"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="Volt R"
+                    android:inputType="numberDecimal"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_VOLTAGE_PDB_INCOMER_1_Y"
+
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="Volt Y"
+                    android:inputType="numberDecimal"/>
+
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_VOLTAGE_PDB_INCOMER_1_B"
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:hint="Volt B"
+                    android:inputType="numberDecimal"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:text="CURRENT OF PDB Incomer 1"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_CURRENT_PDB_INCOMER_1_R"
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:hint="current R"
+                    android:inputType="numberDecimal"/>
+
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_CURRENT_PDB_INCOMER_1_Y"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="current Y"
+                    android:inputType="numberDecimal"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_CURRENT_PDB_INCOMER_1_B"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="current B"
+                    android:inputType="numberDecimal"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:text="VOLTAGE OF PDB Incomer 2"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_VOLTAGE_PDB_INCOMER_2_R"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="Volt R"
+                    android:inputType="numberDecimal"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_VOLTAGE_PDB_INCOMER_2_Y"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="Volt Y"
+                    android:inputType="numberDecimal"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_VOLTAGE_PDB_INCOMER_2_B"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="Volt B"
+                    android:inputType="numberDecimal"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:text="CURRENT OF PDB Incomer 2"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_CURRENT_PDB_INCOMER_2_R"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:hint="current R"
+                    android:inputType="numberDecimal"/>
+
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_CURRENT_PDB_INCOMER_2_Y"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="current Y"
+                    android:inputType="numberDecimal"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_CURRENT_PDB_INCOMER_2_B"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="current B"
+                    android:inputType="numberDecimal"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:text="VOLTAGE OF PDB BUS A"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_VOLTAGE_PDB_BUS_A_R"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="Volt R"
+                    android:layout_column="15"
+                    android:inputType="numberDecimal"/>
+
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_VOLTAGE_PDB_BUS_A_Y"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="Volt Y"
+                    android:inputType="numberDecimal"
+                    />
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_VOLTAGE_PDB_BUS_A_B"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="Volt B"
+                    android:inputType="numberDecimal"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:text="CURRENT OF PDB BUS A"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_CURRENT_PDB_BUS_A_R"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:hint="current R"
+                    android:inputType="numberDecimal"/>
+
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_CURRENT_PDB_BUS_A_Y"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="current Y"
+                    android:inputType="numberDecimal"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_CURRENT_PDB_BUS_A_B"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="current B"
+                    android:inputType="numberDecimal"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:text="VOLTAGE OF PDB BUS B"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_VOLTAGE_PDB_BUS_B_R"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="Volt R"
+                    android:inputType="numberDecimal"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_VOLTAGE_PDB_BUS_B_Y"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="Volt Y"
+                    android:inputType="numberDecimal"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_VOLTAGE_PDB_BUS_B_B"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="Volt B"
+                    android:inputType="numberDecimal"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:text="CURRENT OF PDB BUS B"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_CURRENT_PDB_BUS_B_R"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:hint="current R"
+                    android:inputType="numberDecimal"/>
+
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_CURRENT_PDB_BUS_B_Y"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="current Y"
+                    android:inputType="numberDecimal"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_CURRENT_PDB_BUS_B_B"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="current B"
+                    android:inputType="numberDecimal"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:textColor="#000000"
+                    android:text="Check whether all LED in PDB panel are glowing "
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+                <ToggleButton
+                    android:id="@+id/DM_PDB_EDB_LDB_LED_IN_PDB"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:checked="false"
+                    android:textOn="OK"
+                    android:textOff="NOT OK" />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:text="Check whether door are properly closed for EDB"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+                <ToggleButton
+                    android:id="@+id/DM_PDB_EDB_LDB_DOOR_CLOSED_EDB"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:checked="false"
+                    android:textOn="YES"
+                    android:textOff="NO" />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:text="Check whether all holes in panel are sealed of EDB"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+                <ToggleButton
+                    android:id="@+id/DM_PDB_EDB_LDB_HOLES_SEALED_EDB"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:checked="false"
+                    android:textOn="YES"
+                    android:textOff="NO" />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:text="Check whether all meters in EDB are in working condition "
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+
+                <ToggleButton
+                    android:id="@+id/DM_PDB_EDB_LDB_EDB_WORKING_CONDITION"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="55"
+                    android:gravity="center"
+                    android:checked="false"
+                    android:textOn="OK"
+                    android:textOff="NOT OK" />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:text="VOLTAGE OF EDB"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_VOLTAGE_EDB_R"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="Volt R"
+                    android:inputType="numberDecimal"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_VOLTAGE_EDB_Y"
+
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="Volt Y"
+                    android:inputType="numberDecimal"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_VOLTAGE_EDB_B"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="Volt B"
+                    android:inputType="numberDecimal"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:text="CURRENT OF EDB "
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_CURRENT_EDB_R"
+
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="current R"
+                    android:inputType="numberDecimal"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_CURRENT_EDB_Y"
+
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="current Y"
+                    android:inputType="numberDecimal"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_CURRENT_EDB_B"
+
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="current B"
+                    android:inputType="numberDecimal"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="55"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    android:text="Check whether all LED in EDB panel are glowing " />
+
+                <ToggleButton
+                    android:id="@+id/DM_PDB_EDB_LDB_LED_IN_EDB"
+
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:checked="false"
+                    android:textOn="OK"
+                    android:textOff="NOT OK" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:text="Check whether door are properly closed for LDB"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+                <ToggleButton
+                    android:id="@+id/DM_PDB_EDB_LDB_DOOR_CLOSED_LDB"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:checked="false"
+                    android:textOn="YES"
+                    android:textOff="NO" />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:text="Check whether all holes in panel are sealed of LDB"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+                <ToggleButton
+                    android:id="@+id/DM_PDB_EDB_LDB_HOLES_SEALED_LDB"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:checked="false"
+                    android:text="ES"
+                    android:textOn="YES"
+                    android:textOff="NO" />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:text="Check whether all meters in LDB are in working condition "
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+
+                <ToggleButton
+                    android:id="@+id/DM_PDB_EDB_LDB_LDB_WORKING_CONDITION"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="55"
+                    android:gravity="center"
+                    android:checked="false"
+                    android:textOn="OK"
+                    android:textOff="NOT OK" />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:text="VOLTAGE OF LDB"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_VOLTAGE_LDB_R"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="Volt R"
+                    android:inputType="numberDecimal"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_VOLTAGE_LDB_Y"
+
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="Volt Y"
+                    android:inputType="numberDecimal"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_VOLTAGE_LDB_B"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="Volt B"
+                    android:inputType="numberDecimal"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:text="CURRENT OF LDB "
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_CURRENT_LDB_R"
+
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="current R"
+                    android:inputType="numberDecimal"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_CURRENT_LDB_Y"
+
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="current Y"
+                    android:inputType="numberDecimal"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_CURRENT_LDB_B"
+
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="current B"
+                    android:inputType="numberDecimal"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:text="Check whether all LED in LDB panel are glowing "
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+                <ToggleButton
+                    android:id="@+id/DM_PDB_EDB_LDB_LED_IN_lDB"
+
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:checked="false"
+                    android:textOn="OK"
+                    android:textOff="NOT OK" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:text="Check whether door are properly closed for start up ACDB"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+                <ToggleButton
+                    android:id="@+id/DM_PDB_EDB_LDB_DOOR_CLOSED_ACDB"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:checked="false"
+                    android:textOn="YES"
+                    android:textOff="NO" />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:text="Check whether all holes in panel are sealed of start up ACDB"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+                <ToggleButton
+                    android:id="@+id/DM_PDB_EDB_LDB_HOLES_SEALED_ACDB"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:checked="false"
+                    android:textOn="YES"
+                    android:textOff="NO" />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:text="Check whether all meters in start up ACDB are in working condition "
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+
+                <ToggleButton
+                    android:id="@+id/DM_PDB_EDB_LDB_ACDB_WORKING_CONDITION"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="55"
+                    android:gravity="center"
+                    android:checked="false"
+                    android:textOn="OK"
+                    android:textOff="NOT OK" />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:text="VOLTAGE OF START UP ACDB"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_VOLTAGE_ACDB_R"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="Volt R"
+                    android:inputType="numberDecimal"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_VOLTAGE_ACDB_Y"
+
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="Volt Y"
+                    android:inputType="numberDecimal"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_VOLTAGE_ACDB_B"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="Volt B"
+                    android:inputType="numberDecimal"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:text="CURRENT OF START UP ACDB "
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_CURRENT_ACDB_R"
+
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+
+                    android:gravity="center"
+                    android:hint="current R"
+                    android:inputType="numberDecimal"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_CURRENT_ACDB_Y"
+
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="current Y"
+                    android:inputType="numberDecimal"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_CURRENT_ACDB_B"
+
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="current B"
+                    android:inputType="numberDecimal"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:text=" REMARKS "
+                    android:textColor="#000000"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_REMARKS"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="60"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="55"
+                    android:text=" VERIFIED BY "
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+                <EditText
+                    android:id="@+id/DM_PDB_EDB_LDB_VERIFIED_BY"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="60"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text=""/>
+
+            </TableRow>
+
+
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:layout_margin="10dp"
+            >
+
+            <Button
+                android:id="@+id/DM_OTHER_PDB_EDB_LDB_EDIT"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:text="Edit"
+                android:visibility="gone"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/DM_OTHER_PDB_EDB_LDB_CONFIRM"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_toRightOf="@+id/DM_OTHER_PDB_EDB_LDB_EDIT_BTN"
+                android:text="Confirm"
+                android:visibility="gone"
+                android:layout_weight="50"
+                />
+
+            <Button
+                android:id="@+id/DM_OTHER_PDB_EDB_LDB_SUBMIT_BUTTON"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="Submit"
+                android:visibility="visible" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

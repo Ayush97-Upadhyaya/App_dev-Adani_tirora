@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="PROTECTION PANEL"
+            android:textSize="20dp"
+            />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:id="@+id/PROTECTION_PANEL_RADIOGROUP">
+
+
+
+            <RadioButton
+                android:id="@+id/PROTECTION_PANEL_RADIO_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/PROTECTION_PANEL_RADIO_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2" />
+
+            <RadioButton
+                android:id="@+id/PROTECTION_PANEL_RADIO_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="3" />
+
+            <RadioButton
+                android:id="@+id/PROTECTION_PANEL_RADIO_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="4" />
+
+            <RadioButton
+                android:id="@+id/PROTECTION_PANEL_RADIO_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="5" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/first">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Whether ALL flag relay reset in GT Panel"
+                android:id="@+id/textView1"
+                android:layout_weight="60"
+                android:gravity="left"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/PROTECTION_PANEL_WHETHER_GT"
+                android:layout_weight="40"
+                android:textOff="NO"
+                android:textOn="YES" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:layout_below="@id/first"
+            android:id="@+id/second">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="NO ALARM PESISTING IN GT PANEL"
+                android:id="@+id/textView2"
+                android:layout_weight="60"
+                android:gravity="left"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/PROTECTION_PANEL_NO_GT"
+                android:layout_weight="40"
+                android:textOff="NO"
+                android:textOn="YES"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:layout_below="@id/second"
+            android:id="@+id/third">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="TCS RELAY HEALTHY IN GT PANEL"
+                android:id="@+id/textView3"
+                android:layout_weight="60"
+                android:gravity="left"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/PROTECTION_PANEL_TCS_GT"
+                android:layout_weight="40"
+                android:text="VOLTS"
+                android:textOff="NO"
+                android:textOn="YES"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/fourth"
+            android:layout_below="@id/third">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="PANEL DC ON  OF GT PANEL"
+                android:id="@+id/textView4"
+                android:layout_weight="60"
+                android:gravity="left"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:id="@+id/PROTECTION_PANEL_PANEL_GT"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="40"
+                android:text="VOLTS"
+                android:textOff="NO"
+                android:textOn="YES"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/fifth"
+            android:layout_below="@+id/fourth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Whether ALL flag relay reset in UT A Panl"
+                android:id="@+id/texiew5"
+                android:layout_weight="60"
+                android:gravity="left"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/PROTECTION_PANEL_WHETHER_UT_A"
+                android:layout_weight="40"
+                android:textOff="NO"
+                android:textOn="YES"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/sixth"
+            android:layout_below="@id/fifth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="NO ALARM PESISTING IN UT A PANEL"
+                android:id="@+id/texw5"
+                android:layout_weight="60"
+                android:gravity="left"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/PROTECTION_PANEL_NO_UT_A"
+                android:layout_weight="40"
+                android:textOff="NO"
+                android:textOn="YES"
+
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:layout_below="@id/sixth"
+            android:id="@+id/seventh">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="TCS RELAY HEALTHY IN UT A PANEL"
+                android:id="@+id/textViw3"
+                android:layout_weight="60"
+                android:gravity="left"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:id="@+id/PROTECTION_PANEL_TCS_UT_A"
+                android:layout_width="0dp"
+                android:textOff="NO"
+                android:textOn="YES"
+                android:layout_height="wrap_content"
+                android:layout_weight="40" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/eighth"
+            android:layout_below="@id/seventh">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="PANEL DC ON  OF UT A PANEL"
+                android:id="@+id/extView3"
+                android:layout_weight="60"
+                android:gravity="left"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/PROTECTION_PANEL_PANEL_UT_A"
+                android:layout_weight="40"
+                android:textOff="NO"
+                android:textOn="YES"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/fifteeh"
+            android:layout_below="@+id/thirteenth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="WHETHER RTCC PANEL OF UT A IS HEALTHY AND NO ALARM"
+                android:id="@+id/textView30"
+                android:layout_weight="60"
+                android:gravity="left"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/PROTECTION_PANEL_WHETHER_RTCC_A"
+                android:layout_weight="40"
+                android:textOff="NO"
+                android:textOn="YES"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/ninth"
+            android:layout_below="@+id/eighth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=" TAP POSITION IN RTCC PANEL OF UT A   "
+                android:id="@+id/textew3"
+                android:layout_weight="60"
+                android:gravity="left"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/PROTECTION_PANEL_TAP_A"
+                android:layout_weight="40"
+                android:text="  "
+                android:inputType="numberDecimal"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/tenth"
+            android:layout_below="@+id/ninth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Whether ALL flag relay reset in UT B Panl "
+                android:id="@+id/txtVew3"
+                android:layout_weight="60"
+                android:gravity="left"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/PROTECTION_PANEL_WHETHER_UT_B"
+                android:layout_weight="40"
+                android:text="amps"
+                android:textOff="NO"
+                android:textOn="YES"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/eleventh"
+            android:layout_below="@+id/tenth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="NO ALARM PESISTING IN UT B PANEL"
+                android:id="@+id/ttie3"
+                android:layout_weight="60"
+                android:gravity="left"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/PROTECTION_PANEL_NO_UT_B"
+                android:layout_weight="40"
+                android:text="VOLTS"
+                android:textOff="NO"
+                android:textOn="YES"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/twelh"
+            android:layout_below="@+id/eleventh">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="TCS RELAY HEALTHY IN UT B PANEL"
+                android:id="@+id/tt"
+                android:layout_weight="60"
+                android:gravity="left"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/PROTECTION_PANEL_TCS_UT_B"
+                android:layout_weight="40"
+                android:text="amp"
+                android:textOff="NO"
+                android:textOn="YES"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/nih"
+            android:layout_below="@+id/eighth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="PANEL DC ON  OF UT B PANEL  "
+                android:id="@+id/text"
+                android:layout_weight="60"
+                android:gravity="left"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/PROTECTION_PANEL_PANEL_UT_B"
+                android:layout_weight="40"
+                android:text="VOLTS"
+                android:textOff="NO"
+                android:textOn="YES"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/teh"
+            android:layout_below="@+id/ninth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="WHETHER RTCC PANEL OF UT B IS HEALTHY AND NO ALARM "
+                android:id="@+id/tx3"
+                android:layout_weight="60"
+                android:gravity="left"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/PROTECTION_PANEL_WHETHER_RTCC_B"
+                android:layout_weight="40"
+                android:text="amps"
+                android:textOff="NO"
+                android:textOn="YES"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/elevth"
+            android:layout_below="@+id/tenth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="TAP POSITION IN RTCC PANEL OF UT B"
+                android:id="@+id/tDt3"
+                android:layout_weight="60"
+                android:gravity="left"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/PROTECTION_PANEL_TAP_B"
+                android:layout_weight="40"
+                android:text=""
+                android:inputType="numberDecimal"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/eleTvth"
+            android:layout_below="@+id/tenth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="VERIFIED BY"
+                android:id="@+id/tt3"
+                android:layout_weight="60"
+                android:gravity="left"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/PROTECTION_PANEL_VERIFIED"
+                android:layout_weight="40"
+                android:text=""
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/elewerTvth"
+            android:layout_below="@+id/tenth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="REMARKS"
+                android:id="@+id/tqwet3"
+                android:layout_weight="60"
+                android:gravity="left"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/PROTECTION_PANEL_REMARKS"
+                android:layout_weight="40"
+                android:text=""
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:layout_margin="10dp"
+            >
+
+            <Button
+                android:id="@+id/DM_400KV_PROTECTION_PANEL_EDIT"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:text="Edit"
+                android:visibility="gone"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/DM_400KV_PROTECTION_PANEL_CONFIRM"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_toRightOf="@+id/dm_400kv_PROTECTION_PANEL_edit_btn"
+                android:text="Confirm"
+                android:visibility="gone"
+                android:layout_weight="50"
+                />
+
+            <Button
+                android:id="@+id/DM_400_KV_PROTECTION_PANEL_SUBMIT_BUTTON"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="Submit"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

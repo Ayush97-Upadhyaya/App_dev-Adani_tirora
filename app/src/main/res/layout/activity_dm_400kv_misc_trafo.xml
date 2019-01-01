@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="15dp"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="15dp">
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="MISC TRAFO"
+            android:textSize="20dp" />
+        <RadioGroup
+            android:id="@+id/dm_400kv_misc_trafo_radiogroup"
+            android:layout_width="383dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+
+
+            <RadioButton
+                android:id="@+id/MISC_TRAFO_RADIO_BUTTON_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="25"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/MISC_TRAFO_RADIO_BUTTON_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="25"
+                android:text="2" />
+
+
+        </RadioGroup>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/first">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="HV WTI "
+                android:id="@+id/textView1"
+                android:layout_weight="60"
+                android:gravity="left"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/MISC_TRAFO_HV_WTI"
+                android:layout_weight="40"
+                android:hint="°C"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+
+            android:id="@+id/second">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="LV WTI "
+                android:id="@+id/textView2"
+                android:layout_weight="60"
+                android:gravity="left"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/MISC_TRAFO_LV_WTI"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="40"
+                android:hint="°C"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/foth">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="OTI "
+                android:id="@+id/texiew5"
+                android:layout_weight="60"
+                android:gravity="left"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/MISC_TRAFO_OTI"
+                android:layout_weight="40"
+                android:hint="°C"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+
+
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/fourth">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="OIL LEVEL/MAIN TANK"
+                android:id="@+id/texw5"
+                android:layout_weight="60"
+                android:gravity="left"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/MISC_TRAFO_OIL_LEVEL_MAIN"
+                android:layout_weight="40"
+
+
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/fifth"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="PERSISTING TRAFO ALARMS (IN SCADA)"
+                android:id="@+id/textViw3"
+                android:layout_weight="60"
+                android:gravity="left"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/MISC_TRAFO_PERSISTING_ALARM"
+                android:layout_weight="40"
+                android:textOff="NO"
+                android:textOn="YES" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/sixth"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="OIL LEAKAGE"
+                android:id="@+id/exiew3"
+                android:layout_weight="60"
+                android:gravity="left"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/MISC_TRAFO_OIL_LEAKAGE"
+                android:layout_weight="40"
+                android:textOff="NO"
+                android:textOn="YES" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+
+            android:id="@+id/seventh">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="FAN STATUS"
+
+                android:layout_weight="60"
+                android:gravity="left"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/MISC_TRAFO_FAN_STATUS"
+                android:layout_weight="40"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+
+                />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/twelfth"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="SILICA GEL CONDITION"
+                android:id="@+id/tte3"
+                android:layout_weight="60"
+                android:gravity="left"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/MISC_TRAFO_SILICA_GEL"
+                android:layout_weight="40"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="REMARKS IF ANY"
+                android:id="@+id/textView5623"
+                android:layout_weight="60"
+                android:gravity="left"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/MISC_TRAFO_REMARKS_IF_ANY"
+                android:layout_weight="40"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="VERIFIED BY"
+                android:id="@+id/textView3"
+                android:layout_weight="60"
+                android:gravity="left"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/MISC_TRAFO_VERIFIED"
+                android:layout_weight="40"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/dm_400kv_misc_trafo_edit_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:text="Edit"
+                android:visibility="gone"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/dm_400kv_misc_trafo_confirm_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:text="Confirm"
+                android:visibility="gone"
+                android:layout_weight="50"
+                />
+
+            <Button
+                android:id="@+id/dm_400kv_misc_trafo_submit_btn"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="Submit"
+                android:visibility="visible" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+

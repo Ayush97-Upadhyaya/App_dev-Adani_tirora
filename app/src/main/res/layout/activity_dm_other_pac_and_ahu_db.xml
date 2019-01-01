@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="46"
+                    android:layout_height="match_parent"
+                    android:text="HEALTHINESS OF BLOWER SYSTEM"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    />
+
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" R "
+                    android:id="@+id/DM_OTHER_PAC_AHU_HEALTHINESS_OF_BLOWER_SYSTEM_R"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:checked="false"
+                    android:textOff="NOT OK"
+                    android:textOn="OK" />
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" Y "
+                    android:id="@+id/DM_OTHER_PAC_AHU_HEALTHINESS_OF_BLOWER_SYSTEM_Y"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:textOff="NOT OK"
+                    android:textOn="OK"
+                    />
+                <ToggleButton
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" B "
+                    android:id="@+id/DM_OTHER_PAC_AHU_HEALTHINESS_OF_BLOWER_SYSTEM_B"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:textOff="NOT OK"
+                    android:textOn="OK"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="46"
+                    android:layout_height="match_parent"
+                    android:text="VOLTAGE OF AHU SWITCHBOARD"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" R Vol."
+                    android:id="@+id/DM_OTHER_PAC_AHU_VOLTAGE_AHU_R"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" Y Vol."
+                    android:id="@+id/DM_OTHER_PAC_AHU_VOLTAGE_AHU_Y"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" B Vol."
+                    android:id="@+id/DM_OTHER_PAC_AHU_VOLTAGE_AHU_B"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="46"
+                    android:layout_height="match_parent"
+                    android:text="CURRENT OF AHU SWITCHBOARD"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" R Amp"
+                    android:id="@+id/DM_OTHER_PAC_AHU_CURRENT_AHU_R"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" Y Amp"
+                    android:id="@+id/DM_OTHER_PAC_AHU_CURRENT_AHU_Y"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" B amps"
+                    android:id="@+id/DM_OTHER_PAC_AHU_CURRENT_AHU_B"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="46"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:text="CURRENT OF BLOWER MOTOR" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" R amps"
+                    android:id="@+id/DM_OTHER_PAC_AHU_CURRENT_BLOWER_AHU_R"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" Y amps"
+                    android:id="@+id/DM_OTHER_PAC_AHU_CURRENT_BLOWER_AHU_Y"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" B amps"
+                    android:id="@+id/DM_OTHER_PAC_AHU_CURRENT_BLOWER_AHU_B"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="46"
+                    android:layout_height="match_parent"
+                    android:text="HEALTHINESS OF AHU PUMP 1"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    />
+
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" R "
+                    android:id="@+id/DM_OTHER_PAC_AHU_HEALTHINESS_OF_AHU_PUMP_1_R"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:checked="false"
+                    android:textOff="NOT OK"
+                    android:textOn="OK"/>
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" Y "
+                    android:id="@+id/DM_OTHER_PAC_AHU_HEALTHINESS_OF_AHU_PUMP_1_Y"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:checked="false"
+                    android:textOff="NOT OK"
+                    android:textOn="OK"/>
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" B "
+                    android:id="@+id/DM_OTHER_PAC_AHU_HEALTHINESS_OF_AHU_PUMP_1_B"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:checked="false"
+                    android:textOff="NOT OK"
+                    android:textOn="OK"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="46"
+                    android:layout_height="match_parent"
+                    android:text="HEALTHINESS OF AHU PUMP 2"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    />
+
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" R "
+                    android:id="@+id/DM_OTHER_PAC_AHU_HEALTHINESS_OF_AHU_PUMP_2_R"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:checked="false"
+                    android:textOff="NOT OK"
+                    android:textOn="OK"/>
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" Y "
+                    android:id="@+id/DM_OTHER_PAC_AHU_HEALTHINESS_OF_AHU_PUMP_2_Y"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:checked="false"
+                    android:textOff="NOT OK"
+                    android:textOn="OK"/>
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" B "
+                    android:id="@+id/DM_OTHER_PAC_AHU_HEALTHINESS_OF_AHU_PUMP_2_B"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:checked="false"
+                    android:textOff="NOT OK"
+                    android:textOn="OK"/>
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="46"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:text="HEALTHINESS OF PAC SYSTEM" />
+
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" R "
+                    android:id="@+id/DM_OTHER_PAC_AHU_HEALTHINESS_OF_PAC_SYSTEM_R"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:textOff="NOT OK"
+                    android:textOn="OK"
+                    />
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" Y "
+                    android:id="@+id/DM_OTHER_PAC_AHU_HEALTHINESS_OF_PAC_SYSTEM_Y"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:textOff="NOT OK"
+                    android:textOn="OK"
+                    />
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" B "
+                    android:id="@+id/DM_OTHER_PAC_AHU_HEALTHINESS_OF_PAC_SYSTEM_B"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:textOff="NOT OK"
+                    android:textOn="OK"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="46"
+                    android:layout_height="match_parent"
+                    android:text="VOLTAGE OF PAC SWITCHYARD"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" R  Vol. "
+                    android:id="@+id/DM_OTHER_PAC_AHU_VOLTAGE_PAC_R"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" Y  Vol."
+                    android:id="@+id/DM_OTHER_PAC_AHU_VOLTAGE_PAC_Y"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" B  Vol."
+                    android:id="@+id/DM_OTHER_PAC_AHU_VOLTAGE_PAC_B"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="46"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:text="CURRENT OF PAC SWITCHYARD" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" R  amps"
+                    android:id="@+id/DM_OTHER_PAC_AHU_CURRENT_PAC_SYSTEM_R"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" Y  amps"
+                    android:id="@+id/DM_OTHER_PAC_AHU_CURRENT_PAC_SYSTEM_Y"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" B  amps"
+                    android:id="@+id/DM_OTHER_PAC_AHU_CURRENT_PAC_SYSTEM_B"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/texiew15"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="46"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:text="CURRENT OF PAC 1" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" R  amps"
+                    android:id="@+id/DM_OTHER_PAC_AHU_CURRENT_PAC_1_R"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" Y  Amp"
+                    android:id="@+id/DM_OTHER_PAC_AHU_CURRENT_PAC_1_Y"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" B  amps"
+                    android:id="@+id/DM_OTHER_PAC_AHU_CURRENT_PAC_1_B"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/teView15"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="46"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:text="CURRENT OF PAC 2" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" R  amps"
+                    android:id="@+id/DM_OTHER_PAC_AHU_CURRENT_PAC_2_R"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" Y  amps"
+                    android:id="@+id/DM_OTHER_PAC_AHU_CURRENT_PAC_2_Y"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" B Amp"
+                    android:id="@+id/DM_OTHER_PAC_AHU_CURRENT_PAC_2_B"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="46"
+                    android:layout_height="match_parent"
+                    android:text="WATER LEAKAGE FROM PAC COOLING"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    />
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" R "
+                    android:id="@+id/DM_OTHER_PAC_AHU_WATER_LEAKAGE_FROM_PAC_R"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:textOff="NO"
+                    android:textOn="YES"
+                    />
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" Y "
+                    android:id="@+id/DM_OTHER_PAC_AHU_WATER_LEAKAGE_FROM_PAC_Y"
+                    android:layout_weight="18"
+                    android:gravity="center"
+
+                    android:textOff="NO"
+                    android:textOn="YES"
+                    />
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" B "
+                    android:id="@+id/DM_OTHER_PAC_AHU_WATER_LEAKAGE_FROM_PAC_B"
+                    android:layout_weight="18"
+                    android:gravity="center"
+
+                    android:textOff="NO"
+                    android:textOn="YES"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="46"
+                    android:layout_height="match_parent"
+                    android:text="WATER LEAKAGE FROM AHU BLOWER"
+                    android:gravity="center"
+                    android:textColor="#000000"
+
+
+                    />
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" R "
+                    android:id="@+id/DM_OTHER_PAC_AHU_WATER_LEAKAGE_FROM_AHU_R"
+                    android:layout_weight="18"
+                    android:gravity="center"
+
+                    android:textOff="NO"
+                    android:textOn="YES"
+                    />
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" Y "
+                    android:id="@+id/DM_OTHER_PAC_AHU_WATER_LEAKAGE_FROM_AHU_Y"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:textOn="YES"
+                    android:textOff="NO"
+                    />
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" B "
+                    android:id="@+id/DM_OTHER_PAC_AHU_WATER_LEAKAGE_FROM_AHU_B"
+                    android:layout_weight="18"
+                    android:gravity="center"
+
+                    android:textOff="NO"
+                    android:textOn="YES"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="46"
+                    android:layout_height="match_parent"
+                    android:text="HEALTHINESS OF COOLING TOWER FAN 1"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    />
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" R "
+                    android:id="@+id/DM_OTHER_PAC_AHU_HEALTH_COOLING_FAN_1_R"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:textOff="NOT OK"
+                    android:textOn="OK"
+                    />
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" Y "
+                    android:id="@+id/DM_OTHER_PAC_AHU_HEALTH_COOLING_FAN_1_Y"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:textOff="NOT OK"
+                    android:textOn="OK"
+                    />
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" B "
+                    android:id="@+id/DM_OTHER_PAC_AHU_HEALTH_COOLING_FAN_1_B"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:textOff="NOT OK"
+                    android:textOn="OK"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="46"
+                    android:layout_height="match_parent"
+                    android:text="HEALTHINESS OF COOLING TOWER FAN 2"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    />
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" R "
+                    android:id="@+id/DM_OTHER_PAC_AHU_HEALTH_COOLING_FAN_2_R"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:textOff="NOT OK"
+                    android:textOn="OK"
+                    />
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" Y "
+                    android:id="@+id/DM_OTHER_PAC_AHU_HEALTH_COOLING_FAN_2_Y"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:textOff="NOT OK"
+                    android:textOn="OK"
+                    />
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" B "
+                    android:id="@+id/DM_OTHER_PAC_AHU_HEALTH_COOLING_FAN_2_B"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:textOff="NOT OK"
+                    android:textOn="OK"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="46"
+                    android:layout_height="match_parent"
+                    android:text="HEALTHINESS OF PAC CONDENSER 1 "
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    />
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" R "
+                    android:id="@+id/DM_OTHER_PAC_AHU_HEALTH_PAC_CONDENSER_1_R"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:textOff="NOT OK"
+                    android:textOn="OK"
+                    />
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" Y "
+                    android:id="@+id/DM_OTHER_PAC_AHU_HEALTH_PAC_CONDENSER_1_Y"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:textOff="NOT OK"
+                    android:textOn="OK"
+                    />
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" B "
+                    android:id="@+id/DM_OTHER_PAC_AHU_HEALTH_PAC_CONDENSER_1_B"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:textOff="NOT OK"
+                    android:textOn="OK"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="46"
+                    android:layout_height="match_parent"
+                    android:text="HEALTHINESS OF PAC CONDENSER 2"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    />
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" R "
+                    android:id="@+id/DM_OTHER_PAC_AHU_HEALTH_PAC_CONDENSER_2_R"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:checked="false"
+                    android:textOff="NOT OK"
+                    android:textOn="OK"/>
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" Y "
+                    android:id="@+id/DM_OTHER_PAC_AHU_HEALTH_PAC_CONDENSER_2_Y"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:textOff="NOT OK"
+                    android:textOn="OK"
+                    />
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" B "
+                    android:id="@+id/DM_OTHER_PAC_AHU_HEALTH_PAC_CONDENSER_2_B"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:textOff="NOT OK"
+                    android:textOn="OK"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="46"
+                    android:layout_height="match_parent"
+                    android:text="REMARKS IF ANY"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    />
+
+                <EditText
+                    android:id="@+id/DM_OTHER_PAC_AHU_REMARKS_R"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    android:hint=" R " />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" Y "
+                    android:id="@+id/DM_OTHER_PAC_AHU_REMARKS_Y"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint=" B "
+                    android:id="@+id/DM_OTHER_PAC_AHU_REMARKS_B"
+                    android:layout_weight="18"
+                    android:gravity="center"
+                    />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="46"
+                    android:layout_height="match_parent"
+                    android:text="VERIFIED BY"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/DM_OTHER_PAC_AHU_VERIFIED"
+                    android:layout_weight="60"
+                    android:gravity="center"
+                    />
+
+            </TableRow>
+
+
+
+        </TableLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:layout_margin="10dp"
+            >
+
+            <Button
+                android:id="@+id/DM_OTHER_PAC_AHU_EDIT"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:text="Edit"
+                android:visibility="gone"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/DM_OTHER_PAC_AHU_CONFIRM"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_toRightOf="@+id/DM_OTHER_PAC_AHU_edit_btn"
+                android:text="Confirm"
+                android:visibility="gone"
+                android:layout_weight="50"
+                />
+
+            <Button
+                android:id="@+id/DM_OTHER_PAC_AHU_SUBMIT_BUTTON"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="Submit"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

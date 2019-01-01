@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="LR"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            />
+        <RadioGroup
+            android:layout_width="383dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:id="@+id/DM_LR_RADIO_GROUP">
+
+
+            <RadioButton
+                android:id="@+id/DM_LR_RADIO_BUTTON_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/DM_LR_RADIO_BUTTON_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2" />
+
+
+        </RadioGroup>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/first">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="WTI "
+                android:id="@+id/textView1"
+                android:layout_weight="40"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_LR_WTI_R"
+                android:layout_weight="20"
+                android:hint="R °C"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+
+            <EditText
+                android:id="@+id/DM_LR_WTI_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:hint="Y °C"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_LR_WTI_B"
+                android:layout_weight="20"
+                android:hint="B °C"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/foth">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="OTI "
+                android:id="@+id/texiew5"
+                android:layout_weight="40"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+
+            <EditText
+                android:id="@+id/DM_LR_OTI_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:hint="R °C"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_LR_OTI_Y"
+                android:layout_weight="20"
+                android:hint="Y °C"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_LR_OTI_B"
+                android:layout_weight="20"
+                android:hint="B °C"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/fuh">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="OIL LEVEL/MAIN TANK"
+                android:id="@+id/txw5"
+                android:layout_weight="40"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/DM_LR_OIL_LEVEL_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="20" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_LR_OIL_LEVEL_Y"
+                android:layout_weight="20"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_LR_OIL_LEVEL_B"
+                android:layout_weight="20"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/fifth"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="PERSISTING TRAFO ALARMS (IN SCADA)"
+                android:id="@+id/textViw3"
+                android:layout_weight="40"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_LR_TRAFO_ALRM_R"
+                android:layout_weight="20"
+                android:checked="false"
+                android:textOff="NO"
+                android:textOn="YES" />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_LR_TRAFO_ALRM_Y"
+                android:layout_weight="20"
+                android:checked="false"
+                android:textOff="NO"
+                android:textOn="YES" />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_LR_TRAFO_ALRM_B"
+                android:layout_weight="20"
+                android:checked="false"
+                android:textOn="YES"
+                android:textOff="NO" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/sixth"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="OIL LEAKAGE"
+                android:id="@+id/exiew3"
+                android:layout_weight="40"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_LR_LR_OIL_LEAKAGE_R"
+                android:layout_weight="20"
+                android:checked="false"
+                android:textOff="NO"
+                android:textOn="YES" />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_LR_LR_OIL_LEAKAGE_Y"
+                android:layout_weight="20"
+                android:checked="false"
+                android:textOn="YES"
+                android:textOff="NO" />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_LR_LR_OIL_LEAKAGE_B"
+                android:layout_weight="20"
+                android:checked="false"
+                android:textOff="NO"
+                android:textOn="YES" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+
+            android:id="@+id/seventh">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="ODU STATUS"
+                android:id="@+id/teViw3"
+                android:layout_weight="40"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_LR_ODU_STATUS_R"
+                android:layout_weight="20"
+                android:checked="false" />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_LR_ODU_STATUS_Y"
+                android:layout_weight="20"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_LR_ODU_STATUS_B"
+                android:layout_weight="20"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/fou">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="LA COUNTER(HV)"
+                android:id="@+id/tex"
+                android:layout_weight="40"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_LR_LA_COUNTER_R"
+                android:layout_weight="20"
+                android:inputType="number"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_LR_LA_COUNTER_Y"
+                android:layout_weight="20"
+                android:inputType="number"
+
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_LR_LA_COUNTER_B"
+                android:layout_weight="20"
+                android:inputType="number"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/oh">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="LA COUNTER(NEU)"
+                android:id="@+id/texw"
+                android:layout_weight="40"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_LR_LA_COUNTER_NEU_R"
+                android:layout_weight="60"
+                android:inputType="number"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/ouh">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="LA LEAKAGE CURRENT(HV)"
+                android:id="@+id/exw5"
+                android:layout_weight="40"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/DM_LR_LEAKAGE_CURRENT_HV_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:hint="R mA"
+                android:gravity="center"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/DM_LR_LEAKAGE_CURRENT_HV_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:hint="Y mA"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+
+            <EditText
+                android:id="@+id/DM_LR_LEAKAGE_CURRENT_HV_B"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:hint="B mA"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/fo">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="LA LEAKAGE CURRENT(NEU)"
+                android:id="@+id/tew"
+                android:layout_weight="40"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/DM_LR_LEAKAGE_CURRENT_NEU_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="60"
+                android:hint="NEU mA"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/fouh">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="PPM OF OIL IN"
+                android:id="@+id/texw5"
+                android:layout_weight="40"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/DM_LR_PPM_OIL_IN_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:hint="R PPM"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+
+            <EditText
+                android:id="@+id/DM_LR_PPM_OIL_IN_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:hint="Y PPM"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+
+            <EditText
+                android:id="@+id/DM_LR_PPM_OIL_IN_B"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:hint="B PPM"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/fohq">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="PPM OF OIL OUT"
+                android:id="@+id/ew"
+                android:layout_weight="40"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/DM_LR_PPM_OIL_OUT_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:hint="R PPM"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+
+            <EditText
+                android:id="@+id/DM_LR_PPM_OIL_OUT_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:hint="Y PPM"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+
+            <EditText
+                android:id="@+id/DM_LR_PPM_OIL_OUT_B"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:hint="B PPM"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/foh">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="PPM OF PAPER"
+                android:id="@+id/wq"
+                android:layout_weight="40"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/DM_LR_PPM_OF_PAPER_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:hint="R PPM"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+
+            <EditText
+                android:id="@+id/DM_LR_PPM_OF_PAPER_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:hint="Y PPM"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+
+            <EditText
+                android:id="@+id/DM_LR_PPM_OF_PAPER_B"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:hint="B PPM"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/twelfth"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="SILICA GEL CONDITION"
+                android:id="@+id/tte3"
+                android:layout_weight="40"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_LR_SILICA_GEL_CONDITION_R"
+                android:layout_weight="20"
+                android:checked="false"
+                android:textOff="NOT OK"
+                android:textOn="OK" />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_LR_SILICA_GEL_CONDITION_Y"
+                android:layout_weight="20"
+                android:checked="false"
+                android:textOff="NOT OK"
+                android:textOn="OK" />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_LR_SILICA_GEL_CONDITION_B"
+                android:layout_weight="20"
+                android:checked="false"
+                android:textOff="NOT OK"
+                android:textOn="OK" />
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/fourth">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="OLGDA STATUS"
+                android:id="@+id/tw5"
+                android:layout_weight="40"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_LR_OLGDA_STATUS_R"
+
+                android:layout_weight="60"
+                android:checked="false"
+                android:textOff="NOT OK"
+                android:textOn="OK" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="REMARKS IF ANY"
+                android:id="@+id/textView3"
+                android:layout_weight="40"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_LR_REMARKS_IF_ANY_R"
+                android:layout_weight="20"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_LR_REMARKS_IF_ANY_Y"
+                android:layout_weight="20"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_LR_REMARKS_IF_ANY_B"
+                android:layout_weight="20"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="VERIFIED BY"
+                android:id="@+id/textViweew3"
+                android:layout_weight="40"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_LR_VERIFIED_BY"
+                android:layout_weight="66"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:layout_margin="10dp"
+            >
+
+            <Button
+                android:id="@+id/DM_765KV_LR_EDIT"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:text="Edit"
+                android:visibility="gone"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/DM_765KV_LR_CONFIRM"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_toRightOf="@+id/dm_400kv_misc_trafo_edit_btn"
+                android:text="Confirm"
+                android:visibility="gone"
+                android:layout_weight="50"
+                />
+
+            <Button
+                android:id="@+id/DM_765_KV_LR_SUBMIT_BUTTON"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="Submit"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

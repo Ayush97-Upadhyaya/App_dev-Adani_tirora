@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CHANNEL"
+            android:textSize="20dp"
+            />
+        <RadioGroup
+            android:layout_width="383dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:id="@+id/DM_765KV_FOTE_LINE_2_RADIOGROUP">
+
+
+            <RadioButton
+                android:id="@+id/DM_765KV_FOTE_LINE_2_RADIOBUTTON_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/DM_765KV_FOTE_LINE_2_RADIOBUTTON_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2" />
+
+
+
+
+        </RadioGroup>
+        <TableLayout
+            android:id="@+id/DM_765KV_FOTE_LINE2_CHANNEL_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="40"
+                    android:layout_height="match_parent"
+                    android:text="CS/CR-M1"
+                    android:textColor="#000000"
+                    android:gravity="left"
+                    android:padding="15dp"
+                    android:textSize="18sp"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint="TX"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:id="@+id/FOTE_Panel_LINE_2_CH_1_M1_TX"
+                    android:inputType="number"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint="RX"
+                    android:layout_weight="30"
+                    android:gravity="center"
+
+                    android:id="@+id/FOTE_Panel_LINE_2_CH_1_M1_RX"
+                    android:inputType="number"
+                    />
+
+
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textVqweiew10"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:textColor="#000000"
+                    android:gravity="left"
+                    android:padding="15dp"
+                    android:textSize="18sp"
+                    android:text="CS/CR-M2" />
+
+                <EditText
+                    android:id="@+id/FOTE_Panel_LINE_2_CH_1_M2_TX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:hint="TX"
+                    android:inputType="number" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint="RX"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:id="@+id/FOTE_Panel_LINE_2_CH_1_M2_RX"
+                    android:inputType="number"
+                    />
+
+
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:textColor="#000000"
+                    android:gravity="left"
+                    android:padding="15dp"
+                    android:textSize="18sp"
+                    android:text="DT S/R" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint="TX"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:id="@+id/FOTE_Panel_LINE_2_CH_1_DT_TX"
+                    android:inputType="number"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint="RX"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:id="@+id/FOTE_Panel_LINE_2_CH_1_DT_RX"
+                    android:inputType="number"
+                    />
+
+
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="left"
+                    android:padding="15dp"
+                    android:text="D CHANNEL"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint="TX"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:id="@+id/FOTE_Panel_LINE_2_CH_1_CD_TX"
+                    android:inputType="number"
+                    />
+
+                <EditText
+                    android:id="@+id/FOTE_Panel_LINE_2_CH_1_CD_RX"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:hint="RX"
+                    android:inputType="number"
+                    />
+
+
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="40"
+                    android:layout_height="match_parent"
+                    android:text="TEBIT CARD"
+                    android:textColor="#000000"
+                    android:gravity="left"
+                    android:padding="15dp"
+                    android:textSize="18sp"
+                    />
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint="TX"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:id="@+id/FOTE_Panel_LINE_2_CH_1_AGC_TX"
+                    android:textOff="NOT OK"
+                    android:textOn="OK"
+                    />
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint="RX"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:id="@+id/FOTE_Panel_LINE_2_CH_1_AGC_RX"
+                    android:textOff="NOT OK"
+                    android:textOn="OK"
+                    />
+
+
+            </TableRow>
+        </TableLayout>
+        <TableLayout
+            android:id="@+id/DM_765KV_FOTE_LINE2_CHANNEL_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="40"
+                    android:layout_height="match_parent"
+                    android:text="CS/CR-M1"
+                    android:gravity="left"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint="TX"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:id="@+id/FOTE_Panel_LINE_2_CH_2_M1_TX"
+                    android:inputType="number"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint="RX"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:id="@+id/FOTE_Panel_LINE_2_CH_2_M1_RX"
+                    android:inputType="number"
+                    />
+
+
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="left"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:text="CS/CR-M2" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint="TX"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:id="@+id/FOTE_Panel_LINE_2_CH_2_M2_TX"
+                    android:inputType="number"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint="RX"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:id="@+id/FOTE_Panel_LINE_2_CH_2_M2_RX"
+                    android:inputType="number"
+                    />
+
+
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/texView11"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="left"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:text="DT S/R" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint="TX"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:id="@+id/FOTE_Panel_LINE_2_CH_2_DT_TX"
+                    android:inputType="number"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint="RX"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:id="@+id/FOTE_Panel_LINE_2_CH_2_DT_RX"
+                    android:inputType="number"
+
+                    />
+
+
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="40"
+                    android:layout_height="match_parent"
+                    android:text="D CHANNEL"
+                    android:gravity="left"
+                    android:padding="5dp"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint="TX"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:id="@+id/FOTE_Panel_LINE_2_CH_2_CD_TX"
+                    android:inputType="number"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint="RX"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:id="@+id/FOTE_Panel_LINE_2_CH_2_CD_RX"
+                    android:inputType="number"
+                    />
+
+
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="40"
+                    android:layout_height="match_parent"
+                    android:text="TEBIT CARD"
+                    android:gravity="left"
+                    android:padding="5dp"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    />
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint="TX"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:id="@+id/FOTE_Panel_LINE_2_CH_2_AGC_TX"
+                    android:textOff="NOT OK"
+                    android:textOn="OK"
+                    />
+                <ToggleButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint="RX"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:id="@+id/FOTE_Panel_LINE_2_CH_2_AGC_RX"
+                    android:textOff="NOT OK"
+                    android:textOn="OK"
+                    />
+
+
+            </TableRow>
+
+
+
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/thirtezxenth"
+            android:layout_below="@+id/twelfth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="REMARKS IF ANY"
+                android:id="@+id/tqwe3"
+                android:layout_weight="40"
+                android:gravity="left"
+
+                android:textColor="#000000"
+                android:padding="5dp"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/FOTE_Panel_LINE_2_REMARKS"
+                android:layout_weight="60"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/thirteenth"
+            android:layout_below="@+id/twelfth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="VERIFIED BY ANY"
+                android:id="@+id/te3"
+                android:layout_weight="40"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:padding="5dp"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/FOTE_Panel_LINE_2_VERIFIED_BY_ANY"
+                android:layout_weight="60"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:layout_margin="10dp"
+            >
+
+            <Button
+                android:id="@+id/FOTE_Panel_LINE_2_EDIT"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:text="Edit"
+                android:visibility="gone"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/FOTE_Panel_LINE_2_CONFIRM"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_toRightOf="@+id/FOTE_Panel_LINE_2_edit_btn"
+                android:text="Confirm"
+                android:visibility="gone"
+                android:layout_weight="50"
+                />
+
+            <Button
+                android:id="@+id/FOTE_Panel_LINE_2_SUBMIT_BUTTON"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="Submit"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

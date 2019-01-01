@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bits.emd.adani.SwitchYard">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/a4"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".dm_masterDetail.ItemListActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".dm_masterDetail.ItemDetailActivity"
+            android:label="@string/title_item_detail"
+            android:parentActivityName=".dm_masterDetail.ItemListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="bits.emd.adani.SwitchYard.dm_masterDetail.ItemListActivity" />
+        </activity>
+        <activity android:name=".dm_400kv.dm_400kv_br" />
+        <activity android:name=".dm_400kv.dm_400kv_st" />
+        <activity android:name=".dm_400kv.dm_400kv_misc_trafo" />
+        <activity android:name=".dm_400kv.dm_400kv_line" />
+        <activity
+            android:name=".Launcher"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity android:name=".dm_765kv.dm_765kv_lr" />
+        <activity android:name=".dm_765kv.dm_765kv_br" />
+        <activity android:name=".dm_765kv.dm_765kv_ict" />
+        <activity android:name=".dm_765kv.dm_765kv_line" />
+        <activity android:name=".dm_transformer_yard.dm_transformer_yard_gt" />
+        <activity android:name=".dm_transformer_yard.dm_transformer_yard_st" />
+        <activity android:name=".dm_transformer_yard.dm_transformer_yard_ut" />
+        <activity android:name=".dm_transformer_yard.dm_transformer_yard_uat" />
+        <activity android:name=".dm_transformer_yard.dm_transformer_yard_prot_panel" />
+        <activity android:name=".dm_transformer_yard.dm_transformer_yard_sat" />
+        <activity android:name=".dm_other.dm_other_400kv_PLCC_Line_1" />
+        <activity android:name=".dm_other.dm_other_400kv_PLCC_Line_2" />
+        <activity android:name=".dm_other.dm_other_765kv_FOTE_Line_2" />
+        <activity android:name=".dm_other.dm_other_765kv_FOTE_Line_1" />
+        <activity android:name=".dm_other.dm_other_220v_bc" />
+        <activity android:name=".dm_other.dm_other_ups" />
+        <activity android:name=".dm_other.dm_other_220v_48v_dcdb" />
+        <activity android:name=".dm_other.dm_other_pac_and_ahu_db" />
+        <activity android:name=".dm_other.dm_other_swgr" />
+        <activity android:name=".dm_other.dm_other_48v_bc" />
+        <activity android:name=".cbm_400kv.cbm_400kv_sf6_gas_pressure" />
+        <activity android:name=".cbm_400kv.cbm_400kv_ct_cvt_oil_level_inspection" />
+        <activity android:name=".cbm_400kv.cbm_400kv_battery_reading" />
+        <activity android:name=".cbm_400kv.cbm_400kv_la_lcm" />
+        <activity android:name=".cbm_400kv.cbm_400kv_earthing_resistance_line_bus_generator_transformer" />
+        <activity android:name=".cbm_400kv.cbm_400kv_earthing_resistance_station_transformer" />
+        <activity android:name=".cbm_400kv.cbm_400kv_earthing_resistance_tower" />
+        <activity android:name=".cbm_400kv.cbm_400kv_earthing_resistance_others" />
+        <activity android:name=".cbm_765kv.cbm_765kv_sf6_gas_pressure" />
+        <activity android:name=".cbm_765kv.cbm_765kv_la_lcm" />
+        <activity android:name=".cbm_765kv.cbm_765kv_ct_cvt_oil_level_inspection" />
+        <activity android:name=".cbm_400kv.cbm_400kv_ct_cvt_measurement_dia1" />
+        <activity android:name=".cbm_400kv.cbm_400kv_ct_cvt_measurement_dia2" />
+        <activity android:name=".cbm_400kv.cbm_400kv_ct_cvt_measurement_dia3" />
+        <activity android:name=".cbm_400kv.cbm_400kv_ct_cvt_measurement_dia4" />
+        <activity android:name=".cbm_400kv.cbm_400kv_ct_cvt_measurement_dia5" />
+        <activity android:name=".cbm_400kv.cbm_400kv_ct_cvt_measurement_dia7" />
+        <activity android:name=".cbm_400kv.cbm_400kv_ct_cvt_measurement_scada" />
+        <activity android:name=".cbm_400kv.cbm_400kv_ct_cvt_measurement_dia6" />
+        <activity android:name=".Launcher_dm_cbm" />
+        <activity
+            android:name=".cbm_masterDetail.cbmListActivity"
+            android:label="@string/title_cbm_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".cbm_masterDetail.cbmDetailActivity"
+            android:label="@string/title_cbm_detail"
+            android:parentActivityName=".cbm_masterDetail.cbmListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="bits.emd.adani.SwitchYard.cbm_masterDetail.cbmListActivity" />
+        </activity>
+        <activity android:name=".cbm_765kv.cbm_765kv_ct_cvt_measurement_dia1" />
+        <activity android:name=".cbm_765kv.cbm_765kv_ct_cvt_measurement_dia2" />
+        <activity android:name=".cbm_765kv.cbm_765kv_ct_cvt_measurement_dia3" />
+        <activity android:name=".cbm_765kv.cbm_765kv_ct_cvt_measurement_scada" />
+        <activity android:name=".dm_other.dm_other_pdb_edb_ldb" />
+        <activity android:name=".cbm_400kv.cbm_400kv_earthing_resistance_first" />
+        <activity android:name=".cbm_765kv.cbm_765kv_earthing_resistance_first" />
+        <activity android:name=".cbm_765kv.cbm_765kv_earthing_resistance_tower" />
+        <activity android:name=".cbm_765kv.cbm_765kv_earthing_resistance_lm" />
+        <activity android:name=".cbm_765kv.cbm_765kv_earthing_resistance_others" />
+        <activity android:name=".cbm_others_plcc_panel_level_measurement" />
+        <activity android:name=".cbm_400kv.cbm_400kv_ct_cvt_first" />
+        <activity android:name=".cbm_765kv.cbm_765kv_ct_cvt_first"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:layout_marginTop="10dp"
+    android:id="@+id/dm400kv"
+
+    >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="100"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_weight="100"
+                android:gravity="center"
+                android:text="SELECT PLEASE"
+                android:textSize="25sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+
+            <Button
+                android:id="@+id/dm400KvBr"
+                android:layout_width="0dp"
+                android:layout_height="96dp"
+                android:layout_margin="20dp"
+                android:layout_weight="50"
+                android:text="400 kV BR " />
+
+            <Button
+                android:id="@+id/dm400KvLine"
+                android:layout_width="0dp"
+                android:layout_height="96dp"
+                android:layout_margin="20dp"
+                android:layout_weight="50"
+                android:text="400 kV Line  " />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:weightSum="100">
+
+            <Button
+                android:id="@+id/dm400KvTransfo"
+                android:layout_width="0dp"
+                android:layout_height="96dp"
+                android:layout_margin="20dp"
+                android:layout_weight="50"
+                android:text="400kV MISC TRAFO" />
+
+            <Button
+                android:id="@+id/dm400KvST"
+                android:layout_width="0dp"
+                android:layout_height="96dp"
+                android:layout_margin="20dp"
+                android:layout_weight="50"
+                android:text="400 kV ST "
+
+                />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

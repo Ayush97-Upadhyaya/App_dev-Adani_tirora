@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="100"
+                android:layout_height="match_parent"
+                android:text="TOWER"
+                android:textSize="20sp"
+                android:gravity="center"
+                />
+        </TableRow>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="99"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="20dp">
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33">
+                <TextView android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="40"
+                    android:layout_height="0dp"
+                    android:text="TOWER 1"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <EditText android:textSize="18sp"
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_TOWER1"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:padding="5dp"
+                    android:layout_height="0dp"
+                    android:hint="Resistance (OHM)"
+                    android:inputType="numberDecimal"
+
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33">
+
+                <TextView android:textSize="18sp"
+                    android:id="@+id/texiew17"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:text="TOWER 2" />
+
+                <EditText android:textSize="18sp"
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_TOWER2"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:padding="5dp"
+                    android:layout_height="0dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="Resistance (OHM)"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33">
+                <TextView android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="40"
+                    android:layout_height="0dp"
+                    android:text="TOWER 3"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <EditText android:textSize="18sp"
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_TOWER3"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:layout_height="0dp"
+                    android:inputType="numberDecimal"
+
+                    android:padding="5dp"
+                    android:hint="Resistance (OHM)"
+                    android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="99"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp">
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <TextView android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="40"
+                    android:layout_height="0dp"
+                    android:text="TOWER 4"
+                    android:textColor="#000000"
+
+                    android:gravity="center"
+                    />
+                <EditText android:textSize="18sp"
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_TOWER4"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:layout_height="0dp"
+                    android:hint="Resistance (OHM)"
+                    android:inputType="numberDecimal"
+
+                    android:padding="5dp"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33">
+                <TextView android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="40"
+                    android:layout_height="0dp"
+                    android:text="TOWER 5"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <EditText android:textSize="18sp"
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_TOWER5"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:layout_height="0dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="Resistance (OHM)"
+                    android:padding="5dp"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33">
+                <TextView android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="40"
+                    android:layout_height="0dp"
+                    android:text="TOWER 6"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <EditText android:textSize="18sp"
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_TOWER6"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:layout_height="0dp"
+                    android:inputType="numberDecimal"
+
+                    android:padding="5dp"
+                    android:hint="Resistance (OHM)"
+                    android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="99"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            >
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <TextView android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="40"
+                    android:layout_height="0dp"
+                    android:text="TOWER 7"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <EditText android:textSize="18sp"
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_TOWER7"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:layout_height="0dp"
+                    android:inputType="numberDecimal"
+
+                    android:padding="5dp"
+                    android:hint="Resistance (OHM)"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33">
+                <TextView android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="40"
+                    android:layout_height="0dp"
+                    android:text="TOWER 8"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    />
+                <EditText android:textSize="18sp"
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_TOWER8"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:padding="5dp"
+                    android:layout_height="0dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="Resistance (OHM)"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33">
+
+                <TextView android:textSize="18sp"
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:text="TOWER 9" />
+
+                <EditText android:textSize="18sp"
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_TOWER9"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:inputType="numberDecimal"
+
+                    android:layout_height="0dp"
+                    android:padding="5dp"
+                    android:hint="Resistance (OHM)"
+                    android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="99"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="50dp">
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33">
+                <TextView android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="40"
+                    android:layout_height="0dp"
+                    android:text="TOWER 10"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <EditText android:textSize="18sp"
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_TOWER10"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:padding="5dp"
+                    android:inputType="numberDecimal"
+
+                    android:layout_height="0dp"
+                    android:hint="Resistance (OHM)"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33">
+
+                <TextView android:textSize="18sp"
+                    android:id="@+id/textew17"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:text="TOWER 11" />
+
+                <EditText android:textSize="18sp"
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_TOWER11"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:layout_height="0dp"
+                    android:inputType="numberDecimal"
+
+                    android:padding="5dp"
+                    android:hint="Resistance (OHM)"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33">
+
+                <TextView android:textSize="18sp"
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:text="TOWER 12" />
+
+                <EditText android:textSize="18sp"
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_TOWER12"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:layout_height="0dp"
+                    android:inputType="numberDecimal"
+
+                    android:padding="5dp"
+                    android:hint="Resistance (OHM)"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="99"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp">
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33">
+                <TextView android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="40"
+                    android:layout_height="0dp"
+                    android:text="TOWER 13"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <EditText android:textSize="18sp"
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_TOWER13"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:padding="5dp"
+                    android:layout_height="0dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="Resistance (OHM)"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <TextView android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="40"
+                    android:layout_height="0dp"
+                    android:text="TOWER 14"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <EditText android:textSize="18sp"
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_TOWER14"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:layout_height="0dp"
+                    android:padding="5dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="Resistance (OHM)"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33">
+                <TextView android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="40"
+                    android:layout_height="0dp"
+                    android:text="TOWER 15"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <EditText android:textSize="18sp"
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_TOWER15"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:padding="5dp"
+                    android:layout_height="0dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="Resistance (OHM)"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="99"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            >
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33">
+                <TextView android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="40"
+                    android:layout_height="0dp"
+                    android:text="TOWER 16"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <EditText android:textSize="18sp"
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_TOWER16"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:padding="5dp"
+                    android:layout_height="0dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="Resistance (OHM)"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <TextView android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="40"
+                    android:layout_height="0dp"
+                    android:text="TOWER 17"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <EditText android:textSize="18sp"
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_TOWER17"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:padding="5dp"
+                    android:layout_height="0dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="Resistance (OHM)"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33">
+                <TextView android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="40"
+                    android:layout_height="0dp"
+                    android:text="TOWER 18"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <EditText android:textSize="18sp"
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_TOWER18"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:padding="5dp"
+                    android:layout_height="0dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="Resistance (OHM)"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="99"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="50dp">
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33">
+                <TextView android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="40"
+                    android:layout_height="0dp"
+                    android:text="TOWER 19"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <EditText android:textSize="18sp"
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_TOWER19"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:layout_height="0dp"
+                    android:padding="5dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="Resistance (OHM)"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33">
+                <TextView android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="40"
+                    android:layout_height="0dp"
+                    android:text="TOWER 20"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <EditText android:textSize="18sp"
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_TOWER20"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:layout_height="0dp"
+                    android:padding="5dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="Resistance (OHM)"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33">
+
+                <TextView android:textSize="18sp"
+                    android:id="@+id/texw17"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:text="TOWER 21" />
+
+                <EditText android:textSize="18sp"
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_TOWER21"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:layout_height="0dp"
+                    android:padding="5dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="Resistance (OHM)"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="99"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp">
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33">
+                <TextView android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="40"
+                    android:layout_height="0dp"
+                    android:text="TOWER 22"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <EditText android:textSize="18sp"
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_TOWER22"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:layout_height="0dp"
+                    android:padding="5dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="Resistance (OHM)"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <TextView android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="40"
+                    android:layout_height="0dp"
+                    android:text="TOWER 23"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <EditText android:textSize="18sp"
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_TOWER23"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:layout_height="0dp"
+                    android:padding="5dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="Resistance (OHM)"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33">
+                <TextView android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="40"
+                    android:layout_height="0dp"
+                    android:text="TOWER 24"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <EditText android:textSize="18sp"
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_TOWER24"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:layout_height="0dp"
+                    android:padding="5dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="Resistance (OHM)"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="REMARKS"
+                android:id="@+id/textView3"
+                android:layout_weight="28"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:textSize="18sp"/>
+
+            <EditText android:textSize="18sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_TOWER_REMARKS_IF_ANY_R"
+                android:layout_weight="72"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:id="@+id/textViweew3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="28"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:text="VERIFIED BY"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18sp" />
+
+
+            <EditText android:textSize="18sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_TOWER_VERIFIED_BY"
+                android:layout_weight="72"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:layout_margin="10dp"
+            >
+
+            <Button
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_TOWER_EDIT"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:text="Edit"
+                android:visibility="gone"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_TOWER_CONFIRM"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_toRightOf="@+id/CBM_765KV_EARTH_RESISTANCE_TOWER_edit_btn"
+                android:text="Confirm"
+                android:visibility="gone"
+                android:layout_weight="50"
+                />
+
+            <Button
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_TOWER_SUBMIT_BUTTON"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="Submit"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

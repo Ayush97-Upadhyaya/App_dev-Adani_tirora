@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="GT"
+            android:gravity="center"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:id="@+id/TRANSFORMER_YARD_GT_RADIOGROUP">
+
+
+
+            <RadioButton
+                android:id="@+id/TRANSFORMER_YARD_GT_RADIOBUTTON1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1"
+                android:checked="false" />
+
+            <RadioButton
+                android:id="@+id/TRANSFORMER_YARD_GT_RADIOBUTTON2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2" />
+
+            <RadioButton
+                android:id="@+id/TRANSFORMER_YARD_GT_RADIOBUTTON3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="3" />
+
+            <RadioButton
+                android:id="@+id/TRANSFORMER_YARD_GT_RADIOBUTTON4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="4" />
+
+            <RadioButton
+                android:id="@+id/TRANSFORMER_YARD_GT_RADIOBUTTON5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="5" />
+
+
+        </RadioGroup>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/first">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="HV WTI "
+                android:id="@+id/textView1"
+                android:layout_weight="55"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:padding="5dp"
+
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_HV_WTI_R"
+                android:layout_weight="15"
+                android:hint="R °C"
+                android:gravity="center"
+                android:inputType="numberDecimal"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_HV_WTI_Y"
+                android:layout_weight="15"
+                android:hint="Y °C"
+                android:gravity="center"
+                android:inputType="numberDecimal"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_HV_WTI_B"
+                android:layout_weight="15"
+                android:hint="B °C"
+                android:gravity="center"
+                android:inputType="numberDecimal"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+
+            android:id="@+id/second">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="LV WTI "
+                android:id="@+id/textView2"
+                android:layout_weight="55"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:padding="5dp"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/TRANSFORMER_YARD_GT_LV_WTI_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="15"
+                android:gravity="center"
+                android:hint="R °C"
+                android:inputType="numberDecimal"/>
+
+            <EditText
+                android:id="@+id/TRANSFORMER_YARD_GT_LV_WTI_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="15"
+                android:hint="Y °C"
+                android:gravity="center"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_LV_WTI_B"
+                android:layout_weight="15"
+                android:hint="B °C"
+                android:gravity="center"
+                android:inputType="numberDecimal"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/foth">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="OTI "
+                android:id="@+id/texiew5"
+                android:layout_weight="55"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:padding="5dp"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_OTI_R"
+                android:layout_weight="15"
+                android:hint="R °C"
+                android:gravity="center"
+
+                android:inputType="numberDecimal"
+
+
+                />
+
+            <EditText
+                android:id="@+id/TRANSFORMER_YARD_GT_OTI_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="15"
+                android:hint="Y °C"
+                android:gravity="center"
+                android:inputType="numberDecimal"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_OTI_B"
+                android:layout_weight="15"
+                android:hint="B °C"
+                android:gravity="center"
+                android:inputType="numberDecimal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/fourth">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="OIL LEVEL/MAIN TANK"
+                android:id="@+id/texw5"
+                android:layout_weight="55"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:padding="5dp"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_OIL_LEVEL_R"
+                android:layout_weight="15"
+
+
+                />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_OIL_LEVEL_Y"
+                android:layout_weight="15"
+                android:text="" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_OIL_LEVEL_B"
+                android:layout_weight="15"
+                android:text="" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/fifth"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="PERSISTING TRAFO ALARMS (IN SCADA)"
+                android:id="@+id/textViw3"
+                android:layout_weight="55"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:padding="5dp"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_ALARM_R"
+                android:layout_weight="15"
+                android:textOff="NO"
+                android:textOn="YES" />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_ALARM_Y"
+                android:layout_weight="15"
+                android:textOff="NO"
+                android:textOn="YES"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_ALARM_B"
+                android:layout_weight="15"
+                android:textOff="NO"
+                android:textOn="YES"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/sixth"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="OIL LEAKAGE"
+                android:id="@+id/exiew3"
+                android:layout_weight="55"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:padding="5dp"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_OIL_LEAKAGE_R"
+                android:layout_weight="15"
+                android:textOff="NO"
+                android:textOn="YES"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_OIL_LEAKAGE_Y"
+                android:layout_weight="15"
+                android:textOff="NO"
+                android:textOn="YES"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_OIL_LEAKAGE_B"
+                android:layout_weight="15"
+                android:textOff="NO"
+                android:textOn="YES"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+
+            android:id="@+id/seventh">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="FAN STATUS"
+                android:id="@+id/teViw3"
+                android:layout_weight="55"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:padding="5dp"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_FANSTATUS_R"
+                android:layout_weight="15"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_FANSTATUS_Y"
+                android:layout_weight="15"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_FANSTATUS_B"
+                android:layout_weight="15"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/eighth"
+            >
+
+            <TextView
+                android:id="@+id/extView3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="55"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:padding="5dp"
+                android:text="PUMP STATUS"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18sp" />
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_PUMPSTATUS_R"
+                android:layout_weight="15"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_PUMPSTATUS_Y"
+                android:layout_weight="15"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_PUMPSTATUS_B"
+                android:layout_weight="15"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+                />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/nnth"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="LA COUNTER(HV)"
+                android:id="@+id/textew3"
+                android:layout_weight="55"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:padding="5dp"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/TRANSFORMER_YARD_GT_HV_LACOUNTER1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="15"
+                android:inputType="number"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_HV_LACOUNTER2"
+                android:layout_weight="15"
+                android:inputType="number"
+                />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_HV_LACOUNTER3"
+                android:layout_weight="15"
+                android:inputType="number"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/ninth"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="LA COUNTER(LV)"
+                android:id="@+id/texw3"
+                android:layout_weight="55"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:padding="5dp"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/TRANSFORMER_YARD_GT_LV_LACOUNTER1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="15"
+                android:inputType="number"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_LV_LACOUNTER2"
+                android:layout_weight="15"
+                android:inputType="number"
+                />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_LV_LACOUNTER3"
+                android:layout_weight="15"
+                android:inputType="number"
+                />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/eleventh"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="LA LEAKAGE CURRENT(HV)"
+                android:id="@+id/ttie3"
+                android:layout_weight="55"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:padding="5dp"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/TRANSFORMER_YARD_GT_HV_LEAKAGECURRENT_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="15"
+                android:hint="R mA"
+                android:gravity="center"
+                android:inputType="numberDecimal"/>
+
+            <EditText
+                android:id="@+id/TRANSFORMER_YARD_GT_HV_LEAKAGECURRENT_Y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="15"
+                android:gravity="center"
+                android:hint="Y mA"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_HV_LEAKAGECURRENT_B"
+                android:layout_weight="15"
+                android:hint="B mA"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/eleveth"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="LA LEAKAGE CURRENT(LV)"
+                android:id="@+id/t3"
+                android:layout_weight="55"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:padding="5dp"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_LV_LEAKAGECURRENT_R"
+                android:layout_weight="15"
+                android:hint="R mA"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_LV_LEAKAGECURRENT_Y"
+                android:layout_weight="15"
+                android:hint="Y mA"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_LV_LEAKAGECURRENT_B"
+                android:layout_weight="15"
+                android:hint="B mA"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/twelfth"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="SILICA GEL CONDITION"
+                android:id="@+id/tte3"
+                android:layout_weight="55"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:padding="5dp"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_SILICAGEL_R"
+                android:layout_weight="15"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+                />
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_SILICAGEL_Y"
+                android:layout_weight="15"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+                />
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_SILICAGEL_B"
+                android:layout_weight="15"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:visibility="visible"
+            android:id="@+id/DM_400_KV_GT_OLDGA_STATUS_LAYOUT_1_2_3"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="OLDGA STATUS"
+                android:id="@+id/tesa3"
+                android:layout_weight="55"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:padding="5dp"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_OLGDA"
+                android:layout_weight="45"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:visibility="gone"
+            android:id="@+id/DM_400_KV_GT_OLDGA_STATUS_LAYOUT_4_5"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="OLDGA STATUS"
+                android:textColor="#000000"
+                android:id="@+id/te3"
+                android:layout_weight="55"
+                android:gravity="center"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_4_5_OLGDA_R"
+                android:layout_weight="15"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+
+                />
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_4_5_OLGDA_Y"
+                android:layout_weight="15"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_4_5_OLGDA_B"
+                android:layout_weight="15"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="55"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:padding="5dp"
+                android:text="REMARKS IF ANY"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18sp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_REMARKS_IF_ANY_R"
+                android:layout_weight="15"
+                />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_REMARKS_IF_ANY_Y"
+                android:layout_weight="15"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_REMARKS_IF_ANY_B"
+                android:layout_weight="15"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="VERIFIED BY"
+
+                android:layout_weight="55"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:padding="5dp"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TRANSFORMER_YARD_GT_VERIFIED_BY"
+                android:layout_weight="66"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:layout_margin="10dp"
+            >
+
+            <Button
+                android:id="@+id/DM_400KV_GT_EDIT"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:text="Edit"
+                android:visibility="gone"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/DM_400KV_GT_CONFIRM"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_toRightOf="@+id/dm_400kv_transformer_yard_gt_edit_btn"
+                android:text="Confirm"
+                android:visibility="gone"
+                android:layout_weight="50"
+                />
+
+            <Button
+                android:id="@+id/DM_400_KV_GT_SUBMIT_BUTTON"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="Submit"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

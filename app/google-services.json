@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "193144844446",
+    "firebase_url": "https://surya-5bb48.firebaseio.com",
+    "project_id": "surya-5bb48",
+    "storage_bucket": "surya-5bb48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193144844446:android:04b45f256007eeba",
+        "android_client_info": {
+          "package_name": "bits.emd.adani.surya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193144844446-nhahfv5emu114tcmcf9pu44dsbm2advc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bits.emd.adani.surya",
+            "certificate_hash": "f5625b3f78bd8bcad118f2c3c28a0abf9e74abd8"
+          }
+        },
+        {
+          "client_id": "193144844446-2n473vgfqelg058muqbr7fuh1ku4gtbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzyT34WJBB0VwZbFJmN84-hLM4RYTAGyE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193144844446-2n473vgfqelg058muqbr7fuh1ku4gtbb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

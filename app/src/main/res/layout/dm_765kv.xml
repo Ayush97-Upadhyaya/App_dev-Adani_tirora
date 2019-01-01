@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:layout_marginTop="10dp"
+    android:id="@+id/dm765KV"
+
+    >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_weight="100"
+                android:gravity="center"
+                android:text="765 KV Switch Yard"
+                android:textSize="25sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+
+            <Button
+                android:id="@+id/dm765KV_BR"
+                android:layout_width="0dp"
+                android:layout_height="96dp"
+                android:layout_margin="20dp"
+
+                android:layout_weight="50"
+                android:text="765 kV BR " />
+
+            <Button
+                android:id="@+id/dm765KV_LR"
+                android:layout_width="0dp"
+                android:layout_height="96dp"
+                android:layout_margin="20dp"
+
+                android:layout_weight="50"
+                android:text="765 kV LR  " />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:weightSum="100">
+
+            <Button
+                android:id="@+id/dm765KV_ICT"
+                android:layout_width="0dp"
+                android:layout_height="96dp"
+                android:layout_margin="20dp"
+                android:layout_weight="50"
+
+                android:text="765kV ICT" />
+
+            <Button
+                android:id="@+id/dm765KV_LINE"
+                android:layout_width="0dp"
+                android:layout_height="96dp"
+                android:layout_margin="20dp"
+                android:layout_weight="50"
+
+                android:text="765 kV LINE "
+
+                />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

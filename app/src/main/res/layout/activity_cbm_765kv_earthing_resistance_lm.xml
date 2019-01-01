@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <TextView android:textSize="20sp"
+                android:layout_width="0dp"
+                android:layout_weight="100"
+                android:layout_height="match_parent"
+                android:text="LM"
+
+                android:gravity="center"
+                />
+        </TableRow>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="99"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="50dp">
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33">
+
+                <TextView android:textSize="18sp"
+                    android:id="@+id/textView40"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:text="LM 1" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_LM1"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:layout_height="0dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="Resistance (OHM)"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33">
+
+                <TextView android:textSize="18sp"
+                    android:id="@+id/texiew17"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:text="LM 2" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_LM2"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:layout_height="0dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="Resistance (OHM)"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33">
+                <TextView android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="40"
+                    android:layout_height="0dp"
+                    android:text="LM 3"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    />
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_LM3"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:layout_height="0dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="Resistance (OHM)"
+                    android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="99"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp">
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <TextView android:textSize="18sp"
+                    android:id="@+id/textView44"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="40"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    android:text="LM 4" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_LM4"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:layout_height="0dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="Resistance (OHM)"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33">
+                <TextView android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="40"
+                    android:layout_height="0dp"
+                    android:text="LM 5"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_LM5"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:inputType="numberDecimal"
+
+                    android:layout_height="0dp"
+                    android:hint="Resistance (OHM)"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33">
+                <TextView android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="40"
+                    android:layout_height="0dp"
+                    android:text="LM 6"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_LM6"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:inputType="numberDecimal"
+
+                    android:layout_height="0dp"
+                    android:hint="Resistance (OHM)"
+                    android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="99"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            >
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <TextView android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="40"
+                    android:layout_height="0dp"
+                    android:text="LM 7"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    />
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_LM7"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:layout_height="0dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="Resistance (OHM)"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33">
+
+                <TextView android:textSize="18sp"
+                    android:id="@+id/textView45"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:text="LM 8" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_LM8"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:inputType="numberDecimal"
+
+                    android:layout_height="0dp"
+                    android:hint="Resistance (OHM)"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33">
+
+                <TextView android:textSize="18sp"
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:text="LM 9" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_LM9"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:inputType="numberDecimal"
+
+                    android:layout_height="0dp"
+                    android:hint="Resistance (OHM)"
+                    android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="99"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="50dp">
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:layout_weight="33">
+                <TextView android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="40"
+                    android:layout_height="0dp"
+                    android:text="LM 10"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    />
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_LM10"
+                    android:layout_width="match_parent"
+                    android:layout_weight="60"
+                    android:layout_height="0dp"
+                    android:inputType="numberDecimal"
+
+                    android:hint="Resistance (OHM)"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="REMARKS"
+                android:id="@+id/textView3"
+                android:textColor="#000000"
+                android:layout_weight="28"
+                android:gravity="center"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_LM_REMARKS_IF_ANY_R"
+                android:layout_weight="72"
+                android:inputType="numberDecimal"
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="VERIFIED BY"
+                android:id="@+id/textViweew3"
+                android:layout_weight="28"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_LM_VERIFIED_BY"
+                android:layout_weight="72"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:layout_margin="10dp"
+            >
+
+            <Button
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_LM_EDIT"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:text="Edit"
+                android:visibility="gone"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_LM_CONFIRM"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_toRightOf="@+id/CBM_765KV_EARTH_RESISTANCE_LM_edit_btn"
+                android:text="Confirm"
+                android:visibility="gone"
+                android:layout_weight="50"
+                />
+
+            <Button
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_LM_SUBMIT_BUTTON"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="Submit"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/first">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="All panel of 11 kV switchgear are closed"
+                android:id="@+id/textView1"
+                android:layout_weight="70"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:padding="2dp"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/SWITCHGEAR_PANEL_11_PANEL"
+                android:layout_weight="30"
+                android:textOff="NO"
+                android:textOn="YES" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:layout_below="@id/first"
+            android:id="@+id/second">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="All holes in panel of 11 kV switchgear are sealed"
+                android:id="@+id/textView2"
+                android:layout_weight="70"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:padding="2dp"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/SWITCHGEAR_PANEL_11_HOLES"
+                android:layout_weight="30"
+                android:textOff="NO"
+                android:textOn="YES"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:layout_below="@id/second"
+            android:id="@+id/third">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="All LED in panel of 11 kV switchgear are healthy"
+                android:id="@+id/textView3"
+                android:layout_weight="70"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:padding="2dp"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/SWITCHGEAR_PANEL_11_LED"
+                android:layout_weight="30"
+                android:text="VOLTS"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+
+                android:checked="false" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/fourth"
+            android:layout_below="@id/third">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="All Relay  in panel of 11 kV switchgear are healthy, reset and no alarm are glowing"
+                android:id="@+id/textView4"
+                android:layout_weight="70"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:padding="2dp"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/SWITCHGEAR_PANEL_11_RELAY"
+                android:layout_weight="30"
+                android:text="VOLTS"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/fifth"
+            android:layout_below="@+id/fourth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="All panel of 33 kV switchgear are closed"
+                android:id="@+id/texiew5"
+                android:layout_weight="70"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:padding="2dp"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/SWITCHGEAR_PANEL_33_PANEL"
+                android:layout_weight="30"
+                android:textOff="NO"
+                android:textOn="YES"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/sixth"
+            android:layout_below="@id/fifth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="All holes in panel of 33 kV switchgear are sealed"
+                android:id="@+id/texw5"
+                android:layout_weight="70"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:padding="2dp"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/SWITCHGEAR_PANEL_33_HOLES"
+                android:layout_weight="30"
+                android:textOff="NO"
+                android:textOn="YES"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:layout_below="@id/sixth"
+            android:id="@+id/seventh">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="All LED in panel of 33 kV switchgear are healthy"
+                android:id="@+id/textViw3"
+                android:layout_weight="70"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:padding="2dp"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/SWITCHGEAR_PANEL_33_LED"
+                android:layout_weight="30"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/eighth"
+            android:layout_below="@id/seventh">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="All Relay  in panel of 33 kV switchgear are healthy, reset and no alarm are glowing"
+                android:id="@+id/extView3"
+                android:layout_weight="70"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:padding="2dp"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/SWITCHGEAR_PANEL_33_RELAY"
+                android:layout_weight="30"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+                android:checked="false" />
+
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/thirteenth"
+            android:layout_below="@+id/twelfth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="REMARKS IF ANY"
+                android:id="@+id/te3"
+                android:layout_weight="70"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:padding="2dp"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/SWITCHGEAR_PANEL_REMARKS"
+                android:layout_weight="30"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/thirtoieenth"
+            android:layout_below="@+id/twelfth">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="VERIFIED BY"
+                android:id="@+id/tqwee3"
+                android:layout_weight="70"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:padding="2dp"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/SWITCHGEAR_PANEL_VERIFIED"
+                android:layout_weight="30"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:layout_margin="10dp"
+            >
+
+            <Button
+                android:id="@+id/SWITCHGEAR_PANEL_EDIT"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:text="Edit"
+                android:visibility="gone"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/SWITCHGEAR_SYSTEM_CONFIRM"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_toRightOf="@+id/SWITCHGEAR_PANEL_edit_btn"
+                android:text="Confirm"
+                android:visibility="gone"
+                android:layout_weight="50"
+                />
+
+            <Button
+                android:id="@+id/SWITCHGEAR_PANEL_SUBMIT_BUTTON"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="Submit"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

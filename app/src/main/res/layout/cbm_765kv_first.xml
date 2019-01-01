@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="50">
+        <Button
+            android:padding="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EARTH RESISTANCE"
+            android:id="@+id/CBM_765KV_EARTH_RESISTANCE"/>
+
+        <Button
+            android:id="@+id/CBM_765KV_CT_CVT_OIL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="40dp"
+            android:text="CT/CVT OIL LEAKAGE" />
+        <Button
+            android:padding="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SF6 GAS PRESSURE"
+            android:id="@+id/CBM_765KV_SF6_GAS"/>
+
+        <Button
+            android:id="@+id/CBM_765KV_LEAKAGE_CURRENT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="40dp"
+            android:text="LEAKAGE CURRENT" />
+
+        <Button
+            android:padding="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CT/CVT"
+            android:id="@+id/CBM_765KV_CT_CVT"/>
+
+    </LinearLayout>
+
+</LinearLayout>

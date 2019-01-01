@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <RadioGroup
+                    android:id="@+id/CBM_APML_BATTERY_READING_RADIOGROUP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/CBM_APML_BATTERY_READING_RADIO_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:text="240V - 345AH - Ni-Cd - 168- SW1" />
+
+                    <RadioButton
+                        android:id="@+id/CBM_APML_BATTERY_READING_RADIO_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:text="240V - 345AH - Ni-Cd - 168 SW2" />
+
+                    <RadioButton
+                        android:id="@+id/CBM_APML_BATTERY_READING_RADIO_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:text="48V - 285AH - Ni-Cd - 36-SW1" />
+
+                    <RadioButton
+                        android:id="@+id/CBM_APML_BATTERY_READING_RADIO_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:text="240V - 285AH - Ni-Cd - 36-SW2" />
+                </RadioGroup>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="100"
+
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="50"
+
+                    android:gravity="center"
+                    android:text="Total Voltage"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_BATTERY_READING_TOTAL_VOLTAGE"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:gravity="center"
+                    android:hint="Volts"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="100"
+
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp"
+                    android:id="@+id/textView50"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="50"
+
+                    android:gravity="center"
+                    android:text="Minimum Voltage VOLTS"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_BATTERY_READING_MINIMUM_VOLTAGE_VOLT"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:gravity="center"
+                    android:hint="Volts"
+
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="100"
+
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="50"
+
+                    android:gravity="center"
+                    android:text="Minimum Voltage CELL NO"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_BATTERY_READING_MINIMUM_VOLTAGE_CELL_NO"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:gravity="center"
+                    android:hint="NUMBER"
+
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="100"
+
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="50"
+
+                    android:gravity="center"
+                    android:text="Maximum Voltage CELL NO."
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_BATTERY_READING_MAXIMUM_VOLTAGE_CELL_NO"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:gravity="center"
+                    android:hint="NUMBER"
+
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="100"
+
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp"
+                    android:id="@+id/textView16"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="50"
+
+                    android:gravity="center"
+                    android:text="Maximum Voltage VOLT"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_BATTERY_READING_MAXIMUM_VOLTAGE_VOLT"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:gravity="center"
+                    android:hint="Volts"
+
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="100"
+
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="50"
+
+                    android:gravity="center"
+                    android:text="Capacity"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_BATTERY_READING_CAPACITY"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:gravity="center"
+                    android:hint="Volts"
+
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="100"
+
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="50"
+
+                    android:gravity="center"
+                    android:text="Earth Fault"
+                    android:textColor="#000000" />
+
+                <ToggleButton
+                    android:id="@+id/CBM_APML_BATTERY_READING_EARTH_FAULT"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:gravity="center"
+                    android:hint="Volts"
+                    android:textOff="NEGATIVE"
+                    android:textOn="POSITIVE" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="100"
+
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp"
+                    android:id="@+id/textView16ufgh"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="50"
+
+                    android:gravity="center"
+                    android:text="Charging Voltage"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_BATTERY_READING_CHARGING_VOLTAGE"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:gravity="center"
+                    android:hint="Volts"
+
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="100"
+
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp"
+                    android:id="@+id/textVigu"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="50"
+
+                    android:gravity="center"
+                    android:text="Charging Current"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_BATTERY_READING_CHARGING_CURRENT"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:gravity="center"
+                    android:hint="Amps"
+
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="100"
+
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp"
+                    android:id="@+id/textViqwgu"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="50"
+
+                    android:gravity="center"
+                    android:text="Remarks"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_BATTERY_READING_REMARKS"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:gravity="center"
+                    android:hint="" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="100"
+
+                android:orientation="horizontal">
+
+                <TextView android:textSize="18sp"
+                    android:id="@+id/textVqaiqwgu"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="50"
+
+                    android:gravity="center"
+                    android:text="Verified By"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/CBM_APML_BATTERY_READING_VERIFIED"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:gravity="center"
+                    android:hint="" />
+
+
+            </TableRow>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="100">
+
+                <Button
+                    android:id="@+id/CBM_APML_BATTERY_READING_edit_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:gravity="center"
+                    android:text="Edit"
+                    android:visibility="gone"
+
+                    />
+
+                <Button
+                    android:id="@+id/CBM_APML_BATTERY_READING_confirm_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+
+                    android:layout_weight="50"
+                    android:text="Confirm"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/CBM_APML_BATTERY_READING_submit_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="100"
+                    android:text="Submit"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+        </TableLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,1221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillViewport="false">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="PARAMETER"
+                android:id="@+id/extViw1"
+                android:layout_weight="33"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:id="@+id/ediTet1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="15.75"
+                android:gravity="center"
+                android:text="R"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/edext1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="15.75"
+                android:hint="Y"
+                android:gravity="center"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/dqq1"
+                android:layout_weight="15.75"
+                android:gravity="center"
+                android:hint="B"
+                android:textSize="25sp"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="15.75"
+                android:gravity="center"
+                android:hint="SPARE"
+                android:textSize="25sp"/>
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/irst">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="HV WTI"
+                android:id="@+id/extV554126iw1"
+                android:layout_weight="33"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_HV_WTI_R"
+                android:layout_weight="15.75"
+                android:hint="°C"
+                android:gravity="center"
+                android:inputType="numberDecimal"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_HV_WTI_Y"
+                android:layout_weight="15.75"
+                android:hint="°C"
+                android:gravity="center"
+                android:inputType="numberDecimal"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_HV_WTI_B"
+                android:layout_weight="15.75"
+                android:hint="°C"
+                android:gravity="center"
+                android:inputType="numberDecimal"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_HV_WTI_S"
+                android:layout_weight="15.75"
+                android:hint="°C"
+                android:gravity="center"
+                android:inputType="numberDecimal"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/first">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Iv WTI"
+                android:id="@+id/textView1"
+                android:layout_weight="33"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_IV_WTI_R"
+                android:layout_weight="15.75"
+                android:hint="°C"
+                android:gravity="center"
+                android:inputType="numberDecimal"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_IV_WTI_Y"
+                android:layout_weight="15.75"
+                android:hint="°C"
+                android:gravity="center"
+                android:inputType="numberDecimal"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_IV_WTI_B"
+                android:layout_weight="15.75"
+                android:hint="°C"
+                android:gravity="center"
+                android:inputType="numberDecimal"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_IV_WTI_S"
+                android:layout_weight="15.75"
+                android:hint="°C"
+                android:gravity="center"
+                android:inputType="numberDecimal"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/first1">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="LV WTI"
+                android:id="@+id/textew1"
+                android:layout_weight="33"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_LV_WTI_R"
+                android:layout_weight="15.75"
+                android:hint="°C"
+                android:gravity="center"
+                android:inputType="numberDecimal"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_LV_WTI_Y"
+                android:layout_weight="15.75"
+                android:hint="°C"
+                android:gravity="center"
+                android:inputType="numberDecimal"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_LV_WTI_B"
+                android:layout_weight="15.75"
+                android:hint="°C"
+                android:gravity="center"
+                android:inputType="numberDecimal"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_LV_WTI_S"
+                android:layout_weight="15.75"
+                android:hint="°C"
+                android:gravity="center"
+                android:inputType="numberDecimal"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/foth">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="OTI "
+                android:id="@+id/texiew5"
+                android:layout_weight="33"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_OTI_R"
+                android:layout_weight="15.75"
+                android:hint="°C"
+                android:gravity="center"
+                android:inputType="numberDecimal"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_OTI_Y"
+                android:layout_weight="15.75"
+                android:hint="°C"
+                android:gravity="center"
+                android:inputType="numberDecimal"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_OTI_B"
+                android:layout_weight="15.75"
+                android:hint="°C"
+                android:gravity="center"
+                android:inputType="numberDecimal"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_OTI_S"
+                android:layout_weight="15.75"
+                android:hint="°C"
+                android:gravity="center"
+                android:inputType="numberDecimal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/fuh">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="OIL LEVEL/MAIN TANK"
+                android:id="@+id/txw5"
+                android:layout_weight="33"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_OIL_LEVEL_MT_R"
+                android:layout_weight="15.75"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_OIL_LEVEL_MT_Y"
+                android:layout_weight="15.75"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_OIL_LEVEL_MT_B"
+                android:layout_weight="15.75"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_OIL_LEVEL_MT_S"
+                android:layout_weight="15.75"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/frtuh">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="OIL LEVEL/OLTC"
+                android:id="@+id/qatxw5"
+                android:layout_weight="33"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_OIL_LEVEL_OLTC_R"
+                android:layout_weight="15.75"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_OIL_LEVEL_OLTC_Y"
+                android:layout_weight="15.75"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_OIL_LEVEL_OLTC_B"
+                android:layout_weight="15.75"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_OIL_LEVEL_OLTC_S"
+                android:layout_weight="15.75"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/fifth"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="PERSISTING TRAFO ALARMS (IN SCADA)"
+                android:id="@+id/textViw3"
+                android:layout_weight="33"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_TRAFO_ALARM_R"
+                android:layout_weight="15.75"
+                android:checked="false"
+                android:textOff="NO"
+                android:textOn="YES" />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_TRAFO_ALARM_Y"
+                android:layout_weight="15.75"
+                android:textOff="NO"
+                android:textOn="YES"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_TRAFO_ALARM_B"
+                android:layout_weight="15.75"
+                android:textOff="NO"
+                android:textOn="YES"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_TRAFO_ALARM_S"
+                android:layout_weight="15.75"
+                android:textOff="NO"
+                android:textOn="YES"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/fifth2"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="FAN STATUS"
+                android:id="@+id/tewiw3"
+                android:layout_weight="33"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_FANSTATUS_R"
+                android:layout_weight="15.75"
+                android:textOff="NO"
+                android:textOn="YES"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_FANSTATUS_Y"
+                android:layout_weight="15.75"
+                android:textOff="NO"
+                android:textOn="YES"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_FANSTATUS_B"
+                android:layout_weight="15.75"
+                android:textOff="NO"
+                android:textOn="YES"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_FANSTATUS_S"
+                android:layout_weight="15.75"
+                android:textOff="NO"
+                android:textOn="YES"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/sixth"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="OIL LEAKAGE"
+                android:id="@+id/exiew3"
+                android:layout_weight="33"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_OIL_LEAKAGE_R"
+                android:layout_weight="15.75"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_OIL_LEAKAGE_Y"
+                android:layout_weight="15.75"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_OIL_LEAKAGE_B"
+                android:layout_weight="15.75"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_OIL_LEAKAGE_S"
+                android:layout_weight="15.75"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+
+            android:id="@+id/seventh1">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="ODU STATUS"
+                android:id="@+id/teqiw3"
+                android:layout_weight="33"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:id="@+id/DM_ICT_ODU_STATUS_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="15.75"
+                android:textOff="NOT OK"
+                android:textOn="OK"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_ODU_STATUS_Y"
+                android:layout_weight="15.75"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_ODU_STATUS_B"
+                android:layout_weight="15.75"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_ODU_STATUS_S"
+                android:layout_weight="15.75"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+
+            android:id="@+id/seventh">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="PUMP STATUS"
+                android:id="@+id/teViw3"
+                android:layout_weight="33"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_PUMP_STATUS_R"
+                android:layout_weight="15.75"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_PUMP_STATUS_Y"
+                android:layout_weight="15.75"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_PUMP_STATUS_B"
+                android:layout_weight="15.75"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_PUMP_STATUS_S"
+                android:layout_weight="15.75"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+
+            android:id="@+id/seven2th">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="RTCC PANEL ANNUNCIATION"
+                android:id="@+id/teViw23"
+                android:layout_weight="33"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:id="@+id/DM_ICT_RTCC_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="15.75"
+                android:textOff="NOT OK"
+                android:textOn="OK"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_RTCC_Y"
+                android:layout_weight="15.75"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_RTCC_B"
+                android:layout_weight="15.75"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_RTCC_S"
+                android:layout_weight="15.75"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+                />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/fou">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="LA COUNTER(HV)"
+                android:id="@+id/tex"
+                android:layout_weight="33"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_LACOUNTER_HV_R"
+                android:layout_weight="15.75"
+                android:inputType="number"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_LACOUNTER_HV_Y"
+
+                android:layout_weight="15.75"
+                android:inputType="number"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_LACOUNTER_HV_B"
+                android:layout_weight="15.75"
+                android:inputType="number"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_LACOUNTER_HV_S"
+                android:layout_weight="15.75"
+                android:inputType="number"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/oh">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="LA COUNTER(LV)"
+                android:id="@+id/texw"
+                android:layout_weight="33"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/DM_ICT_LACOUNTER_LV_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="15.75"
+                android:inputType="number"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_LACOUNTER_LV_Y"
+
+                android:layout_weight="15.75"
+                android:inputType="number"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_LACOUNTER_LV_B"
+                android:inputType="number"
+
+                android:layout_weight="15.75"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_LACOUNTER_LV_S"
+
+                android:layout_weight="15.75"
+                android:inputType="number"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/ouh">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="LA LEAKAGE CURRENT(HV)"
+                android:id="@+id/exw5"
+                android:layout_weight="33"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_LA_LEAKAGE_CURRENT_HV_R"
+                android:layout_weight="15.75"
+                android:inputType="numberDecimal"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_LA_LEAKAGE_CURRENT_HV_Y"
+                android:layout_weight="15.75"
+                android:inputType="numberDecimal"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_LA_LEAKAGE_CURRENT_HV_B"
+                android:layout_weight="15.75"
+                android:inputType="numberDecimal"/>
+
+            <EditText
+                android:id="@+id/DM_ICT_LA_LEAKAGE_CURRENT_HV_S"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="15.75"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/fo">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="LA LEAKAGE CURRENT(LV)"
+                android:id="@+id/tew"
+                android:layout_weight="33"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/DM_ICT_LA_LEAKAGE_CURRENT_LV_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="15.75"
+                android:inputType="numberDecimal"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_LA_LEAKAGE_CURRENT_LV_Y"
+                android:layout_weight="15.75"
+                android:inputType="numberDecimal"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_LA_LEAKAGE_CURRENT_LV_B"
+                android:layout_weight="15.75"
+                android:inputType="numberDecimal"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_LA_LEAKAGE_CURRENT_LV_S"
+                android:layout_weight="15.75"
+                android:inputType="numberDecimal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/fouh">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="PPM OF OIL IN"
+                android:id="@+id/texw5"
+                android:layout_weight="33"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_PPM_OIL_IN_R"
+                android:layout_weight="15.75"
+                android:inputType="numberDecimal"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_PPM_OIL_IN_Y"
+                android:layout_weight="15.75"
+                android:inputType="numberDecimal"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_PPM_OIL_IN_B"
+                android:layout_weight="15.75"
+                android:inputType="numberDecimal"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_PPM_OIL_IN_S"
+                android:layout_weight="15.75"
+                android:inputType="numberDecimal"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/fohq">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="PPM OF OIL OUT"
+                android:id="@+id/ew"
+                android:layout_weight="33"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"
+                />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_PPM_OIL_OUT_R"
+                android:layout_weight="15.75"
+                android:inputType="numberDecimal"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_PPM_OIL_OUT_Y"
+                android:layout_weight="15.75"
+                android:inputType="numberDecimal"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_PPM_OIL_OUT_B"
+                android:layout_weight="15.75"
+                android:inputType="numberDecimal"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_PPM_OIL_OUT_S"
+                android:layout_weight="15.75"
+                android:inputType="numberDecimal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/foh">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="PPM OF PAPER"
+                android:id="@+id/wq"
+                android:layout_weight="33"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/DM_ICT_PPM_PAPER_R"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="15.75"
+                android:inputType="numberDecimal"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_PPM_PAPER_Y"
+                android:layout_weight="15.75"
+                android:inputType="numberDecimal"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_PPM_PAPER_B"
+                android:layout_weight="15.75"
+                android:inputType="numberDecimal"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_PPM_PAPER_S"
+                android:layout_weight="15.75"
+                android:inputType="numberDecimal"/>
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id="@+id/twelfth"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="SILICA GEL CONDITION"
+                android:id="@+id/tte3"
+                android:layout_weight="33"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_SILICA_GEL_R"
+                android:layout_weight="15.75"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+                android:checked="false" />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_SILICA_GEL_Y"
+                android:layout_weight="15.75"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_SILICA_GEL_B"
+                android:layout_weight="15.75"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+                />
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_SILICA_GEL_S"
+                android:layout_weight="15.75"
+                android:textOff="NOT OK"
+                android:textOn="OK"
+                />
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="REMARKS IF ANY"
+                android:id="@+id/textVie234w3"
+                android:layout_weight="33"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_REMARKS_IF_ANY_R"
+
+                android:layout_weight="15.75"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_REMARKS_IF_ANY_Y"
+                android:layout_weight="15.75"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_REMARKS_IF_ANY_B"
+                android:layout_weight="15.75"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_REMARKS_IF_ANY_S"
+                android:layout_weight="15.75"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="VERIFIED BY"
+                android:id="@+id/textView3"
+                android:layout_weight="33"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/DM_ICT_VERIFIED_BY"
+                android:layout_weight="66"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:layout_margin="10dp"
+            >
+
+            <Button
+                android:id="@+id/DM_765KV_ICT_EDIT"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:text="Edit"
+                android:visibility="gone"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/DM_765KV_ICT_CONFIRM"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_toRightOf="@+id/dm_400kv_misc_trafo_edit_btn"
+                android:text="Confirm"
+                android:visibility="gone"
+                android:layout_weight="50"
+                />
+
+            <Button
+                android:id="@+id/DM_765_KV_ICT_SUBMIT_BUTTON"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="Submit"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

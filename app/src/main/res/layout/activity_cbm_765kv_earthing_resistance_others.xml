@@ -1,0 +1,2010 @@
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="100"
+                    android:gravity="center"
+                    android:text="ICT"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="Earth Pit Number"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+                    android:gravity="center"
+                    android:hint="Earth Resistance(OHMS)"
+                    android:textSize="20sp" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/textView51"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="701-ICT-CVT R-Phase"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_701_ICT_CVT_R"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+                    android:gravity="center"
+                    android:hint="Earth Resistance(OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="701-ICT-CVT Y-Phase"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_701_ICT_CVT_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+
+                    android:gravity="center"
+                    android:hint="Earth Resistance(OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="701-ICT-CVT B-Phase"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_701_ICT_CVT_B"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+
+                    android:gravity="center"
+                    android:hint="Earth Resistance(OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="701-ICT-LA R-Phase"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_701_ICT_LA_R"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+                    android:gravity="center"
+
+                    android:hint="Earth Resistance(OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="701-ICT-LA Y-Phase"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_701_ICT_LA_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="701-ICT-LA B-Phase "
+                    android:textColor="#000000"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_701_ICT_LA_B"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+
+                    android:layout_weight="60"
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="701-ICT-LA SP-Phase"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_701_ICT_LA_SP"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="403-ICT-LA R-Phase"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_403_ICT_LA_R"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="403-ICT-LA Y-Phase"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_403_ICT_LA_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="403-ICT-LA B-Phase"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_403_ICT_LA_B"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="403-ICT-LA SP-Phase"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_403_ICT_LA_SP"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+                    android:gravity="center"
+
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="403-ICT-NCT-EP-1"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_403_ICT_NCT_EP_1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="403-ICT-NCT-EP-2"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_403_ICT_NCT_EP_2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="100"
+                    android:gravity="center"
+                    android:text="AKOLA LINE 2"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+
+                    android:gravity="center"
+                    android:text="704-L2-MCVT R-Phase"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_704_L2_MCVT_R"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="704-L2-MCVT Y-Phase"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_704_L2_MCVT_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="704-L2-MCVT B-Phase"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_704_L2_MCVT_B"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="704-L2-CVT R-Phase"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_704_L2_CVT_R"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+
+                    android:layout_weight="60"
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="704-L2-CVT Y-Phase"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_704_L2_CVT_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="704-L2-CVT B-Phase"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_704_L2_CVT_B"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="704-L2-LA-R-Phase"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_704_L2_LA_R"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="704-L2-LA-Y-Phase"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_704_L2_LA_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="704-L2-LA-B-Phase"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+
+                    />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_704_L2_LA_B"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="100"
+                    android:gravity="center"
+                    android:text="AKOLA LINE 1"
+                    android:textColor="#000000"
+
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="707-L1-MCVT R-Phase"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_707_L1_MCVT_R"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+                    android:gravity="center"
+
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="707-L1-MCVT Y-Phase"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_707_L1_MCVT_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+                    android:gravity="center"
+
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="707-L1-MCVT B-Phase"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_707_L1_MCVT_B"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="707-L1-CVT R-Phase"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_707_L1_CVT_R"
+                    android:layout_width="0dp"
+
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/textView52"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="707-L1-CVT Y-Phase"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_707_L1_CVT_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+
+                    android:layout_weight="60"
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="707-L1-CVT B-Phase"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_707_L1_CVT_B"
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+
+                    android:layout_weight="60"
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="707-L1-LA-R-Phase"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_707_L1_LA_R"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+
+                    android:layout_weight="60"
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="707-L1-LA-Y-Phase"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_707_L1_LA_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="707-L1-LA-B-Phase"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_707_L1_LA_B"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+
+                    android:layout_weight="60"
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="100"
+                    android:gravity="center"
+                    android:text="LINE REACTOR 1"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="707-LR1-NCT-1"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_707_LR1_NCT_1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+
+                    android:layout_weight="60"
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="707-LR1-NCT-2"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_707_LR1_NCT_2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+
+                    android:layout_weight="60"
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="707-LR1-1-LA"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_707_LR1_1_LA"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+
+                    android:layout_weight="60"
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/textView53"
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="707-LR1-LA-R-PHASE"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_707_LR1_LA_R"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/teView20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="707-LR1-LA-Y-PHASE"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_707_LR1_LA_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+
+                    android:layout_weight="60"
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="707-LR1-LA-B-PHASE"
+                    android:textColor="#000000"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_707_LR1_LA_B"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="100"
+                    android:gravity="center"
+                    android:text="LINE REACTOR 2"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="704-LR2-NCT-1"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+
+                    />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_704_LR2_NCT_1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/textView54"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="704-LR2-NCT-2"
+                    android:textColor="#000000"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_704_LR2_NCT_2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="704-LR2-1-LA"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_704_LR2_1_LA"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+
+                    android:layout_weight="60"
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="704-LR2-LA-R-PHASE"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_704_LR2_LA_R"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+
+                    android:layout_weight="60"
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="704-LR2-LA-Y-PHASE"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_704_LR2_LA_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="center"
+                    android:text="704-LR2-LA-B-PHASE"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_EARTH_RESISTANCE_704_LR2_LA_B"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+
+                    android:gravity="center"
+                    android:hint="Earth Resistance (OHMS)"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="100"
+                    android:gravity="center"
+                    android:text="BUS"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+            </TableRow>
+        </TableLayout>
+
+        <TableRow android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:gravity="center"
+                android:text="BUS 1 CVT R Phase"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <EditText
+
+                android:layout_width="0dp"
+                android:inputType="numberDecimal"
+
+                android:layout_weight="60"
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_BUS1_R_PHASE"
+                android:layout_height="match_parent"
+                android:hint="Resistance in ohms"
+
+                android:gravity="center"/>
+        </TableRow>
+
+        <TableRow android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+            <TextView android:textSize="18sp"
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:text="BUS 1 CVT Y Phase"
+                android:textColor="#000000"
+                android:gravity="center"
+                />
+            <EditText
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_BUS1_Y_PHASE"
+                android:layout_width="0dp"
+                android:layout_weight="60"
+                android:layout_height="match_parent"
+                android:hint="Resistance in ohms"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+            <TextView android:textSize="18sp"
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:text="BUS 1 CVT B Phase"
+                android:gravity="center"
+                android:textColor="#000000"
+                />
+            <EditText
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_BUS1_B_PHASE"
+                android:layout_width="0dp"
+                android:layout_weight="60"
+                android:layout_height="match_parent"
+                android:hint="Resistance in ohms"
+                android:inputType="numberDecimal"
+
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+            <TextView android:textSize="18sp"
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:text="BUS 2 CVT R Phase"
+                android:gravity="center"
+                android:textColor="#000000"
+
+                />
+            <EditText
+
+                android:layout_width="0dp"
+                android:layout_weight="60"
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_BUS2_R_PHASE"
+                android:layout_height="match_parent"
+                android:hint="Resistance in ohms"
+                android:inputType="numberDecimal"
+
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:gravity="center"
+                android:text="BUS 2 CVT Y Phase"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_BUS2_Y_PHASE"
+                android:layout_width="0dp"
+                android:layout_weight="60"
+                android:inputType="numberDecimal"
+
+                android:layout_height="match_parent"
+                android:hint="Resistance in ohms"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+            <TextView android:textSize="18sp"
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:text="BUS 2 CVT B Phase"
+                android:gravity="center"
+                android:textColor="#000000"
+
+                />
+            <EditText
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_BUS2_B_PHASE"
+                android:layout_width="0dp"
+                android:layout_weight="60"
+                android:layout_height="match_parent"
+                android:hint="Resistance in ohms"
+                android:inputType="numberDecimal"
+
+                android:gravity="center"/>
+        </TableRow>
+
+        <TableRow android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+            <TextView android:textSize="18sp"
+                android:layout_width="0dp"
+                android:layout_weight="100"
+                android:layout_height="match_parent"
+                android:text="GENERATOR TRANSFORMER"
+                android:gravity="center"
+                android:textColor="#000000"
+                />
+        </TableRow>
+        <TableRow android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:gravity="center"
+                android:text="GT 4 CVT R PHASE"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                />
+
+            <EditText
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_GT4_CVT_R_PHASE"
+                android:layout_width="0dp"
+                android:inputType="numberDecimal"
+
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:hint="Resistance in ohms" />
+        </TableRow>
+
+        <TableRow android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+            <TextView android:textSize="18sp"
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:text="GT 4 CVT Y PHASE"
+                android:gravity="center"
+                android:textColor="#000000"
+                />
+            <EditText
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_GT4_CVT_Y_PHASE"
+                android:layout_width="0dp"
+                android:layout_weight="60"
+                android:inputType="numberDecimal"
+
+                android:layout_height="match_parent"
+                android:hint="Resistance in ohms"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+            <TextView android:textSize="18sp"
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:text="GT 4 CVT B PHASE"
+                android:gravity="center"
+                android:textColor="#000000"
+
+                />
+            <EditText
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_GT4_CVT_B_PHASE"
+                android:layout_width="0dp"
+                android:layout_weight="60"
+                android:layout_height="match_parent"
+                android:hint="Resistance in ohms"
+                android:inputType="numberDecimal"
+
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+            <TextView android:textSize="18sp"
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:text="GT 4 LA R PHASE"
+                android:textColor="#000000"
+                android:gravity="center"
+                />
+
+            <EditText
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_GT4_LA_R_PHASE"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:inputType="numberDecimal"
+
+                android:gravity="center"
+                android:hint="Resistance in ohms" />
+        </TableRow>
+        <TableRow android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+            <TextView android:textSize="18sp"
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:text="GT 4 LA Y Phase"
+                android:textColor="#000000"
+                android:gravity="center"
+                />
+            <EditText
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_GT4_LA_Y_PHASE"
+                android:layout_width="0dp"
+                android:layout_weight="60"
+                android:inputType="numberDecimal"
+
+                android:layout_height="match_parent"
+                android:hint="Resistance in ohms"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+            <TextView android:textSize="18sp"
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:text="GT 4 LA B PHASE"
+                android:gravity="center"
+                android:textColor="#000000"
+
+                />
+            <EditText
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_GT4_LA_B_PHASE"
+                android:layout_width="0dp"
+                android:layout_weight="60"
+                android:inputType="numberDecimal"
+
+                android:layout_height="match_parent"
+                android:hint="Resistance in ohms"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+            <TextView android:textSize="18sp"
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:text="GT 5 CVT R PHASE"
+                android:textColor="#000000"
+                android:gravity="center"
+                />
+
+            <EditText
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_GT5_CVT_R_PHASE"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:inputType="numberDecimal"
+
+                android:gravity="center"
+                android:hint="Resistance in ohms" />
+        </TableRow>
+        <TableRow android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+            <TextView android:textSize="18sp"
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:text="GT 5 CVT Y PHASE"
+                android:textColor="#000000"
+                android:gravity="center"
+                />
+            <EditText
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_GT5_CVT_Y_PHASE"
+                android:layout_width="0dp"
+                android:layout_weight="60"
+                android:inputType="numberDecimal"
+
+                android:layout_height="match_parent"
+                android:hint="Resistance in ohms"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+            <TextView android:textSize="18sp"
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:text="GT 5 CVT B PHASE"
+                android:textColor="#000000"
+                android:gravity="center"
+                />
+            <EditText
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_GT5_CVT_B_PHASE"
+                android:layout_width="0dp"
+                android:inputType="numberDecimal"
+
+                android:layout_weight="60"
+                android:layout_height="match_parent"
+                android:hint="Resistance in ohms"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+            <TextView android:textSize="18sp"
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:text="GT 5 LA R PHASE"
+                android:gravity="center"
+                android:textColor="#000000"
+
+                />
+
+            <EditText
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_GT5_LA_R_PHASE"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:inputType="numberDecimal"
+
+                android:gravity="center"
+                android:hint="Resistance in ohms" />
+        </TableRow>
+        <TableRow android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+            <TextView android:textSize="18sp"
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:text="GT 5 LA Y PHASE"
+                android:textColor="#000000"
+                android:gravity="center"
+                />
+            <EditText
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_GT5_LA_Y_PHASE"
+                android:layout_width="0dp"
+                android:layout_weight="60"
+                android:inputType="numberDecimal"
+
+                android:layout_height="match_parent"
+                android:hint="Resistance in ohms"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+            <TextView android:textSize="18sp"
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:text="GT 5 LA B PHASE"
+                android:gravity="center"
+                />
+            <EditText
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_GT5_LA_B_PHASE"
+                android:layout_width="0dp"
+                android:layout_weight="60"
+                android:inputType="numberDecimal"
+
+                android:layout_height="match_parent"
+                android:hint="Resistance in ohms"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+            <TextView android:textSize="18sp"
+                android:layout_width="0dp"
+                android:layout_weight="100"
+                android:layout_height="match_parent"
+                android:text="BUS REACTOR"
+                android:textColor="#000000"
+                android:gravity="center"
+                />
+        </TableRow>
+        <TableRow android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:gravity="center"
+                android:text="706 BR LA R Phase"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                />
+
+            <EditText
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_706_BR_LA_R_PHASE"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+
+                android:hint="Resistance in ohms" />
+        </TableRow>
+        <TableRow android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:gravity="center"
+                android:text="706 BR LA Y Phase"
+                android:textColor="#000000"
+
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_706_BR_LA_Y_PHASE"
+                android:layout_width="0dp"
+                android:layout_weight="60"
+                android:inputType="numberDecimal"
+
+                android:layout_height="match_parent"
+                android:hint="Resistance in ohms"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+            <TextView android:textSize="18sp"
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:text="706 BR LA  \B Phase"
+                android:textColor="#000000"
+                android:gravity="center"
+                />
+            <EditText
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_706_BR_LA_B_PHASE"
+                android:layout_width="0dp"
+                android:layout_weight="60"
+                android:inputType="numberDecimal"
+
+                android:layout_height="match_parent"
+                android:hint="Resistance in ohms"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+            <TextView android:textSize="18sp"
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:text="706-BR-NCT-1"
+                android:textColor="#000000"
+                android:gravity="center"
+                />
+            <EditText
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_706_BR_NCT1"
+                android:layout_width="0dp"
+                android:layout_weight="60"
+                android:inputType="numberDecimal"
+
+                android:layout_height="match_parent"
+                android:hint="Resistance in ohms"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:orientation="horizontal">
+            <TextView android:textSize="18sp"
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:text="706-BR-NCT2"
+                android:textColor="#000000"
+                android:gravity="center"
+                />
+            <EditText
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_706_BR_NCT2"
+                android:layout_width="0dp"
+                android:layout_weight="60"
+                android:layout_height="match_parent"
+                android:inputType="numberDecimal"
+
+                android:hint="Resistance in ohms"
+                android:gravity="center"/>
+        </TableRow>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="REMARKS"
+                android:id="@+id/textView3"
+                android:layout_weight="28"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_OTHERS_REMARKS_IF_ANY_R"
+                android:layout_weight="72"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="VERIFIED BY"
+                android:id="@+id/textViweew3"
+                android:layout_weight="28"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:textSize="18sp"/>
+
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_OTHERS_VERIFIED_BY"
+                android:layout_weight="72"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:layout_margin="10dp"
+            >
+
+            <Button
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_OTHERS_EDIT"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:text="Edit"
+                android:visibility="gone"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_OTHERS_CONFIRM"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_toRightOf="@+id/CBM_765KV_EARTH_RESISTANCE_OTHERS_edit_btn"
+                android:text="Confirm"
+                android:visibility="gone"
+                android:layout_weight="50"
+                />
+
+            <Button
+                android:id="@+id/CBM_765KV_EARTH_RESISTANCE_OTHERS_SUBMIT_BUTTON"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="Submit"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,1300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_margin="5dp">
+
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="100"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="DIA 1"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="28"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:textColor="#000000"
+                    android:text="PARAMETERS"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="36"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:textColor="#000000"
+                    android:text="CURRENT(A)"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="36"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:textColor="#000000"
+                    android:text="VOLTAGE(KV)"
+                    android:textSize="18sp" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="28"
+                    android:gravity="center"
+
+                    android:textColor="#000000"
+
+                    android:text="ICT 67_67N"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ICT_67_67N_CURR_R"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ICT_67_67N_CURR_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ICT_67_67N_CURR_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ICT_67_67N_VOLT_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ICT_67_67N_VOLT_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ICT_67_67N_VOLT_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="28"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="ICT BCU"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ICT_BCU_CURR_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ICT_BCU_CURR_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ICT_BCU_CURR_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ICT_BCU_VOLT_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ICT_BCU_VOLT_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ICT_BCU_VOLT_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="28"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:textColor="#000000"
+
+                    android:text="ICT BUS 1"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ICT_BUS_1_CURR_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ICT_BUS_1_CURR_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ICT_BUS_1_CURR_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ICT_BUS_1_VOLT_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ICT_BUS_1_VOLT_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ICT_BUS_1_VOLT_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="28"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:textColor="#000000"
+                    android:text="ICT BUS 2"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ICT_BUS_2_CURR_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ICT_BUS_2_CURR_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ICT_BUS_2_CURR_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ICT_BUS_2_VOLT_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ICT_BUS_2_VOLT_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ICT_BUS_2_VOLT_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="28"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:textColor="#000000"
+                    android:text="ST-1 DIFF HV"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ST1_DIFF_HV_CURR_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ST1_DIFF_HV_CURR_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ST1_DIFF_HV_CURR_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ST1_DIFF_HV_VOLT_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ST1_DIFF_HV_VOLT_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ST1_DIFF_HV_VOLT_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="28"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:textColor="#000000"
+                    android:text="ST-1 DIFF LV"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ST1_DIFF_LV_CURR_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ST1_DIFF_LV_CURR_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ST1_DIFF_LV_CURR_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ST1_DIFF_LV_VOLT_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ST1_DIFF_LV_VOLT_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ST1_DIFF_LV_VOLT_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="28"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:textColor="#000000"
+                    android:text="ICT REF"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ICT_REF_CURR_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ICT_REF_CURR_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ICT_REF_CURR_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ICT_REF_VOLT_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ICT_REF_VOLT_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_ICT_REF_VOLT_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="28"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="TIE BCU"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_TIE_BCU_CURR_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_TIE_BCU_CURR_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_TIE_BCU_CURR_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_TIE_BCU_VOLT_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_TIE_BCU_VOLT_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_TIE_BCU_VOLT_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="28"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:textColor="#000000"
+                    android:text="GT4 67_67N"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_GT4_67_67N_CURR_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_GT4_67_67N_CURR_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_GT4_67_67N_CURR_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_GT4_67_67N_VOLT_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_GT4_67_67N_VOLT_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_GT4_67_67N_VOLT_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="28"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="GT-4 BCU"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_GT4_BCU_CURR_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_GT4_BCU_CURR_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_GT4_BCU_CURR_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_GT4_BCU_VOLT_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_GT4_BCU_VOLT_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_GT4_BCU_VOLT_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="28"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:padding="0dp"
+                    android:text="GT-4 BUS 1"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_GT4_BUS1_CURR_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_GT4_BUS1_CURR_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_GT4_BUS1_CURR_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_GT4_BUS1_VOLT_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_GT4_BUS1_VOLT_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_GT4_BUS1_VOLT_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="28"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:textColor="#000000"
+                    android:text="GT-4 BUS 2"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_GT4_BUS2_CURR_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_GT4_BUS2_CURR_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_GT4_BUS2_CURR_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_GT4_BUS2_VOLT_R"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="R"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_GT4_BUS2_VOLT_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="Y"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/CBM_765KV_CT_CVT_GT4_BUS2_VOLT_B"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:hint="B"
+                    android:inputType="numberDecimal"
+
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="REMARKS"
+                    android:id="@+id/textView3"
+                    android:layout_weight="28"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:textSize="18sp"/>
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/CBM_765KV_CT_CVT_DIA_1_REMARKS_IF_ANY_R"
+                    android:layout_weight="72"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100"
+                android:orientation="horizontal"
+                android:layout_margin="5dp"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="VERIFIED BY"
+                    android:id="@+id/textViweew3"
+                    android:layout_weight="28"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    android:textSize="18sp"/>
+
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/CBM_765KV_CT_CVT_DIA_1_VERIFIED_BY"
+                    android:layout_weight="72"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="100"
+                android:layout_margin="10dp"
+                >
+
+                <Button
+                    android:id="@+id/CBM_765KV_CT_CVT_DIA_1_EDIT"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:text="Edit"
+                    android:visibility="gone"
+                    android:gravity="center"
+                    />
+
+                <Button
+                    android:id="@+id/CBM_765KV_CT_CVT_DIA_1_CONFIRM"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_toRightOf="@+id/CBM_765KV_CT_CVT_DIA_1_edit_btn"
+                    android:text="Confirm"
+                    android:visibility="gone"
+                    android:layout_weight="50"
+                    />
+
+                <Button
+                    android:id="@+id/CBM_765KV_CT_CVT_DIA_1_SUBMIT_BUTTON"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:text="Submit"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </TableLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="100">
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:text="LINE"
+
+
+                />
+            <RadioGroup
+                android:id="@+id/dm_400kv_line_radiogroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="40"
+                android:weightSum="50"
+                android:layout_gravity="center">
+
+                <RadioButton
+                    android:id="@+id/DM_400KV_LINE_1_radioButton1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="25"
+                    android:text="1"
+                    />
+
+                <RadioButton
+                    android:id="@+id/DM_400KV_LINE_1_radioButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="25"
+                    android:text="2" />
+            </RadioGroup>
+        </LinearLayout>
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <!-- <TextView
+                     android:layout_width="0dp"
+                     android:layout_weight="100"
+                     android:layout_height="match_parent"
+                     android:text="400KV Line 1"
+                     android:gravity="center"
+                     />-->
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:text="LA COUNTER"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/DM_400KV_LINE1_LACOUNTER_R"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint=" R "
+                    android:inputType="number"
+
+                    />
+
+                <EditText
+                    android:id="@+id/DM_400KV_LINE1_LACOUNTER_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint=" Y "
+                    android:inputType="number"
+
+                    />
+
+                <EditText
+                    android:id="@+id/DM_400KV_LINE1_LACOUNTER_B"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint=" B "
+                    android:inputType="number"
+
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:textSize="18sp"
+                    android:text="LA LEAKAGE CURRENT"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/DM_400KV_LINE1_LALEAKAGE_R"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint=" R "
+                    android:textSize="18sp"
+                    android:inputType="numberDecimal"
+
+                    />
+
+                <EditText
+                    android:id="@+id/DM_400KV_LINE1_LALEAKAGE_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint=" Y "
+                    android:textSize="18sp"
+
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/DM_400KV_LINE1_LA_LEAKAGE_B"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint=" B "
+                    android:textSize="18sp"
+                    android:inputType="numberDecimal"
+
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:textSize="18sp"
+                    android:text="PERSISTING ALARM IN LINE"
+                    android:textColor="#000000" />
+
+                <ToggleButton
+                    android:id="@+id/DM_400KV_LINE1_PERSISTING_R"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint=" R "
+                    android:textSize="18sp"
+                    android:textOff="NO"
+                    android:textOn="YES" />
+
+                <ToggleButton
+                    android:id="@+id/DM_400KV_LINE1_PERSISTING_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint=" Y "
+                    android:textOff="NO"
+                    android:textSize="18sp"
+                    android:textOn="YES" />
+
+                <ToggleButton
+                    android:id="@+id/DM_400KV_LINE1_PERSISTING_B"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint=" B "
+
+                    android:textOff="NO"
+
+                    android:textOn="YES" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:padding="10dp"
+                    android:text="REMARKS IF ANY"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/DM_400KV_LINE1_REMARKS_R"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:hint=" R " />
+
+                <EditText
+                    android:textSize="18sp"
+                    android:id="@+id/DM_400KV_LINE1_REMARKS_Y"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint=" Y " />
+
+                <EditText
+                    android:textSize="18sp"
+                    android:id="@+id/DM_400KV_LINE1_REMARKS_B"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:hint=" B " />
+            </TableRow>
+
+            <TableRow android:layout_margin="15dp">
+
+                <TextView
+                    android:textSize="18sp"
+                    android:id="@+id/DM_400_KV_LINE1_VERIFY"
+                    android:layout_weight="20"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:text="VERIFIED BY"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/DM_400KV_LINE1_VERIFIED_BY"
+                    android:layout_weight="40"
+                    android:textSize="18sp"
+                    android:gravity="center" />
+            </TableRow>
+
+
+        </TableLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/dm_400kv_line_edit_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:text="Edit"
+                android:visibility="gone"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/dm_400kv_line_confirm_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Confirm"
+                android:visibility="gone"
+                android:layout_weight="50"
+                />
+
+            <Button
+                android:id="@+id/dm_400kv_line_submit_btn"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="Submit"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
